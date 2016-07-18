@@ -928,6 +928,18 @@
     "countryName": "Australia",
     "countryCode": "AU",
     "mcc": "505",
+    "mnc": "36",
+    "brand": "Optus",
+    "operator": "Optus Mobile Pty. Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "mcc": "505",
     "mnc": "38",
     "brand": "Crazy John's",
     "operator": "Vodafone Hutchison Australia Proprietary Limited",
@@ -4888,6 +4900,18 @@
     "countryName": "Denmark (Kingdom of Denmark)",
     "countryCode": "DK",
     "mcc": "238",
+    "mnc": "18",
+    "brand": null,
+    "operator": "Cubic Telecom",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Denmark (Kingdom of Denmark)",
+    "countryCode": "DK",
+    "mcc": "238",
     "mnc": "20",
     "brand": "Telia",
     "operator": "Telia",
@@ -7029,6 +7053,18 @@
     "operator": "Multiconnect GmbH",
     "status": "Unknown",
     "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "mcc": "262",
+    "mnc": "22",
+    "brand": null,
+    "operator": "sipgate Wireless GmbH",
+    "status": "Unknown",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -13460,7 +13496,7 @@
     "brand": "Cubic Telecom",
     "operator": "Cubic Telecom AG",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -13472,7 +13508,7 @@
     "brand": null,
     "operator": "First Mobile AG",
     "status": "Unknown",
-    "bands": "Unknown",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -13492,12 +13528,24 @@
     "countryName": "Liechtenstein",
     "countryCode": "LI",
     "mcc": "295",
+    "mnc": "10",
+    "brand": null,
+    "operator": "Soracom LI Ltd.",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Liechtenstein",
+    "countryCode": "LI",
+    "mcc": "295",
     "mnc": "77",
     "brand": "Alpmobil",
     "operator": "Alpcom AG",
     "status": "Not operational",
     "bands": "GSM 900",
-    "notes": "Bankruptcy in February 2012, Former Tele2"
+    "notes": "Bankruptcy in February 2012, former Tele2, MNC withdrawn"
   },
   {
     "type": "National",
@@ -19219,6 +19267,18 @@
     "mnc": "27",
     "brand": null,
     "operator": "A to Z Vaal Industrial Supplies Pty Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "South Africa",
+    "countryCode": "ZA",
+    "mcc": "655",
+    "mnc": "28",
+    "brand": null,
+    "operator": "Hymax Talking Solutions (Pty) Ltd",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
