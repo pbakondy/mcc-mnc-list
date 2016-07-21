@@ -237,7 +237,7 @@
     "operator": "UNITEL S.a.r.l.",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": "also lists LTE 2100"
+    "notes": null
   },
   {
     "type": "National",
@@ -249,7 +249,7 @@
     "operator": "MOVICEL Telecommunications S.A.",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / LTE 1800",
-    "notes": null
+    "notes": "CDMA shut down March 2016"
   },
   {
     "type": "National",
@@ -269,10 +269,10 @@
     "countryCode": "AI",
     "mcc": "365",
     "mnc": "840",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "Cable & Wireless",
     "status": "Operational",
-    "bands": "GSM 850 / UMTS",
+    "bands": "GSM 850 / UMTS / LTE 700",
     "notes": null
   },
   {
@@ -305,7 +305,7 @@
     "countryCode": "AG",
     "mcc": "344",
     "mnc": "920",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "Cable & Wireless Caribbean Cellular (Antigua) Limited",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1800 / GSM 1900 / UMTS / LTE 1700",
@@ -1529,7 +1529,7 @@
     "countryCode": "BB",
     "mcc": "342",
     "mnc": "600",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "LIME (formerly known as Cable & Wireless)",
     "status": "Operational",
     "bands": "GSM 1900 / UMTS",
@@ -1916,7 +1916,7 @@
     "brand": "CellOne",
     "operator": "Bermuda Digital Communications Ltd.",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 850",
+    "bands": "GSM 1900 / UMTS 850 / LTE 700 / LTE 1900",
     "notes": null
   },
   {
@@ -2060,7 +2060,7 @@
     "brand": "Orange",
     "operator": "Orange (Botswana) Pty Limited",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 1800",
     "notes": "formerly Vista Cellular"
   },
   {
@@ -2393,7 +2393,7 @@
     "countryCode": "VG",
     "mcc": "348",
     "mnc": "170",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "Cable & Wireless",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900",
@@ -3497,7 +3497,7 @@
     "countryCode": "KY",
     "mcc": "346",
     "mnc": "140",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "Cable & Wireless (Cayman Islands) Limited",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900 / UMTS / LTE 700",
@@ -3596,7 +3596,7 @@
     "brand": "Tigo",
     "operator": "Millicom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS",
+    "bands": "GSM 900 / GSM 1800 / UMTS / LTE 2600",
     "notes": null
   },
   {
@@ -5033,7 +5033,7 @@
     "countryCode": "DM",
     "mcc": "366",
     "mnc": "110",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "Cable & Wireless",
     "status": "Operational",
     "bands": "GSM 850 / UMTS",
@@ -5444,7 +5444,7 @@
     "brand": "MTN",
     "operator": "Ethio Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -7256,7 +7256,7 @@
     "brand": "MTN",
     "operator": "MTN Group",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800",
     "notes": "former spacefon"
   },
   {
@@ -7268,7 +7268,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Group",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS",
+    "bands": "GSM 900 / GSM 1800 / UMTS / LTE 1800",
     "notes": "former Onetouch"
   },
   {
@@ -7613,7 +7613,7 @@
     "countryCode": "GD",
     "mcc": "352",
     "mnc": "110",
-    "brand": "Cable & Wireless",
+    "brand": "FLOW",
     "operator": "Cable & Wireless Grenada Ltd.",
     "status": "Operational",
     "bands": "GSM 850",
@@ -12305,7 +12305,7 @@
     "countryCode": "JM",
     "mcc": "338",
     "mnc": "020",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "LIME (Cable & Wireless)",
     "status": "Not operational",
     "bands": "Unknown",
@@ -12320,8 +12320,8 @@
     "brand": "Digicel",
     "operator": "Digicel (Jamaica) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / CDMA 1900",
-    "notes": "LTE Band 7 (700 MHz) planned"
+    "bands": "GSM 900 / GSM 1800 / CDMA 1900 / LTE 700",
+    "notes": null
   },
   {
     "type": "National",
@@ -12357,7 +12357,7 @@
     "operator": "Cable & Wireless Communications",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900",
-    "notes": "LTE Band 4 (1700/2100 MHz) launching April 2016"
+    "notes": "LTE Band 4 (1700/2100 MHz) planned"
   },
   {
     "type": "National",
@@ -13316,7 +13316,7 @@
     "brand": "Vodacom",
     "operator": "Vodacom Lesotho (Pty) Ltd",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE 800",
     "notes": null
   },
   {
@@ -14729,7 +14729,7 @@
     "countryCode": "MS",
     "mcc": "354",
     "mnc": "860",
-    "brand": "Cable & Wireless",
+    "brand": "FLOW",
     "operator": "Cable & Wireless",
     "status": "Operational",
     "bands": "GSM 850",
@@ -18185,7 +18185,7 @@
     "countryCode": "KN",
     "mcc": "356",
     "mnc": "110",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "Cable & Wireless St. Kitts & Nevis Ltd",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900",
@@ -18209,7 +18209,7 @@
     "countryCode": "LC",
     "mcc": "358",
     "mnc": "110",
-    "brand": null,
+    "brand": "FLOW",
     "operator": "Cable & Wireless",
     "status": "Unknown",
     "bands": "GSM 850",
@@ -18269,7 +18269,7 @@
     "countryCode": "VC",
     "mcc": "360",
     "mnc": "110",
-    "brand": "LIME",
+    "brand": "FLOW",
     "operator": "Cable & Wireless (St. Vincent & the Grenadines) Ltd",
     "status": "Operational",
     "bands": "GSM 850",
@@ -21236,7 +21236,7 @@
     "brand": "tiGO",
     "operator": "MIC Tanzania Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 800",
     "notes": "Former Mobitel and Buzz"
   },
   {
@@ -21248,7 +21248,7 @@
     "brand": "Zantel",
     "operator": "Zanzibar Telecom Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 1800",
     "notes": null
   },
   {
@@ -21260,7 +21260,7 @@
     "brand": "Vodacom",
     "operator": "Vodacom Tanzania Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 1800",
     "notes": null
   },
   {
@@ -21572,7 +21572,7 @@
     "brand": "bmobile",
     "operator": "TSTT",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 1900",
+    "bands": "GSM 850 / GSM 1900 / UMTS 1900 / TD-LTE 2600",
     "notes": null
   },
   {
@@ -21608,7 +21608,7 @@
     "brand": "Orange",
     "operator": "Orange Tunisie",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -21620,7 +21620,7 @@
     "brand": "Tunicell",
     "operator": "Tunisie Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -21632,7 +21632,7 @@
     "brand": "OOREDOO TN",
     "operator": "ooredoo Tunisiana",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
     "notes": "former Orascom Telecom Tunisie"
   },
   {
@@ -21728,7 +21728,7 @@
     "brand": "Digicel",
     "operator": "Digicel (Turks & Caicos) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / GSM 1900",
+    "bands": "GSM 900 / GSM 1800 / GSM 1900 / LTE 700",
     "notes": null
   },
   {
@@ -21737,10 +21737,10 @@
     "countryCode": "TC",
     "mcc": "376",
     "mnc": "350",
-    "brand": "C&W",
+    "brand": "FLOW",
     "operator": "Cable & Wireless West Indies Ltd (Turks & Caicos)",
     "status": "Operational",
-    "bands": "GSM 850",
+    "bands": "GSM 850 / LTE 700",
     "notes": null
   },
   {
@@ -21749,11 +21749,11 @@
     "countryCode": "TC",
     "mcc": "376",
     "mnc": "352",
-    "brand": "IslandCom",
-    "operator": "IslandCom Telecommunications",
+    "brand": "FLOW",
+    "operator": "Cable & Wireless West Indies Ltd (Turks & Caicos)",
     "status": "Operational",
     "bands": "UMTS 850",
-    "notes": null
+    "notes": "Former IslandCom"
   },
   {
     "type": "National",
@@ -21761,11 +21761,11 @@
     "countryCode": "TC",
     "mcc": "376",
     "mnc": "360",
-    "brand": "IslandCom",
-    "operator": "IslandCom Telecommunications",
+    "brand": "FLOW",
+    "operator": "Cable & Wireless West Indies Ltd (Turks & Caicos)",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": null
+    "notes": "Former IslandCom"
   },
   {
     "type": "National",
@@ -25641,7 +25641,7 @@
     "operator": "Bharti Airtel",
     "status": "Operational",
     "bands": "GSM 900",
-    "notes": "Former Celtel (Zain) brand"
+    "notes": "Former Celtel (Zain)"
   },
   {
     "type": "National",
@@ -25652,8 +25652,8 @@
     "brand": "MTN",
     "operator": "MTN Group",
     "status": "Operational",
-    "bands": "GSM 900",
-    "notes": "Former Telecel brand"
+    "bands": "GSM 900 / LTE 1800",
+    "notes": "Former Telecel"
   },
   {
     "type": "National",
@@ -25700,7 +25700,7 @@
     "brand": "Econet",
     "operator": "Econet Wireless",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
