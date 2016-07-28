@@ -140,7 +140,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Albania",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 /LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -150,9 +150,9 @@
     "mcc": "276",
     "mnc": "03",
     "brand": "Eagle Mobile",
-    "operator": "Eagle Mobile",
+    "operator": "Albtelecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -1064,7 +1064,7 @@
     "brand": "T-Mobile AT",
     "operator": "T-Mobile Austria",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": "former Max.Mobil / national roaming agreement with 232-10"
   },
   {
@@ -1625,11 +1625,11 @@
     "countryCode": "BY",
     "mcc": "257",
     "mnc": "06",
-    "brand": null,
+    "brand": "beCloud",
     "operator": "Belorussian Cloud Technologies",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": "Former Yota Bel"
+    "status": "Operational",
+    "bands": "LTE 1800",
+    "notes": "Former Yota Bel; wholesale network used by MTS"
   },
   {
     "type": "National",
@@ -1664,7 +1664,7 @@
     "brand": "Proximus",
     "operator": "Belgacom Mobile",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -1689,7 +1689,7 @@
     "operator": "Telenet",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "MVNO using Mobistar's Network"
+    "notes": "MVNO using Orange's Network"
   },
   {
     "type": "National",
@@ -1725,7 +1725,7 @@
     "operator": "Voxbone mobile",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "Cloud MVNO-provider, that provides mobile VOIP services on a wholesale basis"
+    "notes": null
   },
   {
     "type": "National",
@@ -1733,11 +1733,11 @@
     "countryCode": "BE",
     "mcc": "206",
     "mnc": "10",
-    "brand": "Mobistar",
+    "brand": "Orange",
     "operator": "Orange S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "notes": "Former Mobistar"
   },
   {
     "type": "National",
@@ -1749,7 +1749,7 @@
     "operator": "Elephant Talk Communications Schweiz GmbH",
     "status": "Not operational",
     "bands": "Unknown",
-    "notes": "Withdrawn"
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -1758,9 +1758,9 @@
     "mcc": "206",
     "mnc": "20",
     "brand": "BASE",
-    "operator": "KPN Group Belgium",
+    "operator": "Telenet",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -2480,7 +2480,7 @@
     "brand": "M-Tel",
     "operator": "Mobiltel",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 /LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -2492,7 +2492,7 @@
     "brand": "Vivacom",
     "operator": "BTC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 /LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
     "notes": "Former Vivatel"
   },
   {
@@ -4350,7 +4350,7 @@
     "mcc": "219",
     "mnc": "01",
     "brand": "T-Mobile",
-    "operator": "T-Mobile Croatia",
+    "operator": "T-Hrvatski Telekom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
@@ -4364,7 +4364,7 @@
     "brand": "Tele2",
     "operator": "Tele2",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -4376,7 +4376,7 @@
     "brand": "Vip",
     "operator": "Vipnet",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -4472,7 +4472,7 @@
     "brand": "T-Mobile",
     "operator": "T-Mobile Czech Republic",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": "former Paegas"
   },
   {
@@ -4712,7 +4712,7 @@
     "brand": "TDC",
     "operator": "TDC A/S",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 2600",
     "notes": null
   },
   {
@@ -5672,7 +5672,7 @@
     "brand": "Ålcom",
     "operator": "Ålands Telekommunikation Ab",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": "Former Ålands Mobiltelefon (ÅMT); coverage only in Åland Islands"
   },
   {
@@ -5876,7 +5876,7 @@
     "brand": "Ukko Mobile",
     "operator": "Ukkoverkot Oy",
     "status": "Operational",
-    "bands": "LTE 450",
+    "bands": "LTE 450 / LTE 2600",
     "notes": "data-only network"
   },
   {
@@ -6080,7 +6080,7 @@
     "brand": "SFR",
     "operator": "Altice",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "is launched for SFR outbound roaming services"
   },
   {
@@ -6092,7 +6092,7 @@
     "brand": "SFR",
     "operator": "Altice",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 LTE 2600",
     "notes": null
   },
   {
@@ -6152,7 +6152,7 @@
     "brand": "Free Mobile",
     "operator": "Iliad",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 2600",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -6164,7 +6164,7 @@
     "brand": "Free Mobile",
     "operator": "Iliad",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 2600",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -6716,7 +6716,7 @@
     "brand": "MagtiCom",
     "operator": "Magticom GSM",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -7400,7 +7400,7 @@
     "brand": "Cosmote",
     "operator": "COSMOTE - Mobile Telecommunications S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -7412,7 +7412,7 @@
     "brand": "Cosmote",
     "operator": "COSMOTE - Mobile Telecommunications S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -7448,7 +7448,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Greece",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "former PanaFon"
   },
   {
@@ -8573,7 +8573,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "01",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Haryana",
     "status": "Operational",
     "bands": "GSM 900",
@@ -8621,7 +8621,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "05",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Gujarat",
     "status": "Operational",
     "bands": "GSM 900",
@@ -8669,7 +8669,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "11",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Delhi & NCR",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
@@ -8693,7 +8693,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "13",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Andhra Pradesh and Telangana",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -8717,7 +8717,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "15",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Uttar Pradesh (East)",
     "status": "Operational",
     "bands": "GSM 900",
@@ -8777,7 +8777,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "20",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Mumbai",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -8837,7 +8837,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "27",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Maharashtra & Goa",
     "status": "Operational",
     "bands": "GSM 900",
@@ -8873,7 +8873,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "30",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Kolkata",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
@@ -8897,7 +8897,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "34",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Haryana",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -8933,7 +8933,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "38",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Assam",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -8981,7 +8981,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "43",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Tamil Nadu",
     "status": "Operational",
     "bands": "GSM 900",
@@ -9017,7 +9017,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "46",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Kerala",
     "status": "Operational",
     "bands": "GSM 900",
@@ -9065,7 +9065,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "51",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Himachal Pradesh",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9089,7 +9089,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "53",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Punjab",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9101,7 +9101,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "54",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Uttar Pradesh (West)",
     "status": "Operational",
     "bands": "GSM 900 / UTMS 2100",
@@ -9113,7 +9113,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "55",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Uttar Pradesh (East)",
     "status": "Operational",
     "bands": "GSM 900 / UTMS 2100",
@@ -9137,7 +9137,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "57",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Gujarat",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9149,7 +9149,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "58",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Madhya Pradesh & Chhattisgarh",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9161,7 +9161,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "59",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Rajasthan",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9173,7 +9173,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "60",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Rajasthan",
     "status": "Operational",
     "bands": "GSM 900",
@@ -9185,7 +9185,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "62",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Jammu & Kashmir",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9197,7 +9197,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "64",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Chennai",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9209,7 +9209,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "66",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Maharashtra & Goa",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9269,7 +9269,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "71",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Karnataka (Bangalore)",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9281,7 +9281,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "72",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Kerala",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9293,7 +9293,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "73",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Andhra Pradesh and Telangana",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9305,7 +9305,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "74",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "West Bengal",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9317,7 +9317,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "75",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Bihar",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9329,7 +9329,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "76",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Orissa",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9341,7 +9341,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "77",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "North East",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9353,7 +9353,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "78",
-    "brand": "Idea Cellular Ltd",
+    "brand": "IDEA",
     "operator": "Madhya Pradesh & Chattishgarh",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9365,7 +9365,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "79",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Andaman Nicobar",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9377,7 +9377,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "80",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Tamil Nadu",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9389,7 +9389,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "81",
-    "brand": "CellOne",
+    "brand": "cellone",
     "operator": "Kolkata",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
@@ -9401,7 +9401,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "82",
-    "brand": "Idea",
+    "brand": "IDEA",
     "operator": "Himachal Pradesh",
     "status": "Operational",
     "bands": "Unknown",
@@ -9425,7 +9425,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "84",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Chennai",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -9449,7 +9449,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "86",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Karnataka",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100 / LTE 1800",
@@ -9473,7 +9473,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "88",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Vodafone Punjab",
     "status": "Operational",
     "bands": "Unknown",
@@ -9485,7 +9485,7 @@
     "countryCode": "IN",
     "mcc": "404",
     "mnc": "89",
-    "brand": "Idea",
+    "brand": "IDEA",
     "operator": "Uttar Pradesh (East)",
     "status": "Operational",
     "bands": "Unknown",
@@ -10193,7 +10193,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "66",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Uttar Pradesh (West)",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
@@ -10205,7 +10205,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "67",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "West Bengal",
     "status": "Operational",
     "bands": "Unknown",
@@ -10229,7 +10229,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "750",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Jammu & Kashmir",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -10241,7 +10241,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "751",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Assam",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -10253,7 +10253,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "752",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Bihar & Jharkhand",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -10265,7 +10265,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "753",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Orissa",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -10277,7 +10277,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "754",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Himachal Pradesh",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -10289,7 +10289,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "755",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "North East",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -10301,7 +10301,7 @@
     "countryCode": "IN",
     "mcc": "405",
     "mnc": "756",
-    "brand": "Vodafone IN",
+    "brand": "Vodafone India",
     "operator": "Madhya Pradesh & Chhattisgarh",
     "status": "Operational",
     "bands": "GSM 1800",
@@ -12992,7 +12992,7 @@
     "brand": "Vala",
     "operator": "PTK - Directory of Post of Kosovo",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE 1800",
     "notes": "Monaco MCC. Monaco Telecom is responsible for the delegated management of Vala GSM network in Kosovo."
   },
   {
@@ -13016,7 +13016,7 @@
     "brand": "IPKO",
     "operator": "IPKO",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": "Telekom Slovenije is responsible for the delegated management of IPKO GSM Network in Kosovo."
   },
   {
@@ -14861,8 +14861,8 @@
     "countryCode": "MM",
     "mcc": "414",
     "mnc": "06",
-    "brand": "Telenor Myanmar",
-    "operator": "Telenor Myanmar (Comcel Myanmar)",
+    "brand": "Telenor",
+    "operator": "Telenor Myanmar",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100",
     "notes": null
@@ -16939,9 +16939,9 @@
     "mnc": "19",
     "brand": "Teleena",
     "operator": "Teleena Holding BV",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn July 2016"
   },
   {
     "type": "National",
@@ -16963,9 +16963,9 @@
     "mnc": "21",
     "brand": "Exteri",
     "operator": "Exteri Sp. z o.o.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn May 2014"
   },
   {
     "type": "National",
@@ -16987,9 +16987,9 @@
     "mnc": "23",
     "brand": "Amicomm",
     "operator": "Amicomm Sp. z o.o.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn July 2016"
   },
   {
     "type": "National",
@@ -16999,9 +16999,9 @@
     "mnc": "24",
     "brand": "WideNet",
     "operator": "WideNet Sp. z o.o.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -17023,9 +17023,9 @@
     "mnc": "26",
     "brand": "ATE",
     "operator": "Advanced Technology & Experience Sp. z o.o.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn July 2016"
   },
   {
     "type": "National",
@@ -17035,9 +17035,9 @@
     "mnc": "27",
     "brand": "Intertelcom",
     "operator": "Intertelcom Sp. z o.o.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn July 2016"
   },
   {
     "type": "National",
@@ -17047,9 +17047,9 @@
     "mnc": "28",
     "brand": "PhoneNet",
     "operator": "PhoneNet Sp. z o.o.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn July 2016"
   },
   {
     "type": "National",
@@ -17059,9 +17059,9 @@
     "mnc": "29",
     "brand": "Interfonica",
     "operator": "Interfonica Sp. z o.o.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn July 2016"
   },
   {
     "type": "National",
@@ -17071,9 +17071,9 @@
     "mnc": "30",
     "brand": "GrandTel",
     "operator": "GrandTel Sp. z o.o.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn July 2016"
   },
   {
     "type": "National",
@@ -17145,7 +17145,7 @@
     "operator": "Mundio Mobile",
     "status": "Not operational",
     "bands": "MVNO",
-    "notes": "Not listed on VectoneMobile website"
+    "notes": "MNC withdrawn May 2014"
   },
   {
     "type": "National",
@@ -17203,6 +17203,90 @@
     "mnc": "41",
     "brand": null,
     "operator": "EZ PHONE MOBILE Sp. z o.o.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "mcc": "260",
+    "mnc": "42",
+    "brand": null,
+    "operator": "MobiWeb Telecom Limited",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "mcc": "260",
+    "mnc": "43",
+    "brand": null,
+    "operator": "Smart Idea International Sp. z o.o.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "mcc": "260",
+    "mnc": "44",
+    "brand": null,
+    "operator": "Rebtel Poland Sp. z o.o.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "mcc": "260",
+    "mnc": "45",
+    "brand": null,
+    "operator": "Virgin Mobile Polska Sp. z o.o.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "mcc": "260",
+    "mnc": "46",
+    "brand": null,
+    "operator": "Terra Telekom Sp. z o.o.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "mcc": "260",
+    "mnc": "47",
+    "brand": null,
+    "operator": "SMShighway Limited",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "mcc": "260",
+    "mnc": "48",
+    "brand": null,
+    "operator": "AGILE TELECOM S.P.A.",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
