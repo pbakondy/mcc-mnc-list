@@ -11372,7 +11372,7 @@
     "brand": "MTN Irancell",
     "operator": "MTN Irancell Telecommunications Services Company",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600 / TD-LTE 3500",
     "notes": null
   },
   {
