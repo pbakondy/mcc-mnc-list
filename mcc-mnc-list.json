@@ -17636,7 +17636,7 @@
     "brand": "Telekom/Zapp",
     "operator": "Telekom Romania",
     "status": "Operational",
-    "bands": "UMTS 2100",
+    "bands": "UMTS 900 / UMTS 2100",
     "notes": "Branded as Telekom for data/voice and Zapp for data only"
   },
   {
