@@ -14156,7 +14156,7 @@
     "brand": "U Mobile",
     "operator": "U Mobile Sdn Bhd",
     "status": "Operational",
-    "bands": "UMTS 2100",
+    "bands": "LTE 2600 / UMTS 2100",
     "notes": "Domestic Roaming with Maxis"
   },
   {
