@@ -16280,7 +16280,7 @@
     "brand": "Ufone",
     "operator": "Pakistan Telecommunication Mobile Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / UMTS 900",
     "notes": null
   },
   {
@@ -16389,7 +16389,7 @@
     "operator": "Wataniya Palestine Mobile Telecommunications Company",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": "[10] (Ooredoo)"
+    "notes": "[9] (Ooredoo)"
   },
   {
     "type": "National",
@@ -25929,7 +25929,7 @@
     "operator": "Telenor Maritime AS",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": "Maritime"
+    "notes": "Maritime; formerly Maritime Communications Partner (MCP)"
   },
   {
     "type": "International",
@@ -25977,7 +25977,7 @@
     "operator": "Jasper Systems",
     "status": "Operational",
     "bands": "Unknown",
-    "notes": "Global SIM [18]"
+    "notes": "Global SIM [17]"
   },
   {
     "type": "International",
@@ -26001,7 +26001,7 @@
     "operator": "AT&T Mobility",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1900 / CDMA2000 1900 / UMTS 1900",
-    "notes": "Maritime [19]"
+    "notes": "Maritime [18]"
   },
   {
     "type": "International",
