@@ -940,6 +940,18 @@
     "countryName": "Australia",
     "countryCode": "AU",
     "mcc": "505",
+    "mnc": "37",
+    "brand": null,
+    "operator": "Yancoal Australia Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "mcc": "505",
     "mnc": "38",
     "brand": "Crazy John's",
     "operator": "Vodafone Hutchison Australia Proprietary Limited",
@@ -4966,6 +4978,18 @@
     "status": "Unknown",
     "bands": "Unknown",
     "notes": "Test network; former Sense Communications Denmark A/S"
+  },
+  {
+    "type": "National",
+    "countryName": "Denmark (Kingdom of Denmark)",
+    "countryCode": "DK",
+    "mcc": "238",
+    "mnc": "42",
+    "brand": null,
+    "operator": "Brandtel ApS",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
@@ -14000,8 +14024,8 @@
     "brand": "Maxis",
     "operator": "Maxis Mobile Services SDN Berhad",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
-    "notes": "Used by MVNO Kartu As"
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "notes": "Used by MVNO Kartu As; LTE 2600 in co-operation with REDtone"
   },
   {
     "type": "National",
@@ -14012,8 +14036,8 @@
     "brand": "Celcom",
     "operator": "Celcom Axiata Berhad",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": "Former TMTouch"
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "notes": "Former TMTouch; LTE 2600 in co-operation with Altel"
   },
   {
     "type": "National",
@@ -14060,7 +14084,7 @@
     "brand": "Yes",
     "operator": "YTL Communications Sdn Bhd",
     "status": "Operational",
-    "bands": "WiMAX 2.3 GHz / LTE 4G",
+    "bands": "WiMAX 2300 / TD-LTE 2300 / TD-LTE 2600",
     "notes": null
   },
   {
@@ -14069,10 +14093,10 @@
     "countryCode": "MY",
     "mcc": "502",
     "mnc": "153",
-    "brand": null,
+    "brand": "Webe",
     "operator": "Packet One Networks Sdn Bhd",
     "status": "Operational",
-    "bands": "WiMAX 2.3 GHz",
+    "bands": "WiMAX 2300 / LTE",
     "notes": null
   },
   {
@@ -14108,8 +14132,8 @@
     "brand": "Altel",
     "operator": "Altel Communications Sdn Bhd",
     "status": "Operational",
-    "bands": "LTE 4G / MVNO",
-    "notes": null
+    "bands": "MVNO",
+    "notes": "Using Celcom, LTE 2600 band licensed to Celcom"
   },
   {
     "type": "National",
@@ -14132,7 +14156,7 @@
     "brand": "DiGi",
     "operator": "DiGi Telecommunications",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": "LTE 2600 coverage limited to certain areas in the Klang Valley at the moment"
   },
   {
@@ -14156,7 +14180,7 @@
     "brand": "U Mobile",
     "operator": "U Mobile Sdn Bhd",
     "status": "Operational",
-    "bands": "LTE 2600 / UMTS 2100",
+    "bands": "UMTS 2100 / LTE 2600",
     "notes": "Domestic Roaming with Maxis"
   },
   {
@@ -16280,7 +16304,7 @@
     "brand": "Ufone",
     "operator": "Pakistan Telecommunication Mobile Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / UMTS 900",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
     "notes": null
   },
   {
@@ -16316,7 +16340,7 @@
     "brand": "Telenor",
     "operator": "Telenor Pakistan",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 850",
     "notes": null
   },
   {
@@ -16363,7 +16387,7 @@
     "mnc": "80",
     "brand": "Palau Mobile",
     "operator": "Palau Mobile Corporation",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 1800",
     "notes": "Service shutdown in 2014"
   },
@@ -18589,6 +18613,30 @@
   },
   {
     "type": "National",
+    "countryName": "Serbia",
+    "countryCode": "RS",
+    "mcc": "220",
+    "mnc": "09",
+    "brand": "Vectone Mobile",
+    "operator": "MUNDIO MOBILE d.o.o.",
+    "status": "Not operational",
+    "bands": "MVNO",
+    "notes": "Uses VIP; service to launch in September 2016"
+  },
+  {
+    "type": "National",
+    "countryName": "Serbia",
+    "countryCode": "RS",
+    "mcc": "220",
+    "mnc": "11",
+    "brand": null,
+    "operator": "GLOBALTEL d.o.o.",
+    "status": "Not operational",
+    "bands": "MVNO",
+    "notes": "Uses VIP; service to launch in September 2016"
+  },
+  {
+    "type": "National",
     "countryName": "Seychelles",
     "countryCode": "SC",
     "mcc": "633",
@@ -20310,10 +20358,10 @@
     "mcc": "240",
     "mnc": "11",
     "brand": null,
-    "operator": "Lindholmen Science Park AB",
-    "status": "Not operational",
+    "operator": "ComHem AB",
+    "status": "Unknown",
     "bands": "Unknown",
-    "notes": "MNC withdrawn"
+    "notes": "Former Lindholmen Science Park AB"
   },
   {
     "type": "National",
@@ -20722,6 +20770,18 @@
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Sweden",
+    "countryCode": "SE",
+    "mcc": "240",
+    "mnc": "60",
+    "brand": null,
+    "operator": "Telefonaktiebolaget LM Ericsson",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Test network; Temporary license until 31 December 2018"
   },
   {
     "type": "National",
@@ -21307,9 +21367,9 @@
     "mnc": "01",
     "brand": null,
     "operator": "Rural NetCo Limited",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "status": "Not operational",
+    "bands": "UMTS 900",
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -21365,11 +21425,11 @@
     "countryCode": "TZ",
     "mcc": "640",
     "mnc": "06",
-    "brand": "Sasatel",
+    "brand": "Sasatel (Dovetel)",
     "operator": "Dovetel Limited",
-    "status": "Operational",
-    "bands": "CDMA",
-    "notes": null
+    "status": "Not operational",
+    "bands": "CDMA 800",
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -21389,10 +21449,10 @@
     "countryCode": "TZ",
     "mcc": "640",
     "mnc": "08",
-    "brand": "Benson Online (BOL)",
+    "brand": "Smart",
     "operator": "Benson Informatics Limited",
     "status": "Operational",
-    "bands": "CDMA",
+    "bands": "TD-LTE 2300",
     "notes": null
   },
   {
@@ -21401,11 +21461,11 @@
     "countryCode": "TZ",
     "mcc": "640",
     "mnc": "09",
-    "brand": "Hits",
-    "operator": "ExcellentCom Tanzania Limited",
-    "status": "Not operational",
-    "bands": null,
-    "notes": "MNC withdrawn"
+    "brand": "Halotel",
+    "operator": "Viettel Tanzania Limited",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800",
+    "notes": "Former ExcellentCom Tanzania Limited (Hits)"
   },
   {
     "type": "National",
@@ -21427,6 +21487,18 @@
     "mnc": "12",
     "brand": null,
     "operator": "MyCell Limited",
+    "status": "Not operational",
+    "bands": "Unknown",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "Tanzania",
+    "countryCode": "TZ",
+    "mcc": "640",
+    "mnc": "13",
+    "brand": "Cootel",
+    "operator": "Wiafrica Tanzania Limited",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
