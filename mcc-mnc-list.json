@@ -5839,7 +5839,7 @@
     "mnc": "30",
     "brand": "Vectone Mobile",
     "operator": "Mundio Mobile Oy",
-    "status": "Not Operational",
+    "status": "Not operational",
     "bands": "MVNO",
     "notes": "MNC withdrawn"
   },
@@ -8203,7 +8203,7 @@
     "mnc": "10",
     "brand": "New World Mobility",
     "operator": "CSL Limited",
-    "status": "Not Operational",
+    "status": "Not operational",
     "bands": "GSM 1800",
     "notes": "Signal Combined with 454-00"
   },
@@ -8299,7 +8299,7 @@
     "mnc": "18",
     "brand": null,
     "operator": "CSL Limited",
-    "status": "Not Operational",
+    "status": "Not operational",
     "bands": "GSM 900 / GSM 1800",
     "notes": null
   },
@@ -8407,9 +8407,9 @@
     "mnc": "03",
     "brand": "DIGI",
     "operator": "DIGI Telecommunication Ltd.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "1800",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -13964,7 +13964,19 @@
     "brand": "TNM",
     "operator": "Telecom Network Malawi",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Malawi",
+    "countryCode": "MW",
+    "mcc": "650",
+    "mnc": "02",
+    "brand": "Access",
+    "operator": "Access Communications Ltd",
+    "status": "Operational",
+    "bands": "CDMA / LTE 850",
     "notes": null
   },
   {
@@ -13976,7 +13988,7 @@
     "brand": "Airtel",
     "operator": "Bharti Airtel Limited",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / UMTS 2100",
     "notes": "Former Celtel (Zain)"
   },
   {
@@ -17323,7 +17335,7 @@
     "mnc": "98",
     "brand": "Play",
     "operator": "P4 Sp. z o.o.",
-    "status": "Not Operational",
+    "status": "Not operational",
     "bands": "LTE 1800",
     "notes": "Test network"
   },
@@ -23455,7 +23467,7 @@
     "mnc": "280",
     "brand": "AT&T",
     "operator": "AT&T Mobility",
-    "status": "Not Operational",
+    "status": "Not operational",
     "bands": "GSM 1900",
     "notes": "Former Centennial Puerto Rico"
   },
@@ -24715,7 +24727,7 @@
     "mnc": "481 - 489",
     "brand": "Verizon",
     "operator": "Verizon Wireless",
-    "status": "Not Operational",
+    "status": "Not operational",
     "bands": "LTE 700",
     "notes": "C Block for future use."
   },
