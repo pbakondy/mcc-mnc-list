@@ -3728,8 +3728,8 @@
     "brand": "WOM",
     "operator": "Novator Partners",
     "status": "Operational",
-    "bands": "UMTS 1700",
-    "notes": "Previously Nextel"
+    "bands": "UMTS-HSDPA-LTE AWS (1700/2100)",
+    "notes": "Previously Nextel.\nUses entel and Claro networks to roaming (GSM/HSDPA 850/1900)."
   },
   {
     "type": "National",
@@ -3761,7 +3761,7 @@
     "countryCode": "CL",
     "mcc": "730",
     "mnc": "12",
-    "brand": "Colo-Colo Móvil Wanderers Móvil",
+    "brand": "Colo-Colo Móvil\nWanderers Móvil",
     "operator": "Telestar Móvil S.A.",
     "status": "Operational",
     "bands": "MVNO",
@@ -3777,7 +3777,7 @@
     "operator": "Tribe Mobile Chile SPA",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "Uses movistar except LTE"
+    "notes": "Uses movistar"
   },
   {
     "type": "National",
@@ -3849,7 +3849,7 @@
     "operator": "Sociedad Falabella Móvil SPA",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "Uses entel"
   },
   {
     "type": "National",
