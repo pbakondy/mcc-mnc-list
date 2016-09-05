@@ -7615,8 +7615,8 @@
     "mnc": "02",
     "brand": null,
     "operator": "inu:it a/s",
-    "status": "Unknown",
-    "bands": "Unknown",
+    "status": "Operational",
+    "bands": "LTE Band 41",
     "notes": null
   },
   {
