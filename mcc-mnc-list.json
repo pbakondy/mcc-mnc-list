@@ -16086,10 +16086,10 @@
     "mcc": "242",
     "mnc": "05",
     "brand": "Network Norway",
-    "operator": "Tele2 (Mobile Norway AS)",
+    "operator": "ICE Communication Norge AS",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 900 / UMTS 2100",
-    "notes": null
+    "notes": "Merged into ICE"
   },
   {
     "type": "National",
@@ -16181,10 +16181,10 @@
     "countryCode": "NO",
     "mcc": "242",
     "mnc": "14",
-    "brand": null,
+    "brand": "ICE",
     "operator": "ICE Communication Norge AS",
-    "status": "Unknown",
-    "bands": "Unknown",
+    "status": "Operational",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100",
     "notes": null
   },
   {
