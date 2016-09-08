@@ -14193,7 +14193,7 @@
     "operator": "U Mobile Sdn Bhd",
     "status": "Operational",
     "bands": "UMTS 2100 / LTE 2600",
-    "notes": "Domestic Roaming with Maxis"
+    "notes": "Domestic Roaming with Maxis, also for GSM"
   },
   {
     "type": "National",
@@ -16087,7 +16087,7 @@
     "mnc": "05",
     "brand": "Network Norway",
     "operator": "ICE Communication Norge AS",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 900 / UMTS 900 / UMTS 2100",
     "notes": "Merged into ICE"
   },
