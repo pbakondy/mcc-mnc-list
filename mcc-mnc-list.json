@@ -11202,7 +11202,7 @@
     "mcc": "510",
     "mnc": "09",
     "brand": "Smartfren",
-    "operator": "PT Smart Telecom",
+    "operator": "PT Smartfren Telecom",
     "status": "Operational",
     "bands": "CDMA 800 / CDMA 1900 / LTE 850 / TD-LTE 2300",
     "notes": null
@@ -11311,9 +11311,9 @@
     "mnc": "99",
     "brand": "Esia",
     "operator": "PT Bakrie Telecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "CDMA 800",
-    "notes": null
+    "notes": "Merged with Smartfren (MNC 09)"
   },
   {
     "type": "National",
