@@ -88,6 +88,9 @@ function fetch () {
             }
 
             let status = cleanup(cols[4].textContent);
+            if (status === 'Not Operational') {
+              status = 'Not operational';
+            }
 
             if ( status && statusCodes.indexOf( status ) === -1 ) {
               statusCodes.push( status );
