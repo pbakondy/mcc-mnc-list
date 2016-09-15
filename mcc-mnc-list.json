@@ -953,11 +953,11 @@
     "countryCode": "AU",
     "mcc": "505",
     "mnc": "38",
-    "brand": "Crazy John's",
-    "operator": "Vodafone Hutchison Australia Proprietary Limited",
+    "brand": "Truphone",
+    "operator": "Truphone Pty Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
-    "notes": "Some existing customers - wholesale from Telstra/all new and some existing from Vodafone Hutchison Australia."
+    "bands": "MVNO",
+    "notes": "Formerly Crazy John's"
   },
   {
     "type": "National",
@@ -1384,12 +1384,24 @@
     "countryName": "Bahamas",
     "countryCode": "BS",
     "mcc": "364",
-    "mnc": "390",
+    "mnc": "39",
     "brand": "BTC",
     "operator": "The Bahamas Telecommunications Company Ltd (BaTelCo)",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900 / UMTS 850 / LTE 700",
     "notes": "LTE band 17"
+  },
+  {
+    "type": "National",
+    "countryName": "Bahamas",
+    "countryCode": "BS",
+    "mcc": "364",
+    "mnc": "49",
+    "brand": "NewCo 2015",
+    "operator": "Cable Bahamas Ltd",
+    "status": "Not operational",
+    "bands": "700 / 850 / AWS / 1900",
+    "notes": "UMTS / LTE network planned for 1 October 2016"
   },
   {
     "type": "National",
@@ -3669,7 +3681,7 @@
     "operator": "Novator Partners",
     "status": "Operational",
     "bands": "iDEN 800",
-    "notes": "Previously Nextel"
+    "notes": "Former Nextel"
   },
   {
     "type": "National",
@@ -3728,8 +3740,8 @@
     "brand": "WOM",
     "operator": "Novator Partners",
     "status": "Operational",
-    "bands": "UMTS-HSDPA-LTE AWS (1700/2100)",
-    "notes": "Previously Nextel.\nUses entel and Claro networks to roaming (GSM/HSDPA 850/1900)."
+    "bands": "UMTS 1700 / LTE 1700",
+    "notes": "Former Nextel; roaming with entel and Claro networks (GSM / UMTS)"
   },
   {
     "type": "National",
@@ -6117,7 +6129,7 @@
     "operator": "Altice",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 LTE 2600",
-    "notes": null
+    "notes": "MNC also used in Monaco"
   },
   {
     "type": "National",
@@ -6225,7 +6237,7 @@
     "operator": "Bouygues Telecom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
-    "notes": null
+    "notes": "MNC also used in Monaco"
   },
   {
     "type": "National",
@@ -7613,10 +7625,10 @@
     "countryCode": "GL",
     "mcc": "290",
     "mnc": "02",
-    "brand": null,
+    "brand": "Nuuk TV",
     "operator": "inu:it a/s",
     "status": "Operational",
-    "bands": "LTE Band 41",
+    "bands": "TD-LTE 2500",
     "notes": null
   },
   {
@@ -19555,6 +19567,30 @@
     "mnc": "51",
     "brand": null,
     "operator": "Integrat (Pty) Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "South Africa",
+    "countryCode": "ZA",
+    "mcc": "655",
+    "mnc": "73",
+    "brand": "iBurst",
+    "operator": "Wireless Business Solutions (Pty) Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "South Africa",
+    "countryCode": "ZA",
+    "mcc": "655",
+    "mnc": "74",
+    "brand": "iBurst",
+    "operator": "Wireless Business Solutions (Pty) Ltd",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
