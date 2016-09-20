@@ -5072,7 +5072,7 @@
     "brand": "FLOW",
     "operator": "Cable & Wireless",
     "status": "Operational",
-    "bands": "GSM 850 / UMTS",
+    "bands": "GSM 850 / UMTS / LTE 700",
     "notes": null
   },
   {
@@ -6488,7 +6488,7 @@
     "brand": "Chippie",
     "operator": "UTS Caraïbe",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS",
+    "bands": "GSM 900 / GSM 1800 / UMTS / LTE 1800",
     "notes": "Saint Barthélemy, Saint Martin; former Telcell"
   },
   {
@@ -7400,7 +7400,7 @@
     "brand": "GibTel",
     "operator": "Gibtelecom",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 2600",
     "notes": null
   },
   {
@@ -13412,7 +13412,7 @@
     "brand": "Cellcom",
     "operator": "Cellcom Telecommunications, Inc.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -14696,8 +14696,8 @@
     "brand": "Unitel",
     "operator": "Unitel LLC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
+    "notes": "LTE bands 28, 3"
   },
   {
     "type": "National",
@@ -14708,7 +14708,7 @@
     "brand": "Skytel",
     "operator": "Skytel LLC",
     "status": "Operational",
-    "bands": "CDMA2000 800 / UMTS 2100",
+    "bands": "CDMA2000 800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -14732,8 +14732,8 @@
     "brand": "Mobicom",
     "operator": "Mobicom Corporation",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
-    "notes": null
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800",
+    "notes": "LTE bands 28, 3"
   },
   {
     "type": "National",
@@ -15560,7 +15560,7 @@
     "brand": "Chippie",
     "operator": "United Telecommunication Service N.V. (UTS)",
     "status": "Operational",
-    "bands": "UMTS 2100",
+    "bands": "UMTS 2100 / LTE 1800",
     "notes": "Bonaire, Saba, Sint Eustatius, Sint Maarten; former Radcomm N.V."
   },
   {
@@ -18284,7 +18284,7 @@
     "brand": "Sure",
     "operator": "Sure South Atlantic Ltd.",
     "status": "Operational",
-    "bands": "GSM",
+    "bands": "GSM 900 / GSM 1800 / LTE 1800",
     "notes": null
   },
   {
@@ -21488,7 +21488,7 @@
     "brand": "TTCL Mobile",
     "operator": "Tanzania Telecommunication Company LTD (TTCL)",
     "status": "Operational",
-    "bands": "CDMA 800",
+    "bands": "CDMA 800 / LTE 1800 / TD-LTE 2300",
     "notes": null
   },
   {
