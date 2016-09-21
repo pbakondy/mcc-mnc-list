@@ -404,7 +404,7 @@
     "brand": "Claro",
     "operator": "AMX Argentina S.A.",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS",
+    "bands": "GSM 850 / GSM 1900 / UMTS / LTE 1700",
     "notes": null
   },
   {
@@ -416,7 +416,7 @@
     "brand": "Claro",
     "operator": "AMX Argentina S.A.",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS",
+    "bands": "GSM 850 / GSM 1900 / UMTS / LTE 1700",
     "notes": null
   },
   {
@@ -2410,6 +2410,18 @@
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "British Indian Ocean Territory (United Kingdom)",
+    "countryCode": "IO",
+    "mcc": "995",
+    "mnc": "01",
+    "brand": "FonePlus",
+    "operator": "Sure (Diego Garcia) Ltd",
+    "status": "Operational",
+    "bands": "GSM 900",
+    "notes": "There appears to be no officially assigned MCC"
   },
   {
     "type": "National",
