@@ -1940,7 +1940,7 @@
     "brand": "CellOne",
     "operator": "Bermuda Digital Communications Ltd.",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 850 / LTE 700 / LTE 1900",
+    "bands": "GSM 1900 / UMTS 850 / LTE 850",
     "notes": null
   },
   {
@@ -2000,8 +2000,8 @@
     "brand": "Viva",
     "operator": "Nuevatel PCS De Bolivia SA",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS",
-    "notes": "Sells 3.5G as 4G"
+    "bands": "GSM 1900 / UMTS / LTE 1700",
+    "notes": null
   },
   {
     "type": "National",
@@ -2013,7 +2013,7 @@
     "operator": "Entel SA",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900 / UMTS 850 / LTE 700",
-    "notes": "Sells 3.5G as 4G"
+    "notes": null
   },
   {
     "type": "National",
@@ -2024,7 +2024,7 @@
     "brand": "Tigo",
     "operator": "Telefónica Celular De Bolivia S.A",
     "status": "Operational",
-    "bands": "GSM 850 / UMTS",
+    "bands": "GSM 850 / UMTS / LTE 700",
     "notes": "Aka. Telecel Bolivia"
   },
   {
@@ -2132,7 +2132,7 @@
     "brand": "TIM",
     "operator": "Telecom Italia Mobile",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -2144,7 +2144,7 @@
     "brand": "TIM",
     "operator": "Telecom Italia Mobile",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -2156,7 +2156,7 @@
     "brand": "TIM",
     "operator": "Telecom Italia Mobile",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -2168,7 +2168,7 @@
     "brand": "Claro",
     "operator": "Claro",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -3656,7 +3656,7 @@
     "brand": "entel",
     "operator": "Entel Telefonía Móvil S.A.",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 1900 / LTE 2600",
+    "bands": "GSM 1900 / UMTS 1900 / LTE 700 / LTE 2600",
     "notes": null
   },
   {
@@ -3668,7 +3668,7 @@
     "brand": "movistar",
     "operator": "Telefónica Móvil de Chile",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 2600",
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 2600",
     "notes": null
   },
   {
@@ -4136,7 +4136,7 @@
     "brand": "Claro",
     "operator": "COMCEL S.A.",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 2600",
     "notes": null
   },
   {
@@ -5204,7 +5204,7 @@
     "brand": "Claro",
     "operator": "CONECEL S.A.",
     "status": "Operational",
-    "bands": "GSM 850 / UMTS 850 / UMTS 1900",
+    "bands": "GSM 850 / UMTS 850 / UMTS 1900 / LTE 1700",
     "notes": "Former Porta"
   },
   {
@@ -7784,7 +7784,7 @@
     "brand": "Tigo",
     "operator": "Millicom / Local partners",
     "status": "Operational",
-    "bands": "GSM 850 / TDMA 800 / UMTS 850",
+    "bands": "GSM 850 / TDMA 800 / UMTS 850 / LTE 850",
     "notes": "former COMCEL"
   },
   {
@@ -7796,7 +7796,7 @@
     "brand": "movistar",
     "operator": "Telefónica Móviles Guatemala (Telefónica)",
     "status": "Operational",
-    "bands": "CDMA 1900 / GSM 1900 / UMTS 1900",
+    "bands": "CDMA 1900 / GSM 1900 / UMTS 1900 / LTE 1900",
     "notes": null
   },
   {
@@ -8060,7 +8060,7 @@
     "brand": "Claro",
     "operator": "Servicios de Comunicaciones de Honduras S.A. de C.V.",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 1900",
+    "bands": "GSM 1900 / UMTS 1900 / LTE 1700",
     "notes": null
   },
   {
@@ -8072,7 +8072,7 @@
     "brand": "Tigo",
     "operator": "Celtel",
     "status": "Operational",
-    "bands": "CDMA 850 / GSM 850 / UMTS 850",
+    "bands": "CDMA 850 / GSM 850 / UMTS 850 / LTE 1700",
     "notes": "also uses or has used MNC 02"
   },
   {
@@ -15812,7 +15812,7 @@
     "brand": "Claro",
     "operator": "Empresa Nicaragüense de Telecomunicaciones, S.A. (ENITEL) (América Móvil)",
     "status": "Operational",
-    "bands": "UMTS 850 / GSM 1900",
+    "bands": "GSM 1900 / UMTS 850 / LTE 1700",
     "notes": null
   },
   {
@@ -15824,7 +15824,7 @@
     "brand": "movistar",
     "operator": "Telefonía Celular de Nicaragua, S.A. (Telefónica, S.A.)",
     "status": "Operational",
-    "bands": "UMTS 850 / GSM 850 / GSM 1900",
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / LTE 1900",
     "notes": "CDMA 800, TDMA 800, and NAMPS 800 have been shut down"
   },
   {
@@ -15836,7 +15836,7 @@
     "brand": "Claro",
     "operator": "Servicios de Comunicaciones S.A.",
     "status": "Operational",
-    "bands": "UMTS 850 / GSM 1900",
+    "bands": "GSM 1900 / UMTS 850",
     "notes": "Former SERCOM (Merged with ENITEL in 2004 and became Claro in 2009)"
   },
   {
@@ -16472,7 +16472,7 @@
     "brand": "movistar",
     "operator": "Telefónica Moviles Panama S.A, Bell South Corp. (BSC)",
     "status": "Operational",
-    "bands": "GSM 850 / UMTS 850 / UMTS 1900",
+    "bands": "GSM 850 / UMTS 850 / UMTS 1900 / LTE 700",
     "notes": "CDMA2000 800, TDMA 800 and NAMPS 800 are closed."
   },
   {
@@ -16484,8 +16484,8 @@
     "brand": "Claro",
     "operator": "América Móvil",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 1900",
-    "notes": null
+    "bands": "GSM 1900 / UMTS 1900 / LTE 700 / LTE 1900",
+    "notes": "LTE band 28"
   },
   {
     "type": "National",
@@ -16616,7 +16616,7 @@
     "brand": "Movistar",
     "operator": "Telefónica Móviles Perú",
     "status": "Operational",
-    "bands": "CDMA2000 850 / GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1700",
+    "bands": "CDMA2000 850 / GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700",
     "notes": null
   },
   {
@@ -16640,7 +16640,7 @@
     "brand": "Claro",
     "operator": "América Móvil Perú",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 850 / LTE 1900",
+    "bands": "GSM 1900 / UMTS 850 / LTE 700 / LTE 1900 / TD-LTE 3500",
     "notes": "Former TIM"
   },
   {
@@ -16649,11 +16649,11 @@
     "countryCode": "PE",
     "mcc": "716",
     "mnc": "15",
-    "brand": "Viettel Mobile",
+    "brand": "Bitel",
     "operator": "Viettel Peru S.A.C.",
     "status": "Operational",
     "bands": "GSM 1900 / UMTS 1900",
-    "notes": "Tests"
+    "notes": null
   },
   {
     "type": "National",
@@ -16664,7 +16664,7 @@
     "brand": "Entel",
     "operator": "Americatel Perú",
     "status": "Operational",
-    "bands": "UMTS 1900",
+    "bands": "UMTS 1900 / LTE 1700 / TD-LTE 2300",
     "notes": "Former Nextel"
   },
   {
