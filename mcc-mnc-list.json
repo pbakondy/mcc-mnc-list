@@ -17766,9 +17766,9 @@
     "mcc": "250",
     "mnc": "02",
     "brand": "MegaFon",
-    "operator": "MegaFon OJSC - previously known as North-West GSM",
+    "operator": "MegaFon PJSC (former North-West GSM)",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -17864,7 +17864,7 @@
     "brand": "Yota",
     "operator": "Scartel",
     "status": "Operational",
-    "bands": "LTE 2600",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -17911,7 +17911,7 @@
     "mnc": "14",
     "brand": "MegaFon",
     "operator": "MegaFon OJSC",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / TD-LTE 2600",
     "notes": null
   },
@@ -17984,7 +17984,7 @@
     "brand": "Tele2",
     "operator": "Tele2",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 450 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -18116,7 +18116,7 @@
     "brand": "MTS",
     "operator": "Bezlimitno.ru",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "MVNO",
     "notes": "Based on MTS"
   },
   {
@@ -18211,8 +18211,8 @@
     "mnc": "811",
     "brand": null,
     "operator": "Votek Mobile",
-    "status": "Unknown",
-    "bands": null,
+    "status": "Not operational",
+    "bands": "AMPS / DAMPS / GSM 1800",
     "notes": null
   },
   {
