@@ -14504,7 +14504,7 @@
     "brand": "movistar",
     "operator": "Movistar - Telefónica Moviles",
     "status": "Operational",
-    "bands": "CDMA2000 800 / CDMA2000 1900 / GSM 1900 / UMTS 850 / LTE 1900",
+    "bands": "CDMA2000 800 / CDMA2000 1900 / GSM 1900 / UMTS 850 / LTE 1700",
     "notes": "formerly Pegaso Comunicaciones y Sistemas; used by MVNO Virgin Mobile"
   },
   {
@@ -14528,7 +14528,7 @@
     "brand": "AT&T",
     "operator": "AT&T Mexico",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900",
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900",
     "notes": "Former Iusacell"
   },
   {
@@ -14588,7 +14588,7 @@
     "brand": "AT&T",
     "operator": "AT&T Mexico",
     "status": "Operational",
-    "bands": "UMTS 1700",
+    "bands": "UMTS 1700 / LTE 1700",
     "notes": "Former Nextel"
   },
   {
@@ -17766,10 +17766,10 @@
     "mcc": "250",
     "mnc": "02",
     "brand": "MegaFon",
-    "operator": "MegaFon PJSC (former North-West GSM)",
+    "operator": "MegaFon PJSC",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
-    "notes": null
+    "notes": "Former North-West GSM"
   },
   {
     "type": "National",
@@ -17778,10 +17778,10 @@
     "mcc": "250",
     "mnc": "03",
     "brand": "NCC",
-    "operator": "Nizhegorodskaya Cellular Communications (purchased by Tele2)",
+    "operator": "Nizhegorodskaya Cellular Communications",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": null
+    "notes": "Purchased by Tele2"
   },
   {
     "type": "National",
@@ -20228,8 +20228,8 @@
     "brand": "Telesur",
     "operator": "Telecommunications Company Suriname (Telesur)",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 700 / LTE 1800",
+    "notes": "LTE bands 28, 3"
   },
   {
     "type": "National",
