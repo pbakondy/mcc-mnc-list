@@ -6644,7 +6644,7 @@
     "brand": "Libertis",
     "operator": "Gabon Telecom & Libertis S.A.",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE",
     "notes": null
   },
   {
@@ -6668,7 +6668,7 @@
     "brand": "Airtel",
     "operator": "Airtel Gabon S.A.",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE",
     "notes": null
   },
   {
@@ -6680,7 +6680,7 @@
     "brand": "Azur",
     "operator": "USAN Gabon S.A.",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / GSM 1800",
     "notes": null
   },
   {
@@ -6704,7 +6704,7 @@
     "brand": "Gamcel",
     "operator": "Gamcel",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1900",
+    "bands": "GSM 900 / GSM 1800",
     "notes": null
   },
   {
@@ -6716,7 +6716,7 @@
     "brand": "Africell",
     "operator": "Africell",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1900",
+    "bands": "GSM 900 / GSM 1800",
     "notes": null
   },
   {
@@ -6728,7 +6728,7 @@
     "brand": "Comium",
     "operator": "Comium",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1900",
+    "bands": "GSM 900 / GSM 1800",
     "notes": null
   },
   {
@@ -7952,7 +7952,7 @@
     "brand": "Orange",
     "operator": null,
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE",
     "notes": null
   },
   {
@@ -12740,7 +12740,7 @@
     "brand": "zain JO",
     "operator": "Jordan Mobile Telephone Services",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE 1800",
     "notes": "Former Fastlink"
   },
   {
@@ -12776,7 +12776,7 @@
     "brand": "Orange",
     "operator": "Petra Jordanian Mobile Telecommunications Company (MobileCom)",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE 1800",
     "notes": null
   },
   {
@@ -13100,7 +13100,7 @@
     "brand": "K.S.C Ooredoo",
     "operator": "National Mobile Telecommunications",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -13340,7 +13340,7 @@
     "brand": "touch",
     "operator": "MIC 2",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -14417,10 +14417,10 @@
     "countryCode": "MU",
     "mcc": "617",
     "mnc": "02",
-    "brand": "MTML",
-    "operator": "Mahanagar Telephone (Mauritius) Ltd.",
+    "brand": "MOKOZE / AZU",
+    "operator": "Mahanagar Telephone Mauritius Limited (MTML)",
     "status": "Operational",
-    "bands": "GSM 900 / CDMA2000",
+    "bands": "CDMA2000",
     "notes": null
   },
   {
@@ -14429,10 +14429,10 @@
     "countryCode": "MU",
     "mcc": "617",
     "mnc": "03",
-    "brand": "MTML",
-    "operator": "Mahanagar Telephone (Mauritius) Ltd.",
-    "status": "Unknown",
-    "bands": "Unknown",
+    "brand": "CHILI",
+    "operator": "Mahanagar Telephone Mauritius Limited (MTML)",
+    "status": "Operational",
+    "bands": "GSM 900 / LTE 1800",
     "notes": null
   },
   {
@@ -14936,7 +14936,7 @@
     "brand": "MTC",
     "operator": "MTC Namibia",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -18091,9 +18091,9 @@
     "mnc": "39",
     "brand": "Rostelecom",
     "operator": "ROSTELECOM",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / TD-LTE 2300 / LTE 2600",
-    "notes": null
+    "notes": "Tele2 code 250 20 is used since acquiring"
   },
   {
     "type": "National",
