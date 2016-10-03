@@ -15916,6 +15916,18 @@
     "countryName": "Nigeria",
     "countryCode": "NG",
     "mcc": "621",
+    "mnc": "22",
+    "brand": "InterC",
+    "operator": "InterC Network Ltd.",
+    "status": "Operational",
+    "bands": "LTE 800",
+    "notes": "Former Intercellular"
+  },
+  {
+    "type": "National",
+    "countryName": "Nigeria",
+    "countryCode": "NG",
+    "mcc": "621",
     "mnc": "24",
     "brand": null,
     "operator": "Spectranet",
@@ -15931,9 +15943,9 @@
     "mnc": "25",
     "brand": "Visafone",
     "operator": "Visafone Communications Ltd.",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "CDMA2000 800 / CDMA2000 1900",
-    "notes": null
+    "notes": "Acquired by MTN"
   },
   {
     "type": "National",
@@ -15968,7 +15980,7 @@
     "brand": "MTN",
     "operator": "MTN Nigeria Communications Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600 / LTE 3500",
     "notes": null
   },
   {
@@ -16280,7 +16292,7 @@
     "brand": "Omantel",
     "operator": "Oman Telecommunications Company",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / LTE 1800 / TD-LTE 2300",
     "notes": null
   },
   {
@@ -16292,8 +16304,8 @@
     "brand": "ooredoo",
     "operator": "Omani Qatari Telecommunications Company SAOC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / LTE 800 / LTE 1800 / TD-LTE 2300",
+    "notes": "Former Nawras"
   },
   {
     "type": "National",
@@ -17540,7 +17552,7 @@
     "brand": "ooredoo",
     "operator": "ooredoo",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "Former Qtel (Qatar Telecom)"
   },
   {
@@ -17552,7 +17564,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Qatar",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -18272,7 +18284,7 @@
     "brand": "Airtel",
     "operator": "Airtel RWANDA",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
     "notes": "Live since 1 April 2012"
   },
   {
@@ -18285,7 +18297,7 @@
     "operator": "Olleh Rwanda Networks",
     "status": "Operational",
     "bands": "LTE 800",
-    "notes": "LTE band 20"
+    "notes": "LTE band 20; wholesale network used by Airtel, MTN, Tigo"
   },
   {
     "type": "National",
