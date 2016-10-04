@@ -18488,7 +18488,7 @@
     "brand": "Al Jawal (STC )",
     "operator": "Saudi Telecom Company",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 2300",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800 / TD-LTE 2300",
     "notes": null
   },
   {
@@ -18500,7 +18500,7 @@
     "brand": "Mobily",
     "operator": "Etihad Etisalat Company",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800 / TD-LTE 2600",
     "notes": null
   },
   {
@@ -18512,7 +18512,7 @@
     "brand": "Zain SA",
     "operator": "Zain Saudi Arabia",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800/ LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
     "notes": "Active September 2008"
   },
   {
@@ -19256,7 +19256,7 @@
     "brand": "Vodacom",
     "operator": "Vodacom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -19316,7 +19316,7 @@
     "brand": "MTN",
     "operator": "MTN Group",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -21836,7 +21836,7 @@
     "brand": "Orange",
     "operator": "Orange Tunisie",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -21848,7 +21848,7 @@
     "brand": "Tunicell",
     "operator": "Tunisie Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -21860,7 +21860,7 @@
     "brand": "OOREDOO TN",
     "operator": "ooredoo Tunisiana",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": "former Orascom Telecom Tunisie"
   },
   {
@@ -22280,7 +22280,7 @@
     "brand": "Etisalat",
     "operator": "Emirates Telecom Corp",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -22292,7 +22292,7 @@
     "brand": "du",
     "operator": "Emirates Integrated Telecommunications Company",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -25892,7 +25892,7 @@
     "brand": "ZAMTEL",
     "operator": "Zambia Telecommunications Company Ltd",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE",
     "notes": null
   },
   {
@@ -25904,7 +25904,7 @@
     "brand": "Net*One",
     "operator": "Net*One Cellular (Pvt) Ltd",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE",
     "notes": null
   },
   {
