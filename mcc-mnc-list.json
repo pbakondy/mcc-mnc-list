@@ -524,8 +524,8 @@
     "brand": "Telstra",
     "operator": "Telstra Corporation Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800",
-    "notes": "LTE bands 3 / 28"
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100",
+    "notes": "LTE bands 28 / 8 / 3 / 1; GSM to shut down 1 December 2016"
   },
   {
     "type": "National",
@@ -536,8 +536,8 @@
     "brand": "Optus",
     "operator": "Singtel Optus Proprietary Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 700 / LTE 1800 / TD-LTE 2300",
-    "notes": "LTE bands 3 / 28 / 40"
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2100 / TD-LTE 2300",
+    "notes": "LTE bands 28 / 3 / 1 / 40; GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
@@ -548,8 +548,8 @@
     "brand": "Vodafone",
     "operator": "Vodafone Hutchison Australia Proprietary Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 900 / UMTS 2100 / LTE 1800",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 900 / UMTS 2100 / LTE 850 / LTE 1800",
+    "notes": "LTE bands 5 / 3; GSM to shut down 30 September 2017"
   },
   {
     "type": "National",
@@ -668,8 +668,8 @@
     "brand": "Railcorp",
     "operator": "Railcorp, Transport for New South Wales",
     "status": "Operational",
-    "bands": "GSM 1800",
-    "notes": "For internal use by Sydney Trains Digital Train Radio System (Initial Operating Sector commencing November 2015)"
+    "bands": "GSM-R 1800",
+    "notes": "For use by Sydney Trains Digital Train Radio System"
   },
   {
     "type": "National",
@@ -678,9 +678,9 @@
     "mcc": "505",
     "mnc": "14",
     "brand": "AAPT",
-    "operator": "Telecom New Zealand",
+    "operator": "TPG Telecom",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100",
+    "bands": "MVNO",
     "notes": "Wholesale from Vodafone Hutchison Australia"
   },
   {
@@ -703,9 +703,9 @@
     "mnc": "16",
     "brand": "VicTrack",
     "operator": "Victorian Rail Track",
-    "status": "Reserved",
-    "bands": "GSM 1800",
-    "notes": "Digital Train Radio System. Starting to be seen."
+    "status": "Operational",
+    "bands": "GSM-R 1800",
+    "notes": "Digital Train Radio System"
   },
   {
     "type": "National",
@@ -714,10 +714,10 @@
     "mcc": "505",
     "mnc": "17",
     "brand": null,
-    "operator": "Vivid Wireless Pty. Ltd.",
+    "operator": "Optus",
     "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "bands": "TD-LTE 2300",
+    "notes": "Former Vivid Wireless Pty. Ltd."
   },
   {
     "type": "National",
@@ -727,7 +727,7 @@
     "mnc": "18",
     "brand": "Pactel",
     "operator": "Pactel International Pty Ltd",
-    "status": "Reserved",
+    "status": "Unknown",
     "bands": null,
     "notes": null
   },
@@ -764,7 +764,7 @@
     "brand": null,
     "operator": "Queensland Rail Limited",
     "status": "Unknown",
-    "bands": "Unknown",
+    "bands": "GSM-R 1800",
     "notes": null
   },
   {
@@ -967,9 +967,9 @@
     "mnc": "62",
     "brand": "NBN",
     "operator": "National Broadband Network Co.",
-    "status": "Unknown",
-    "bands": "LTE 2300",
-    "notes": null
+    "status": "Operational",
+    "bands": "TD-LTE 2300",
+    "notes": "LTE band 40"
   },
   {
     "type": "National",
@@ -979,9 +979,9 @@
     "mnc": "68",
     "brand": "NBN",
     "operator": "National Broadband Network Co.",
-    "status": "Unknown",
-    "bands": "LTE 2300",
-    "notes": null
+    "status": "Operational",
+    "bands": "TD-LTE 2300",
+    "notes": "LTE band 40"
   },
   {
     "type": "National",
@@ -5564,7 +5564,7 @@
     "brand": "Digicel",
     "operator": "Digicel Fiji",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / WIMAX 4G",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800 / WiMAX",
     "notes": null
   },
   {
@@ -5575,9 +5575,9 @@
     "mnc": "03",
     "brand": null,
     "operator": "Telecom Fiji Ltd",
-    "status": "Unknown",
-    "bands": "CDMA",
-    "notes": null
+    "status": "Operational",
+    "bands": "CDMA2000 850 / LTE 700",
+    "notes": "LTE band 28"
   },
   {
     "type": "National",
@@ -6581,10 +6581,10 @@
     "countryCode": "PF",
     "mcc": "547",
     "mnc": "05",
-    "brand": null,
+    "brand": "Ora",
     "operator": "VITI",
     "status": "Operational",
-    "bands": "WiMAX",
+    "bands": "WiMAX / LTE 800 / LTE 2600",
     "notes": null
   },
   {
@@ -8432,8 +8432,8 @@
     "brand": "DIGI",
     "operator": "DIGI Telecommunication Ltd.",
     "status": "Not operational",
-    "bands": "1800",
-    "notes": "MNC withdrawn"
+    "bands": "LTE 1800",
+    "notes": "Planned"
   },
   {
     "type": "National",
@@ -11193,7 +11193,7 @@
     "operator": "PT Indosat Tbk",
     "status": "Not operational",
     "bands": "CDMA 800",
-    "notes": "Shut down on July 31, 2015"
+    "notes": "Shut down on 31 July 2015"
   },
   {
     "type": "National",
@@ -11203,9 +11203,9 @@
     "mnc": "07",
     "brand": "TelkomFlexi",
     "operator": "PT Telkom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "CDMA 800",
-    "notes": "Network to shut down end of 2015"
+    "notes": "Network shut down end of 2015"
   },
   {
     "type": "National",
@@ -17696,7 +17696,7 @@
     "brand": "Digi.Mobil",
     "operator": "RCS&RDS",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / TD-LTE 2600",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 2100 / TD-LTE 2600",
     "notes": "GSM/UMTS roaming with network 226-01 until at least April 2017"
   },
   {
@@ -18849,7 +18849,7 @@
     "operator": "Singapore Telecom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
-    "notes": null
+    "notes": "; GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
@@ -18861,7 +18861,7 @@
     "operator": "Singapore Telecom",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": null
+    "notes": "; GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
@@ -18873,7 +18873,7 @@
     "operator": "M1 Limited",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": null
+    "notes": "; GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
@@ -18885,7 +18885,7 @@
     "operator": "StarHub Mobile",
     "status": "Operational",
     "bands": "GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": null
+    "notes": "; GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
