@@ -1544,7 +1544,7 @@
     "brand": "ollo",
     "operator": "Bangladesh Internet Exchange Limited (BIEL)",
     "status": "Operational",
-    "bands": "LTE 800 / LTE 2600 / WiMAX",
+    "bands": "LTE 800 / LTE 2600 / WiMAX 3500",
     "notes": null
   },
   {
@@ -5223,7 +5223,7 @@
     "type": "National",
     "countryName": "Egypt",
     "countryCode": "EG",
-    "mcc": "012",
+    "mcc": "602",
     "mnc": "01",
     "brand": "Orange",
     "operator": "Orange Egypt",
@@ -5235,7 +5235,7 @@
     "type": "National",
     "countryName": "Egypt",
     "countryCode": "EG",
-    "mcc": "010",
+    "mcc": "602",
     "mnc": "02",
     "brand": "Vodafone",
     "operator": "Vodafone Egypt",
@@ -5247,7 +5247,7 @@
     "type": "National",
     "countryName": "Egypt",
     "countryCode": "EG",
-    "mcc": "011",
+    "mcc": "602",
     "mnc": "03",
     "brand": "Etisalat",
     "operator": "Etisalat Egypt",
@@ -8049,7 +8049,7 @@
     "operator": "NATCOM S.A.",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UTMS 2100",
-    "notes": null
+    "notes": "60% owned by Viettel"
   },
   {
     "type": "National",
@@ -13197,7 +13197,7 @@
     "operator": "Star Telecom Co., Ltd",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
-    "notes": "Former Lao-Asia Telecom Company (LAT)"
+    "notes": "Former Lao-Asia Telecom Company (LAT); owned by Viettel"
   },
   {
     "type": "National",
@@ -16004,7 +16004,7 @@
     "brand": "Glo",
     "operator": "Globacom Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -16016,7 +16016,7 @@
     "brand": "Etisalat",
     "operator": "Emerging Markets Telecommunication Services Ltd (Etisalat)",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
