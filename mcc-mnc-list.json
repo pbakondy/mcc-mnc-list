@@ -3896,7 +3896,7 @@
     "brand": "China Mobile",
     "operator": "China Mobile",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / TD-SCDMA 1900 / TD-SCDMA 2000 / TD-LTE 1900 / TD-LTE 2300 / TD-LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / TD-SCDMA 1900 / TD-SCDMA 2000 / TD-LTE 1900 / TD-LTE 2300 / TD-LTE 2500",
     "notes": null
   },
   {
@@ -3908,7 +3908,7 @@
     "brand": "China Unicom",
     "operator": "China Unicom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / TD-LTE 2300 / TD-LTE 2600 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / TD-LTE 2300 / TD-LTE 2500",
     "notes": "CDMA network sold to China Telecom"
   },
   {
@@ -3920,7 +3920,7 @@
     "brand": "China Mobile",
     "operator": "China Mobile",
     "status": "Not operational",
-    "bands": "GSM 900 / GSM 1800 / TD-SCDMA 1900 / TD-SCDMA 2000 / TD-LTE 1900 / TD-LTE 2300 / TD-LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / TD-SCDMA 1900 / TD-SCDMA 2000 / TD-LTE 1900 / TD-LTE 2300 / TD-LTE 2500",
     "notes": null
   },
   {
@@ -3932,7 +3932,7 @@
     "brand": "China Telecom",
     "operator": "China Telecom",
     "status": "Operational",
-    "bands": "CDMA2000 800 / LTE 1800 / LTE 2100 / TD-LTE 2300 / TD-LTE 2600",
+    "bands": "CDMA2000 800 / LTE 1800 / LTE 2100 / TD-LTE 2300 / TD-LTE 2500",
     "notes": "EV-DO"
   },
   {
@@ -3956,7 +3956,7 @@
     "brand": "China Telecom",
     "operator": "China Telecom",
     "status": "Not operational",
-    "bands": "CDMA2000 800 / LTE 1800 / LTE 2100 / TD-LTE 2300 / TD-LTE 2600",
+    "bands": "CDMA2000 800 / LTE 1800 / LTE 2100 / TD-LTE 2300 / TD-LTE 2500",
     "notes": null
   },
   {
@@ -3980,7 +3980,7 @@
     "brand": "China Mobile",
     "operator": "China Mobile",
     "status": "Not operational",
-    "bands": "GSM 900 / GSM 1800 / TD-SCDMA 1900 / TD-SCDMA 2000 / TD-LTE 1900 / TD-LTE 2300 / TD-LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / TD-SCDMA 1900 / TD-SCDMA 2000 / TD-LTE 1900 / TD-LTE 2300 / TD-LTE 2500",
     "notes": null
   },
   {
@@ -8144,7 +8144,7 @@
     "brand": "3",
     "operator": "Hutchison Telecom",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -8180,7 +8180,7 @@
     "brand": "SmarTone",
     "operator": "SmarTone Mobile Communications Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -8252,7 +8252,7 @@
     "brand": "CMCC HK",
     "operator": "China Mobile Hong Kong Company Limited",
     "status": "Operational",
-    "bands": "GSM 1800 / LTE 1800 / LTE 2600",
+    "bands": "GSM 1800 / LTE 1800 / TD-LTE 2300 / LTE 2600",
     "notes": "Formerly Peoples"
   },
   {
@@ -8481,6 +8481,18 @@
     "operator": "Magyar Államvasutak",
     "status": "Planned",
     "bands": "GSM-R 900",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Hungary",
+    "countryCode": "HU",
+    "mcc": "216",
+    "mnc": "30",
+    "brand": "BLUE Mobile",
+    "operator": "Lidl Hungary",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800/",
     "notes": null
   },
   {
