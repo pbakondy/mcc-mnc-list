@@ -2708,7 +2708,7 @@
     "brand": "Cellcard",
     "operator": "CamGSM / The Royal Group",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": "Former Mobitel"
   },
   {
@@ -8485,18 +8485,6 @@
   },
   {
     "type": "National",
-    "countryName": "Hungary",
-    "countryCode": "HU",
-    "mcc": "216",
-    "mnc": "30",
-    "brand": "BLUE Mobile",
-    "operator": "Lidl Hungary",
-    "status": "Operational",
-    "bands": "GSM 900 / GSM 1800/",
-    "notes": null
-  },
-  {
-    "type": "National",
     "countryName": "Iceland",
     "countryCode": "IS",
     "mcc": "274",
@@ -13784,7 +13772,7 @@
     "brand": "SmarTone",
     "operator": "Smartone – Comunicações Móveis, S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -13796,7 +13784,7 @@
     "brand": "CTM",
     "operator": "Companhia de Telecomunicações de Macau, S.A.R.L.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / LTE",
+    "bands": "GSM 900 / GSM 1800 / LTE 1800",
     "notes": null
   },
   {
@@ -13820,7 +13808,7 @@
     "brand": "3",
     "operator": "Hutchison Telephone (Macau), Limitada",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 1800",
     "notes": null
   },
   {
@@ -13868,7 +13856,7 @@
     "brand": "China Telecom",
     "operator": "China Telecom (Macau) Limitada",
     "status": "Operational",
-    "bands": "LTE",
+    "bands": "LTE 1800",
     "notes": null
   },
   {
@@ -15933,7 +15921,7 @@
     "operator": "InterC Network Ltd.",
     "status": "Operational",
     "bands": "LTE 800",
-    "notes": "Former Intercellular"
+    "notes": "Former Intercellular; LTE band 20"
   },
   {
     "type": "National",
@@ -16005,7 +15993,7 @@
     "operator": "Nigerian Mobile Telecommunications Limited",
     "status": "Operational",
     "bands": "LTE 900 / LTE 1800",
-    "notes": "LTE Band 3 / LTE Band 8; former M-Tel"
+    "notes": "Former M-Tel; LTE bands 8 / 3"
   },
   {
     "type": "National",
@@ -16016,8 +16004,8 @@
     "brand": "Glo",
     "operator": "Globacom Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 700",
+    "notes": "LTE band 28"
   },
   {
     "type": "National",
