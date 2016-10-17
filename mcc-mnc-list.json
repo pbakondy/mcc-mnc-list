@@ -20,8 +20,8 @@
     "brand": "Aquafon",
     "operator": "Aquafon JSC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800",
+    "notes": "LTE band 20"
   },
   {
     "type": "National",
@@ -224,8 +224,8 @@
     "brand": "Mobiland",
     "operator": "Servei De Tele. DAndorra",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800",
+    "notes": "LTE band 20"
   },
   {
     "type": "National",
@@ -12751,9 +12751,9 @@
     "mnc": "02",
     "brand": "XPress Telecom",
     "operator": "XPress Telecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "iDEN 800",
-    "notes": null
+    "notes": "Shut down in 2010"
   },
   {
     "type": "National",
@@ -12955,7 +12955,7 @@
     "mnc": "02",
     "brand": "KT",
     "operator": "KT",
-    "status": "Discontinued",
+    "status": "Not operational",
     "bands": "CDMA2000 1800",
     "notes": "Formerly Hansol PCS, Merged with KT in 2002"
   },
@@ -12967,7 +12967,7 @@
     "mnc": "03",
     "brand": "Power 017",
     "operator": "Shinsegi Telecom, Inc.",
-    "status": "Discontinued",
+    "status": "Not operational",
     "bands": "CDMA2000 800",
     "notes": "Merged with SK Telecom in 2002"
   },
@@ -12979,7 +12979,7 @@
     "mnc": "04",
     "brand": "KT",
     "operator": "KT",
-    "status": "Discontinued",
+    "status": "Not operational",
     "bands": "CDMA2000 1800",
     "notes": "HSM"
   },
@@ -12992,7 +12992,7 @@
     "brand": "SKTelecom",
     "operator": "SK Telecom",
     "status": "Operational",
-    "bands": "CDMA2000 800 / UMTS 2100 / LTE 850 1800 2100",
+    "bands": "CDMA2000 800 / UMTS 2100 / LTE 850 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -13004,7 +13004,7 @@
     "brand": "LG U+",
     "operator": "LG Telecom",
     "status": "Operational",
-    "bands": "CDMA2000 1800 / LTE 850 2100 2600",
+    "bands": "CDMA2000 1800 / LTE 850 / LTE 2100 / LTE 2600",
     "notes": null
   },
   {
@@ -13016,7 +13016,7 @@
     "brand": "olleh",
     "operator": "KT",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 900 1800 2100",
+    "bands": "UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -14048,7 +14048,7 @@
     "brand": "TM Homeline",
     "operator": "Telekom Malaysia Bhd",
     "status": "Operational",
-    "bands": "CDMA2000 850",
+    "bands": "CDMA2000 850 / LTE 850",
     "notes": null
   },
   {
@@ -14252,7 +14252,7 @@
     "brand": "Dhiraagu",
     "operator": "Dhivehi Raajjeyge Gulhun",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -14912,7 +14912,7 @@
     "brand": "Ooredoo",
     "operator": "Ooredoo Myanmar",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 900 / LTE 2100",
     "notes": null
   },
   {
@@ -14924,7 +14924,7 @@
     "brand": "Telenor",
     "operator": "Telenor Myanmar",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 2100",
     "notes": null
   },
   {
@@ -16461,7 +16461,7 @@
     "operator": "Wataniya Palestine Mobile Telecommunications Company",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
-    "notes": "[9] (Ooredoo)"
+    "notes": "[3] (Ooredoo)"
   },
   {
     "type": "National",
@@ -16700,7 +16700,7 @@
     "brand": "Globe",
     "operator": "Globe Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 900 / UMTS 2100 / LTE 1800 / TD-LTE 2500",
     "notes": null
   },
   {
@@ -16712,7 +16712,7 @@
     "brand": "SMART",
     "operator": "PLDT via Smart Communications",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 850 / LTE 1800 / LTE 2100",
     "notes": "Formerly PilTel"
   },
   {
@@ -16721,11 +16721,11 @@
     "countryCode": "PH",
     "mcc": "515",
     "mnc": "05",
-    "brand": "Sun",
+    "brand": "Sun Cellular",
     "operator": "Digital Telecommunications Philippines",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": null
+    "bands": "GSM 1800 / UMTS 2100",
+    "notes": "Uses SMART for LTE roaming"
   },
   {
     "type": "National",
@@ -16757,10 +16757,10 @@
     "countryCode": "PH",
     "mcc": "515",
     "mnc": "24",
-    "brand": "ABS-CBN",
+    "brand": "ABS-CBN Mobile",
     "operator": "ABS-CBN Convergence with Globe Telecom",
     "status": "Operational",
-    "bands": "Unknown",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -16770,10 +16770,10 @@
     "mcc": "515",
     "mnc": "88",
     "brand": null,
-    "operator": "Nextel",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "operator": "Next Mobile Inc.",
+    "status": "Operational",
+    "bands": "iDEN",
+    "notes": "Former Nextel Philippines"
   },
   {
     "type": "National",
@@ -18849,7 +18849,7 @@
     "operator": "Singapore Telecom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
-    "notes": "; GSM to shut down 1 April 2017"
+    "notes": "GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
@@ -18861,7 +18861,7 @@
     "operator": "Singapore Telecom",
     "status": "Operational",
     "bands": "GSM 1800",
-    "notes": "; GSM to shut down 1 April 2017"
+    "notes": "GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
@@ -18873,7 +18873,7 @@
     "operator": "M1 Limited",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": "; GSM to shut down 1 April 2017"
+    "notes": "GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
@@ -18885,7 +18885,7 @@
     "operator": "StarHub Mobile",
     "status": "Operational",
     "bands": "GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": "; GSM to shut down 1 April 2017"
+    "notes": "GSM to shut down 1 April 2017"
   },
   {
     "type": "National",
@@ -19721,11 +19721,11 @@
     "countryCode": "ES",
     "mcc": "214",
     "mnc": "05",
-    "brand": "TME",
+    "brand": "Movistar",
     "operator": "Telefónica Móviles España",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": "Used by resellers"
+    "notes": "Used by MVNOs."
   },
   {
     "type": "National",
@@ -19745,7 +19745,7 @@
     "countryCode": "ES",
     "mcc": "214",
     "mnc": "07",
-    "brand": "movistar",
+    "brand": "Movistar",
     "operator": "Telefónica Móviles España",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
@@ -20120,7 +20120,7 @@
     "brand": "Dialog",
     "operator": "Dialog Axiata PLC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / TD-LTE 2300",
     "notes": "Former MTN"
   },
   {
@@ -20133,7 +20133,19 @@
     "operator": "Etisalat Lanka (Pvt) Ltd",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": "Former Tigo or Celltel"
+    "notes": "Former Tigo / Celltel"
+  },
+  {
+    "type": "National",
+    "countryName": "Sri Lanka",
+    "countryCode": "LK",
+    "mcc": "413",
+    "mnc": "04",
+    "brand": "Lanka Bell",
+    "operator": "Lanka Bell Ltd",
+    "status": "Operational",
+    "bands": "CDMA / WiMAX / TD-LTE 2300",
+    "notes": null
   },
   {
     "type": "National",
@@ -21296,7 +21308,7 @@
     "brand": "T Star",
     "operator": "Taiwan Star Telecom",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 900",
+    "bands": "UMTS 2100 / LTE 900 / LTE 2600",
     "notes": null
   },
   {
@@ -21320,7 +21332,7 @@
     "brand": "Chunghwa",
     "operator": "Chunghwa Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -21585,7 +21597,7 @@
     "operator": "CAT Telecom",
     "status": "Operational",
     "bands": "UMTS 850",
-    "notes": "Former Hutch Thailand; outbound roaming with True Move GSM, inbound roaming for TrueMove H"
+    "notes": "Former Hutch Thailand; inbound roaming for TrueMove H"
   },
   {
     "type": "National",
@@ -21620,8 +21632,8 @@
     "brand": "AIS",
     "operator": "Advanced Wireless Network Company Ltd.",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 1800",
-    "notes": "GSM roaming with network 520-01"
+    "bands": "UMTS 2100 / LTE 1800 / LTE 2100",
+    "notes": null
   },
   {
     "type": "National",
@@ -21633,7 +21645,7 @@
     "operator": "Real Future Company Ltd.",
     "status": "Operational",
     "bands": "UMTS 2100 / LTE 1800 / LTE 2100",
-    "notes": "GSM roaming with network 520-99, UMTS roaming with network 520-00"
+    "notes": "UMTS roaming with network 520-00"
   },
   {
     "type": "National",
@@ -26121,7 +26133,7 @@
     "operator": "Jasper Systems",
     "status": "Operational",
     "bands": "Unknown",
-    "notes": "Global SIM [17]"
+    "notes": "Global SIM [11]"
   },
   {
     "type": "International",
@@ -26145,7 +26157,7 @@
     "operator": "AT&T Mobility",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1900 / CDMA2000 1900 / UMTS 1900",
-    "notes": "Maritime [18]"
+    "notes": "Maritime [12]"
   },
   {
     "type": "International",
