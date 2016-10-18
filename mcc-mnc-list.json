@@ -174,9 +174,9 @@
     "mcc": "603",
     "mnc": "01",
     "brand": "Mobilis",
-    "operator": "ATM Mobilis",
+    "operator": "Algérie Télécom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / CDMA 1900",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / CDMA 1900",
     "notes": null
   },
   {
@@ -186,10 +186,10 @@
     "mcc": "603",
     "mnc": "02",
     "brand": "Djezzy",
-    "operator": "Orascom Telecom Algerie Spa",
+    "operator": "Optimum Telecom Algérie Spa",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "notes": "Former Orascom Telecom"
   },
   {
     "type": "National",
@@ -198,10 +198,10 @@
     "mcc": "603",
     "mnc": "03",
     "brand": "Ooredoo",
-    "operator": "Wataniya Telecom Algerie",
+    "operator": "Wataniya Telecom Algérie",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": "Formerly Nedjma"
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "notes": "Former Nedjma"
   },
   {
     "type": "National",
@@ -452,7 +452,7 @@
     "brand": "Beeline",
     "operator": "ArmenTel",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 450",
     "notes": null
   },
   {
@@ -485,11 +485,11 @@
     "countryCode": "AM",
     "mcc": "283",
     "mnc": "10",
-    "brand": "Orange",
-    "operator": "Orange S.A.",
+    "brand": "Ucom",
+    "operator": "Ucom LLC",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
-    "notes": null
+    "notes": "Former Orange"
   },
   {
     "type": "National",
@@ -1605,7 +1605,7 @@
     "operator": "Mobile TeleSystems",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
+    "notes": "LTE via beCloud"
   },
   {
     "type": "National",
@@ -1629,7 +1629,7 @@
     "operator": "Belarusian Telecommunications Network",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": "Former BeST"
+    "notes": "Former BeST; LTE via beCloud"
   },
   {
     "type": "National",
@@ -1653,19 +1653,7 @@
     "operator": "Belorussian Cloud Technologies",
     "status": "Operational",
     "bands": "LTE 1800",
-    "notes": "Former Yota Bel; wholesale network used by MTS"
-  },
-  {
-    "type": "National",
-    "countryName": "Belarus",
-    "countryCode": "BY",
-    "mcc": "257",
-    "mnc": "501",
-    "brand": "BelCel JV",
-    "operator": null,
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "notes": "Former Yota Bel; wholesale network used by MTS and life:)"
   },
   {
     "type": "National",
@@ -4748,7 +4736,7 @@
     "brand": "TDC",
     "operator": "TDC A/S",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -6741,6 +6729,30 @@
     "operator": "QCell Gambia",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Gambia",
+    "countryCode": "GM",
+    "mcc": "607",
+    "mnc": "05",
+    "brand": null,
+    "operator": "GAMTEL-Ecowan",
+    "status": "Unknown",
+    "bands": "WiMAX / LTE",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Gambia",
+    "countryCode": "GM",
+    "mcc": "607",
+    "mnc": "06",
+    "brand": null,
+    "operator": "NETPAGE",
+    "status": "Operational",
+    "bands": "TD-LTE 2300",
     "notes": null
   },
   {
@@ -14888,7 +14900,7 @@
     "brand": "MPT",
     "operator": "Myanmar Posts and Telecommunications",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 2100",
     "notes": null
   },
   {
@@ -14912,7 +14924,7 @@
     "brand": "Ooredoo",
     "operator": "Ooredoo Myanmar",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 900 / LTE 2100",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 2100",
     "notes": null
   },
   {
@@ -20610,10 +20622,10 @@
     "mcc": "240",
     "mnc": "25",
     "brand": null,
-    "operator": "Digitel Mobile Srl",
-    "status": "Not operational",
+    "operator": "Monty UK Global Ltd",
+    "status": "Unknown",
     "bands": "Unknown",
-    "notes": "MNC withdrawn"
+    "notes": "Former Digitel Mobile Srl"
   },
   {
     "type": "National",
@@ -26551,6 +26563,18 @@
     "mnc": "51",
     "brand": null,
     "operator": "VisionNG",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "901",
+    "mnc": "52",
+    "brand": null,
+    "operator": "Manx Telecom Trading Ltd.",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
