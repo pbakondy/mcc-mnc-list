@@ -5912,7 +5912,7 @@
     "brand": "Ukko Mobile",
     "operator": "Ukkoverkot Oy",
     "status": "Operational",
-    "bands": "LTE 450 / LTE 2600",
+    "bands": "LTE 450 / TD-LTE 2600",
     "notes": "data-only network"
   },
   {
@@ -7844,7 +7844,7 @@
     "brand": "Airtel-Vodafone",
     "operator": "Guernsey Airtel Ltd",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100",
+    "bands": "GSM 1800 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -7856,7 +7856,7 @@
     "brand": "JT",
     "operator": "JT Group Limited",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100",
+    "bands": "GSM 1800 / UMTS 2100 / LTE",
     "notes": "former Wave Telecom"
   },
   {
@@ -7868,7 +7868,7 @@
     "brand": "Sure Mobile",
     "operator": "Sure (Guernsey) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE",
+    "bands": "GSM 900 / UMTS 2100 / LTE 1800",
     "notes": "former Cable & Wireless"
   },
   {
@@ -8420,7 +8420,7 @@
     "brand": "Telenor Hungary",
     "operator": "Telenor Magyarország Zrt.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": "Former Pannon, Pannon GSM; MNC has not the same numerical value as the area code"
   },
   {
@@ -8468,7 +8468,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Magyarország Zrt.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / UMTS 900",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / UMTS 900 / LTE 800 / LTE 2600",
     "notes": "MNC has the same numerical value as the area code"
   },
   {
@@ -12175,8 +12175,8 @@
     "mnc": "38",
     "brand": "LINKEM",
     "operator": "Linkem S.p.A.",
-    "status": "Unknown",
-    "bands": "Unknown",
+    "status": "Operational",
+    "bands": "TD-LTE 3500",
     "notes": null
   },
   {
@@ -12236,7 +12236,7 @@
     "brand": "Wind",
     "operator": "Wind Telecomunicazioni S.p.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800",
     "notes": null
   },
   {
@@ -12260,7 +12260,7 @@
     "brand": "3 Italia",
     "operator": "H3G S.p.A.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -12704,7 +12704,7 @@
     "brand": "Airtel-Vodafone",
     "operator": "Jersey Airtel Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -12740,7 +12740,7 @@
     "brand": "Sure Mobile",
     "operator": "Sure (Jersey) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": "former Cable & Wireless"
   },
   {
@@ -12800,7 +12800,7 @@
     "brand": "Beeline",
     "operator": "KaR-Tel LLP",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -12812,7 +12812,7 @@
     "brand": "Kcell",
     "operator": "Kcell JSC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -12825,7 +12825,7 @@
     "operator": "Altel",
     "status": "Operational",
     "bands": "UMTS 850 / GSM 1800 / LTE 1800",
-    "notes": "CDMA2000 800 closed 1 January 2014"
+    "notes": "CDMA2000 800 closed 1 July 2015"
   },
   {
     "type": "National",
@@ -13136,7 +13136,7 @@
     "brand": "Beeline",
     "operator": "Sky Mobile LLC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800",
     "notes": "former Bitel"
   },
   {
@@ -13232,7 +13232,7 @@
     "brand": "LMT",
     "operator": "Latvian Mobile Telephone",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -13244,7 +13244,7 @@
     "brand": "Tele2",
     "operator": "Tele2",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -13280,7 +13280,7 @@
     "brand": "Bite",
     "operator": "Bite Latvija",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "Bite's postpaid customers are still being assigned SIM cards with 246 02 MNC"
   },
   {
@@ -13291,7 +13291,7 @@
     "mnc": "06",
     "brand": null,
     "operator": "Rigatta",
-    "status": "Reserved",
+    "status": "Not operational",
     "bands": "Unknown",
     "notes": "No own network. Not in commercial use."
   },
@@ -13520,7 +13520,7 @@
     "brand": "Swisscom",
     "operator": "Swisscom Schweiz AG",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 1800",
     "notes": "Also uses MCC 228 MNC 01 (Switzerland)"
   },
   {
@@ -13532,7 +13532,7 @@
     "brand": "7acht",
     "operator": "Salt Liechtenstein AG",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": "Former Orange"
   },
   {
