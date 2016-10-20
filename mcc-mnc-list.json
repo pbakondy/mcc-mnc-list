@@ -13700,7 +13700,7 @@
     "brand": "MEZON",
     "operator": "Lietuvos radijo ir televizijos centras",
     "status": "Operational",
-    "bands": "WiMAX 3500 / LTE 3500",
+    "bands": "WiMAX 3500 / TD-LTE 2300",
     "notes": null
   },
   {
@@ -13748,7 +13748,7 @@
     "brand": "Tango",
     "operator": "Tango SA",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -13880,7 +13880,7 @@
     "brand": "Telekom.mk",
     "operator": "Makedonski Telekom",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": "Former Mobimak"
   },
   {
@@ -13892,7 +13892,7 @@
     "brand": "ONE",
     "operator": "One",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": "Former Cosmofon"
   },
   {
@@ -13904,7 +13904,7 @@
     "brand": "Vip MK",
     "operator": "VIP Operator",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -14312,7 +14312,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Malta",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 1800",
     "notes": "Supports MVNO Redtouch Fone and MVNO VFC Mobile"
   },
   {
@@ -14336,7 +14336,7 @@
     "brand": "GO",
     "operator": "Mobile Communications Limited",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": "Supports MVNO PING"
   },
   {
@@ -14768,7 +14768,7 @@
     "brand": "Telenor",
     "operator": "Telenor Montenegro",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
     "notes": "Former ProMonte GSM"
   },
   {
@@ -15248,7 +15248,7 @@
     "brand": "T-Mobile (BEN)",
     "operator": "T-Mobile Netherlands B.V",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -15296,7 +15296,7 @@
     "brand": "T-Mobile",
     "operator": "T-Mobile Netherlands B.V",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": "Former Orange Netherlands MCC/MNC"
   },
   {
@@ -16869,7 +16869,7 @@
     "operator": "P4 Sp. z o.o.",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800",
-    "notes": "Also roaming on Polkomtel and Centertel 2G/3G network"
+    "notes": "Also roaming on Polkomtel and Orange 2G/3G network"
   },
   {
     "type": "National",
@@ -17204,8 +17204,8 @@
     "brand": "NetWorkS!",
     "operator": "T-Mobile Polska S.A.",
     "status": "Operational",
-    "bands": "UMTS 900",
-    "notes": "Shared network T-Mobile / Centertel"
+    "bands": "UMTS 900 / LTE 1800",
+    "notes": "Shared network T-Mobile / Orange"
   },
   {
     "type": "National",
@@ -18656,7 +18656,7 @@
     "brand": "VIP",
     "operator": "VIP Mobile",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -18980,7 +18980,7 @@
     "brand": "Swan",
     "operator": "Unient Communications",
     "status": "Operational",
-    "bands": "LTE 1800",
+    "bands": "LTE 1800 / TD-LTE 3700",
     "notes": null
   },
   {
@@ -26096,7 +26096,7 @@
     "brand": "Telenor",
     "operator": "Telenor Maritime AS",
     "status": "Operational",
-    "bands": "GSM 1800",
+    "bands": "GSM 1800 / LTE 800",
     "notes": "Maritime; formerly Maritime Communications Partner (MCP)"
   },
   {
