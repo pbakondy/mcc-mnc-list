@@ -19076,7 +19076,7 @@
     "brand": "Mobitel",
     "operator": "Telekom Slovenije",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": null
   },
   {
@@ -19100,7 +19100,7 @@
     "brand": "Telemach",
     "operator": "Tušmobil d.o.o.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -19712,7 +19712,7 @@
     "brand": "Orange",
     "operator": "France Telecom España SA",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "Also use MNC 33 Some MVNO use this MNC (CarrefourOnline, Dia, Hualong, Llamaya, MasMovil, The Phone House Spain, CABLE movil, SUOP)"
   },
   {
@@ -19760,7 +19760,7 @@
     "brand": "Movistar",
     "operator": "Telefónica Móviles España",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "Some MVNO use this MNC (Tu, Sweno, Vectone Movil, ZeroMovil)"
   },
   {
