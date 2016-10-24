@@ -11742,10 +11742,10 @@
     "mcc": "425",
     "mnc": "01",
     "brand": "Partner",
-    "operator": "Partner Communications Company Ltd.",
+    "operator": "Partner Communications Company",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
-    "notes": "Former Orange (until 2016)"
+    "notes": "Former Orange Israel (until 2016)"
   },
   {
     "type": "National",
@@ -11776,18 +11776,6 @@
     "countryName": "Israel",
     "countryCode": "IL",
     "mcc": "425",
-    "mnc": "04",
-    "brand": null,
-    "operator": "Globalsim Ltd",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
     "mnc": "05",
     "brand": "Jawwal",
     "operator": "Palestine Cellular Communications Ltd.",
@@ -11802,7 +11790,7 @@
     "mcc": "425",
     "mnc": "06",
     "brand": "Wataniya Mobile",
-    "operator": "Wataniya Palestine Ltd. (Ooredoo)",
+    "operator": "Wataniya Palestine Ltd.",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
     "notes": "Covering the Palestinian territories"
@@ -11816,8 +11804,8 @@
     "brand": "Hot Mobile",
     "operator": "Hot Mobile Ltd.",
     "status": "Operational",
-    "bands": "iDEN 800 / UMTS 2100",
-    "notes": "Former Mirs Communications; uses Pelephone network for roaming"
+    "bands": "iDEN 800 / UMTS 2100 / LTE 1800",
+    "notes": "Former Mirs; uses Pelephone network for roaming"
   },
   {
     "type": "National",
@@ -11828,56 +11816,8 @@
     "brand": "Golan Telecom",
     "operator": "Golan Telecom Ltd",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 1800",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": "Uses Cellcom network for roaming"
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "11",
-    "brand": null,
-    "operator": "365 Telecom",
-    "status": "Unknown",
-    "bands": "MVNO",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "12",
-    "brand": null,
-    "operator": "Free Telecom",
-    "status": "Unknown",
-    "bands": "MVNO",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "13",
-    "brand": null,
-    "operator": "Ituran Cellular Communications",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "14",
-    "brand": "Youphone",
-    "operator": "Alon Cellular Ltd.",
-    "status": "Operational",
-    "bands": "MVNO",
-    "notes": "MVNO (Partner)"
   },
   {
     "type": "National",
@@ -11898,7 +11838,7 @@
     "mcc": "425",
     "mnc": "16",
     "brand": "Rami Levy",
-    "operator": "Rami Levy Communications Ltd.",
+    "operator": "Rami Levy Hashikma Marketing",
     "status": "Operational",
     "bands": "MVNO",
     "notes": "MVNO (Pelephone)"
@@ -11908,20 +11848,8 @@
     "countryName": "Israel",
     "countryCode": "IL",
     "mcc": "425",
-    "mnc": "17",
-    "brand": "Sipme",
-    "operator": "Gale Phone",
-    "status": "Unknown",
-    "bands": "MVNO",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
     "mnc": "18",
-    "brand": "Cellact Communications",
+    "brand": "Cellact",
     "operator": "Cellact Communications Ltd.",
     "status": "Operational",
     "bands": "MVNO",
@@ -11933,56 +11861,8 @@
     "countryCode": "IL",
     "mcc": "425",
     "mnc": "19",
-    "brand": "Telzar 019",
+    "brand": "019 Telzar",
     "operator": "Azi Communications Ltd.",
-    "status": "Operational",
-    "bands": "MVNO",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "20",
-    "brand": "Bezeq",
-    "operator": "Bezeq The Israeli Telecommunication Corp Ltd.",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "21",
-    "brand": "Bezeq International",
-    "operator": "B.I.P. Communications Ltd.",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "23",
-    "brand": null,
-    "operator": "Beezz Communication Solutions Ltd.",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "24",
-    "brand": "012 Telecom",
-    "operator": "Partner Communications Company Ltd.",
     "status": "Operational",
     "bands": "MVNO",
     "notes": "MVNO (Partner)"
@@ -11995,21 +11875,9 @@
     "mnc": "25",
     "brand": "IMOD",
     "operator": "Israel Ministry of Defense",
-    "status": "Not operational",
+    "status": "Unknown",
     "bands": "LTE",
     "notes": "launching in 2016"
-  },
-  {
-    "type": "National",
-    "countryName": "Israel",
-    "countryCode": "IL",
-    "mcc": "425",
-    "mnc": "28",
-    "brand": null,
-    "operator": "PHI Networks",
-    "status": "Unknown",
-    "bands": "LTE 1800",
-    "notes": "Joint venture between Partner Communications Company and Hot Mobile"
   },
   {
     "type": "National",
@@ -20360,8 +20228,8 @@
     "brand": "Net 1",
     "operator": "Netett Sverige AB",
     "status": "Operational",
-    "bands": "CDMA 450",
-    "notes": "Former Ice.net; change to LTE 450 planned"
+    "bands": "LTE 450",
+    "notes": "Former Ice.net; CDMA 450 shut down"
   },
   {
     "type": "National",
@@ -20888,8 +20756,8 @@
     "brand": "Swisscom",
     "operator": "Swisscom Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600",
+    "notes": "GSM shutdown planned for 2020"
   },
   {
     "type": "National",
@@ -23129,11 +22997,11 @@
     "countryCode": "US",
     "mcc": "310",
     "mnc": "016",
-    "brand": "Cricket Wireless",
-    "operator": "Cricket Communications",
+    "brand": "AT&T",
+    "operator": "AT&T Mobility",
     "status": "Not operational",
     "bands": "CDMA2000 1900 / CDMA2000 1700",
-    "notes": "Shut down in September 2015"
+    "notes": "Former Cricket Wireless; shut down in September 2015"
   },
   {
     "type": "National",
@@ -23321,11 +23189,11 @@
     "countryCode": "US",
     "mcc": "310",
     "mnc": "090",
-    "brand": "Cricket Wireless",
-    "operator": "Cricket Communications",
+    "brand": "AT&T",
+    "operator": "AT&T Mobility",
     "status": "Operational",
     "bands": "GSM 1900",
-    "notes": "Former Edge Wireless, Cingular"
+    "notes": "Former Edge Wireless, Cingular, Cricket Wireless"
   },
   {
     "type": "National",
@@ -23397,7 +23265,7 @@
     "operator": "AT&T Mobility",
     "status": "Operational",
     "bands": "GSM 850 / UMTS 850 / UMTS 1900",
-    "notes": "Originally BellSouth Mobility DCS, then Cingular Wireless, then Aio Wireless, then rebranded as the new GSM Cricket"
+    "notes": "Originally BellSouth Mobility DCS, then Cingular Wireless, then Aio Wireless, then rebranded as the new GSM Cricket Wireless"
   },
   {
     "type": "National",
@@ -23789,11 +23657,11 @@
     "countryCode": "US",
     "mcc": "310",
     "mnc": "470",
-    "brand": "nTelos",
-    "operator": "nTelos Communications, Inc.",
+    "brand": "Shentel",
+    "operator": "Shenandoah Telecommunications Company",
     "status": "Operational",
     "bands": "CDMA2000 1900",
-    "notes": "Note that 310-470 may also be in use by Docomo Pacific"
+    "notes": "Former nTelos; note that 310-470 may also be in use by Docomo Pacific"
   },
   {
     "type": "National",
@@ -24113,11 +23981,11 @@
     "countryCode": "US",
     "mcc": "310",
     "mnc": "740",
-    "brand": null,
-    "operator": "Green Eagle Communications, Inc.",
+    "brand": "Viaero",
+    "operator": "Viaero Wireless",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": "Former Telemetrix Technologies, Convey Communications Inc."
+    "notes": "Former Telemetrix Technologies, Convey Communications Inc., Green Eagle Communications, Inc."
   },
   {
     "type": "National",
@@ -24221,11 +24089,11 @@
     "countryCode": "US",
     "mcc": "310",
     "mnc": "830",
-    "brand": null,
-    "operator": "Clearwire Corporation",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": "Former Caprock Cellular (GSM, sold to AT&T in 2010)"
+    "brand": "Sprint",
+    "operator": "Sprint Corporation",
+    "status": "Not operational",
+    "bands": "WiMAX",
+    "notes": "Former Caprock Cellular (GSM, sold to AT&T in 2010), Clearwire"
   },
   {
     "type": "National",
@@ -24248,8 +24116,8 @@
     "brand": "Aeris",
     "operator": "Aeris Communications, Inc.",
     "status": "Operational",
-    "bands": "CDMA",
-    "notes": "M2M only, Not an MVNO"
+    "bands": "MVNO",
+    "notes": "M2M only; is a Full MVNO despite marketing claims to the contrary"
   },
   {
     "type": "National",
@@ -24271,8 +24139,8 @@
     "mnc": "870",
     "brand": "PACE",
     "operator": "Kaplan Telephone Company",
-    "status": "Operational",
-    "bands": "MVNO",
+    "status": "Not operational",
+    "bands": "GSM 850",
     "notes": "Louisiana; spectrum sold to AT&T in 2014"
   },
   {
@@ -24509,11 +24377,11 @@
     "countryCode": "US",
     "mcc": "311",
     "mnc": "060",
-    "brand": "Farmers Cellular",
-    "operator": "Farmers Cellular Telephone",
+    "brand": null,
+    "operator": "Space Data Corporation",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900",
-    "notes": null
+    "bands": "Unknown",
+    "notes": "Former Farmers Cellular Telephone Inc."
   },
   {
     "type": "National",
@@ -24521,11 +24389,11 @@
     "countryCode": "US",
     "mcc": "311",
     "mnc": "070",
-    "brand": "Easterbrooke",
-    "operator": "Easterbrooke Cellular Corporation",
+    "brand": "AT&T",
+    "operator": "AT&T Mobility",
     "status": "Operational",
     "bands": "GSM 850",
-    "notes": null
+    "notes": "Former Easterbrooke Cellular Corporation, Element Mobile"
   },
   {
     "type": "National",
@@ -24549,7 +24417,7 @@
     "operator": "AT&T Mobility",
     "status": "Operational",
     "bands": "GSM 1900",
-    "notes": "Former Long Lines Wireless, acquired Dec. 2013"
+    "notes": "Former Siouxland PCS, Long Lines Wireless, acquired by AT&T Dec. 2013"
   },
   {
     "type": "National",
@@ -25592,7 +25460,7 @@
     "brand": "UMS",
     "operator": "Universal Mobile Systems",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800",
     "notes": null
   },
   {
@@ -25604,8 +25472,8 @@
     "brand": "UzMobile",
     "operator": "Uzbektelekom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "notes": "LTE 1800 planned"
   },
   {
     "type": "National",
@@ -26145,7 +26013,7 @@
     "operator": "Jasper Systems",
     "status": "Operational",
     "bands": "Unknown",
-    "notes": "Global SIM [11]"
+    "notes": "Global SIM"
   },
   {
     "type": "International",
@@ -26169,7 +26037,7 @@
     "operator": "AT&T Mobility",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1900 / CDMA2000 1900 / UMTS 1900",
-    "notes": "Maritime [12]"
+    "notes": "Maritime"
   },
   {
     "type": "International",
