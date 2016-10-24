@@ -154,6 +154,11 @@ function cleanup(str) {
     // remove brackets-only like [7]
     str = '';
   }
+  if (str.substr(0, 1) != '[' && str.substr(-1) === ']') {
+    // remove postfix references like ...[7]
+    let index = str.lastIndexOf('[');
+    str = str.substr(0, index - 1).trim();
+  }
   return str.length ? str : null;
 }
 
