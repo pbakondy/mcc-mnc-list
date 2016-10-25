@@ -11742,10 +11742,10 @@
     "mcc": "425",
     "mnc": "01",
     "brand": "Partner",
-    "operator": "Partner Communications Company",
+    "operator": "Partner Communications Company Ltd.",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
-    "notes": "Former Orange Israel (until 2016)"
+    "notes": "Former Orange (until 2016)"
   },
   {
     "type": "National",
@@ -11776,6 +11776,18 @@
     "countryName": "Israel",
     "countryCode": "IL",
     "mcc": "425",
+    "mnc": "04",
+    "brand": null,
+    "operator": "Globalsim Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
     "mnc": "05",
     "brand": "Jawwal",
     "operator": "Palestine Cellular Communications Ltd.",
@@ -11790,7 +11802,7 @@
     "mcc": "425",
     "mnc": "06",
     "brand": "Wataniya Mobile",
-    "operator": "Wataniya Palestine Ltd.",
+    "operator": "Wataniya Palestine Ltd. (Ooredoo)",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
     "notes": "Covering the Palestinian territories"
@@ -11804,8 +11816,8 @@
     "brand": "Hot Mobile",
     "operator": "Hot Mobile Ltd.",
     "status": "Operational",
-    "bands": "iDEN 800 / UMTS 2100 / LTE 1800",
-    "notes": "Former Mirs; uses Pelephone network for roaming"
+    "bands": "iDEN 800 / UMTS 2100",
+    "notes": "Former Mirs Communications; uses Pelephone network for roaming"
   },
   {
     "type": "National",
@@ -11816,8 +11828,56 @@
     "brand": "Golan Telecom",
     "operator": "Golan Telecom Ltd",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 1800",
+    "bands": "UMTS 2100 / LTE 1800",
     "notes": "Uses Cellcom network for roaming"
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "11",
+    "brand": null,
+    "operator": "365 Telecom",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "12",
+    "brand": null,
+    "operator": "Free Telecom",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "13",
+    "brand": null,
+    "operator": "Ituran Cellular Communications",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "14",
+    "brand": "Youphone",
+    "operator": "Alon Cellular Ltd.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "MVNO (Partner)"
   },
   {
     "type": "National",
@@ -11838,7 +11898,7 @@
     "mcc": "425",
     "mnc": "16",
     "brand": "Rami Levy",
-    "operator": "Rami Levy Hashikma Marketing",
+    "operator": "Rami Levy Communications Ltd.",
     "status": "Operational",
     "bands": "MVNO",
     "notes": "MVNO (Pelephone)"
@@ -11848,8 +11908,20 @@
     "countryName": "Israel",
     "countryCode": "IL",
     "mcc": "425",
+    "mnc": "17",
+    "brand": "Sipme",
+    "operator": "Gale Phone",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
     "mnc": "18",
-    "brand": "Cellact",
+    "brand": "Cellact Communications",
     "operator": "Cellact Communications Ltd.",
     "status": "Operational",
     "bands": "MVNO",
@@ -11861,8 +11933,56 @@
     "countryCode": "IL",
     "mcc": "425",
     "mnc": "19",
-    "brand": "019 Telzar",
+    "brand": "Telzar 019",
     "operator": "Azi Communications Ltd.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "20",
+    "brand": "Bezeq",
+    "operator": "Bezeq The Israeli Telecommunication Corp Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "21",
+    "brand": "Bezeq International",
+    "operator": "B.I.P. Communications Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "23",
+    "brand": null,
+    "operator": "Beezz Communication Solutions Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "24",
+    "brand": "012 Telecom",
+    "operator": "Partner Communications Company Ltd.",
     "status": "Operational",
     "bands": "MVNO",
     "notes": "MVNO (Partner)"
@@ -11875,9 +11995,21 @@
     "mnc": "25",
     "brand": "IMOD",
     "operator": "Israel Ministry of Defense",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "LTE",
     "notes": "launching in 2016"
+  },
+  {
+    "type": "National",
+    "countryName": "Israel",
+    "countryCode": "IL",
+    "mcc": "425",
+    "mnc": "28",
+    "brand": null,
+    "operator": "PHI Networks",
+    "status": "Unknown",
+    "bands": "LTE 1800",
+    "notes": "Joint venture between Partner Communications Company and Hot Mobile"
   },
   {
     "type": "National",
@@ -23983,8 +24115,8 @@
     "mnc": "740",
     "brand": "Viaero",
     "operator": "Viaero Wireless",
-    "status": "Unknown",
-    "bands": "Unknown",
+    "status": "Operational",
+    "bands": "LTE 700 / LTE 1700 / LTE 1900",
     "notes": "Former Telemetrix Technologies, Convey Communications Inc., Green Eagle Communications, Inc."
   },
   {
@@ -24393,7 +24525,7 @@
     "operator": "AT&T Mobility",
     "status": "Operational",
     "bands": "GSM 850",
-    "notes": "Former Easterbrooke Cellular Corporation, Element Mobile"
+    "notes": "Former Easterbrooke Cellular Corporation, Wisconsin RSA #7 Limited Partnership"
   },
   {
     "type": "National",
@@ -24405,7 +24537,7 @@
     "operator": "Pine Telephone Company",
     "status": "Operational",
     "bands": "GSM 850 / LTE",
-    "notes": null
+    "notes": "Oklahoma"
   },
   {
     "type": "National",
@@ -24426,10 +24558,10 @@
     "mcc": "311",
     "mnc": "100",
     "brand": null,
-    "operator": "High Plains Wireless",
+    "operator": "Nex-Tech Wireless",
     "status": "Operational",
-    "bands": "GSM 1900",
-    "notes": null
+    "bands": "CDMA2000",
+    "notes": "Former High Plains Wireless L.P."
   },
   {
     "type": "National",
@@ -24437,11 +24569,11 @@
     "countryCode": "US",
     "mcc": "311",
     "mnc": "110",
-    "brand": null,
-    "operator": "High Plains Wireless",
-    "status": "Operational",
-    "bands": "GSM 1900",
-    "notes": null
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former High Plains Wireless L.P., Alltel"
   },
   {
     "type": "National",
@@ -24462,10 +24594,10 @@
     "mcc": "311",
     "mnc": "130",
     "brand": null,
-    "operator": "Cell One Amarillo",
-    "status": "Operational",
-    "bands": "GSM 850",
-    "notes": null
+    "operator": "Lightsquared L.P.",
+    "status": "Not operational",
+    "bands": "LTE",
+    "notes": "Former Cell One Amarillo (Amarillo License L.P.)"
   },
   {
     "type": "National",
@@ -24489,7 +24621,7 @@
     "operator": "Wilkes Cellular",
     "status": "Operational",
     "bands": "GSM 850",
-    "notes": null
+    "notes": "Georgia"
   },
   {
     "type": "National",
@@ -24498,10 +24630,10 @@
     "mcc": "311",
     "mnc": "160",
     "brand": null,
-    "operator": "Endless Mountains Wireless",
-    "status": "Operational",
-    "bands": "Unknown",
-    "notes": null
+    "operator": "Lightsquared L.P.",
+    "status": "Not operational",
+    "bands": "LTE",
+    "notes": "Former Endless Mountains Wireless (aquired by Dobson Cellular in 2005)"
   },
   {
     "type": "National",
@@ -24509,11 +24641,11 @@
     "countryCode": "US",
     "mcc": "311",
     "mnc": "170",
-    "brand": "PetroCom",
-    "operator": "Broadpoint Inc",
+    "brand": null,
+    "operator": "Broadpoint Inc.",
     "status": "Operational",
     "bands": "GSM 850",
-    "notes": "Maritime"
+    "notes": "Gulf of Mexico; former PetroCom"
   },
   {
     "type": "National",
@@ -24521,11 +24653,11 @@
     "countryCode": "US",
     "mcc": "311",
     "mnc": "180",
-    "brand": null,
-    "operator": "Cingular Wireless",
+    "brand": "AT&T",
+    "operator": "AT&T Mobility",
     "status": "Not operational",
     "bands": "GSM 850 / UMTS 850 / UMTS 1900",
-    "notes": null
+    "notes": "Former Pacific Telesis, Cingular Wireless"
   },
   {
     "type": "National",
@@ -24533,8 +24665,20 @@
     "countryCode": "US",
     "mcc": "311",
     "mnc": "190",
+    "brand": "AT&T",
+    "operator": "AT&T Mobility",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Cellular Properties Inc."
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "200",
     "brand": null,
-    "operator": "Cellular Properties",
+    "operator": "ARINC",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -24547,9 +24691,9 @@
     "mnc": "210",
     "brand": null,
     "operator": "Emery Telcom Wireless",
-    "status": "Operational",
-    "bands": "GSM 1900 / UMTS 2100",
-    "notes": "Formerly Farmers Cellular"
+    "status": "Not operational",
+    "bands": "GSM 1900",
+    "notes": "Former Farmers Cellular Telephone"
   },
   {
     "type": "National",
@@ -24580,12 +24724,276 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "240",
+    "brand": null,
+    "operator": "Cordova Wireless",
+    "status": "Operational",
+    "bands": "GSM / UMTS 850 / WiMAX",
+    "notes": "Alaska"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "250",
     "brand": "iConnect",
     "operator": "Wave Runner LLC",
     "status": "Operational",
     "bands": "Unknown",
     "notes": "Guam"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "260",
+    "brand": "Sprint",
+    "operator": "Sprint Corporation",
+    "status": "Not operational",
+    "bands": "WiMAX",
+    "notes": "Former CellularOne of San Luis Obispo (sold to AT&T in 2010, Clearwire"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "270",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "271",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "272",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "273",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "274",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "275",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "276",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "277",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "278",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "279",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "280",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "281",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "282",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "283",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "284",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "285",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "286",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "287",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "288",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "289",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
