@@ -8,7 +8,7 @@
     "brand": "TEST",
     "operator": "Test Network",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "dtac / dtac",
     "notes": "Used by GSM test equipment"
   },
   {
@@ -24488,7 +24488,7 @@
     "brand": "Choice Wireless",
     "operator": "Commnet Wireless",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900",
+    "bands": "GSM 850 / GSM 1900 / CDMA 2000 / UMTS",
     "notes": null
   },
   {
@@ -25000,12 +25000,84 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "290",
+    "brand": "BLAZE",
+    "operator": "PinPoint Communications Inc.",
+    "status": "Operational",
+    "bands": "GSM 1900 / UMTS / LTE",
+    "notes": "Nebraska"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "300",
+    "brand": null,
+    "operator": "Nexus Communications, Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Rutal Cellular Corporation"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "310",
+    "brand": "NMobile",
+    "operator": "Leaco Rural Telephone Company Inc.",
+    "status": "Operational",
+    "bands": "CDMA2000",
+    "notes": "New Mexico"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "320",
+    "brand": "Choice Wireless",
+    "operator": "Commnet Wireless",
+    "status": "Operational",
+    "bands": "GSM 850 / GSM 1900 / CDMA 2000 / UMTS",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "330",
     "brand": "Bug Tussel Wireless",
-    "operator": "Bug Tussel Wireless",
+    "operator": "Bug Tussel Wireless LLC",
     "status": "Operational",
-    "bands": "Unknown",
-    "notes": null
+    "bands": "GSM 1900",
+    "notes": "Wisconsin"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "340",
+    "brand": null,
+    "operator": "Illinois Valley Cellular",
+    "status": "Operational",
+    "bands": "CDMA2000 / LTE 850",
+    "notes": "Illinois"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "350",
+    "brand": "Nemont",
+    "operator": "Sagebrush Cellular, Inc.",
+    "status": "Operational",
+    "bands": "CDMA2000",
+    "notes": "Former Torrestar Networks Inc.; Montana"
   },
   {
     "type": "National",
@@ -25036,11 +25108,47 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "380",
+    "brand": null,
+    "operator": "New Dimension Wireless Ltd.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "390",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Midwest Wireless Holdings LLC, Alltel"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "400",
+    "brand": null,
+    "operator": null,
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Salmon PCS LLC, New Cingular Wireless PCS LLC; for testing"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "410",
     "brand": "Chat Mobility",
     "operator": "Iowa RSA No. 2 LP",
     "status": "Operational",
-    "bands": "LTE 700",
+    "bands": "CDMA",
     "notes": "Iowa"
   },
   {
@@ -25132,6 +25240,18 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "550",
+    "brand": "Choice Wireless",
+    "operator": "Commnet Midwest LLC",
+    "status": "Operational",
+    "bands": "GSM 850 / GSM 1900 / CDMA 2000 / UMTS",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "570",
     "brand": null,
     "operator": "BendBroadband",
@@ -25198,6 +25318,18 @@
     "status": "Operational",
     "bands": "CDMA2000 1900 / CDMA 2000 1700 / LTE 1700",
     "notes": "1X EV-DO Rev.A in approx. 33% CDMA 1900 Markets. Merged with T-Mobile USA forming T-Mobile US."
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "680",
+    "brand": null,
+    "operator": "GreenFly LLC",
+    "status": "Unknown",
+    "bands": "GSM 1900",
+    "notes": "Iowa"
   },
   {
     "type": "National",
@@ -25432,6 +25564,18 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "170",
+    "brand": "Chat Mobility",
+    "operator": "Iowa RSA No. 2 LP",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "Iowa"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "180",
     "brand": null,
     "operator": "Limiteless Mobile LLC",
@@ -25494,10 +25638,10 @@
     "mcc": "312",
     "mnc": "330",
     "brand": "Nemont",
-    "operator": "Sagebrush Cellular",
+    "operator": "Nemont Communications, Inc.",
     "status": "Operational",
     "bands": "LTE 700",
-    "notes": null
+    "notes": "Montana"
   },
   {
     "type": "National",
@@ -25529,8 +25673,8 @@
     "countryCode": "US",
     "mcc": "312",
     "mnc": "370",
-    "brand": null,
-    "operator": "Choice Wireless",
+    "brand": "Choice Wireless",
+    "operator": "Commnet Wireless",
     "status": "Operational",
     "bands": "LTE",
     "notes": null
@@ -25600,6 +25744,18 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "480",
+    "brand": "Nemont",
+    "operator": "Sagebrush Cellular, Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "530",
     "brand": null,
     "operator": "Sprint Spectrum",
@@ -25618,6 +25774,18 @@
     "status": "Operational",
     "bands": "LTE 2600",
     "notes": "EBS Band (LTE band 7)"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "600",
+    "brand": "Nemont",
+    "operator": "Sagebrush Cellular, Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
