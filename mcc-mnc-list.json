@@ -8,7 +8,7 @@
     "brand": "TEST",
     "operator": "Test Network",
     "status": "Operational",
-    "bands": "dtac / dtac",
+    "bands": "GSM 900 / GSM 1800",
     "notes": "Used by GSM test equipment"
   },
   {
@@ -25160,8 +25160,32 @@
     "brand": "NorthwestCell",
     "operator": "Northwest Missouri Cellular LP",
     "status": "Operational",
-    "bands": "CDMA / LTE 700",
-    "notes": null
+    "bands": "CDMA",
+    "notes": "Missouri"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "430",
+    "brand": "Chat Mobility",
+    "operator": "RSA 1 LP",
+    "status": "Unknown",
+    "bands": "CDMA",
+    "notes": "Former Cellular 29 Plus; acquired by Chat Mobility in 2009; Iowa"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "440",
+    "brand": null,
+    "operator": "Bluegrass Cellular LLC",
+    "status": "Operational",
+    "bands": "CDMA",
+    "notes": "Kentucky"
   },
   {
     "type": "National",
@@ -25180,6 +25204,30 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "460",
+    "brand": null,
+    "operator": "Fisher Wireless Services Inc.",
+    "status": "Operational",
+    "bands": "DMR",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "470",
+    "brand": "Innovative Wireless",
+    "operator": "Vitelcom Cellular Inc.",
+    "status": "Operational",
+    "bands": "GSM 850 / GSM 1900",
+    "notes": "US Virgin Islands"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "480",
     "brand": "Verizon",
     "operator": "Verizon Wireless",
@@ -25192,12 +25240,108 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
-    "mnc": "481 - 489",
+    "mnc": "481",
     "brand": "Verizon",
     "operator": "Verizon Wireless",
     "status": "Not operational",
     "bands": "LTE 700",
-    "notes": "C Block for future use."
+    "notes": "C Block for future use"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "482",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "C Block for future use"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "483",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "C Block for future use"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "484",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "C Block for future use"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "485",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "C Block for future use"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "486",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "C Block for future use"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "487",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "C Block for future use"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "488",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "C Block for future use"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "489",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "C Block for future use"
   },
   {
     "type": "National",
@@ -25209,7 +25353,7 @@
     "operator": "Sprint",
     "status": "Operational",
     "bands": "LTE 850 / LTE 1900 / TD-LTE 2500",
-    "notes": "LTE bands 25, 26, 41"
+    "notes": "Former Wirefree Partners LLC, acquired by Sprint in 2010; LTE bands 25, 26, 41"
   },
   {
     "type": "National",
@@ -25219,9 +25363,33 @@
     "mnc": "500",
     "brand": null,
     "operator": "Mosaic Telecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "UMTS / LTE 700 / LTE 1700",
-    "notes": null
+    "notes": "Former CTC Telecom Inc.; discontinued cellular service in 2016"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "510",
+    "brand": null,
+    "operator": "Lightsquared L.P.",
+    "status": "Not operational",
+    "bands": "LTE",
+    "notes": "Former Benton-Lian Wireless"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "520",
+    "brand": null,
+    "operator": "Lightsquared L.P.",
+    "status": "Not operational",
+    "bands": "LTE",
+    "notes": "Former Crossroads Wireless Inc."
   },
   {
     "type": "National",
@@ -25232,8 +25400,20 @@
     "brand": "NewCore",
     "operator": "NewCore Wireless LLC",
     "status": "Operational",
-    "bands": "GSM 1900",
-    "notes": null
+    "bands": "LTE 1900",
+    "notes": "Former Wireless Communications Venture"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "540",
+    "brand": null,
+    "operator": "Proximiti Mobility Inc.",
+    "status": "Unknown",
+    "bands": "GSM 850",
+    "notes": "Former Keystone Wireless Inc."
   },
   {
     "type": "National",
@@ -25336,6 +25516,18 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "730",
+    "brand": null,
+    "operator": "Proximiti Mobility Inc.",
+    "status": "Unknown",
+    "bands": "GSM 850",
+    "notes": "Former Keystone Wireless Inc."
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "750",
     "brand": null,
     "operator": "NetAmerica Alliance",
@@ -25360,12 +25552,24 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
-    "mnc": "810",
-    "brand": "Bluegrass Wireless",
-    "operator": "Bluegrass Wireless",
+    "mnc": "800",
+    "brand": null,
+    "operator": "Bluegrass Cellular LLC",
     "status": "Operational",
-    "bands": "CDMA / LTE 700",
-    "notes": null
+    "bands": "LTE 700",
+    "notes": "Kentucky"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "810",
+    "brand": null,
+    "operator": "Bluegrass Cellular LLC",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "Kentucky"
   },
   {
     "type": "National",
@@ -25558,6 +25762,18 @@
     "status": "Operational",
     "bands": "LTE 700",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "150",
+    "brand": "NorthwestCell",
+    "operator": "Northwest Missouri Cellular LP",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "Missouri"
   },
   {
     "type": "National",
