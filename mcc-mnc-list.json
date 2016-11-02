@@ -964,6 +964,18 @@
     "countryName": "Australia",
     "countryCode": "AU",
     "mcc": "505",
+    "mnc": "39",
+    "brand": "Telstra",
+    "operator": "Telstra Corporation Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "mcc": "505",
     "mnc": "62",
     "brand": "NBN",
     "operator": "National Broadband Network Co.",
@@ -1568,7 +1580,7 @@
     "brand": "Digicel",
     "operator": "Digicel (Barbados) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -4253,9 +4265,21 @@
     "countryCode": "KM",
     "mcc": "654",
     "mnc": "01",
-    "brand": "Comoros Telecom",
-    "operator": "HURI - SNPT",
+    "brand": "HURI",
+    "operator": "Comoros Telecom",
     "status": "Operational",
+    "bands": "GSM 900",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Comoros",
+    "countryCode": "KM",
+    "mcc": "654",
+    "mnc": "02",
+    "brand": "TELCO SA",
+    "operator": "Telecom Malagasy (Telma)",
+    "status": "Unknown",
     "bands": "Unknown",
     "notes": null
   },
@@ -16109,10 +16133,10 @@
     "countryCode": "NO",
     "mcc": "242",
     "mnc": "03",
-    "brand": "Teletopia",
-    "operator": "Teletopia Gruppen AS",
-    "status": "Not operational",
-    "bands": null,
+    "brand": null,
+    "operator": "Televerket AS",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -16123,9 +16147,9 @@
     "mnc": "04",
     "brand": "Tele2",
     "operator": "Tele2 (Mobile Norway AS)",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": "MVNO in Network Norway's network"
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -16133,8 +16157,8 @@
     "countryCode": "NO",
     "mcc": "242",
     "mnc": "05",
-    "brand": "Network Norway",
-    "operator": "ICE Communication Norge AS",
+    "brand": "Telia",
+    "operator": "TeliaSonera Norge AS",
     "status": "Not operational",
     "bands": "GSM 900 / UMTS 900 / UMTS 2100",
     "notes": "Former Tele2"
@@ -16194,7 +16218,7 @@
     "mcc": "242",
     "mnc": "10",
     "brand": null,
-    "operator": "Nasjonal kommunikasjonsmyndighet",
+    "operator": "Norwegian Communications Authority",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -16264,6 +16288,18 @@
     "countryName": "Norway",
     "countryCode": "NO",
     "mcc": "242",
+    "mnc": "22",
+    "brand": null,
+    "operator": "Network Norway AS",
+    "status": "Not operational",
+    "bands": "Unknown",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "Norway",
+    "countryCode": "NO",
+    "mcc": "242",
     "mnc": "23",
     "brand": "Lycamobile",
     "operator": "Lyca Mobile Ltd",
@@ -16279,9 +16315,9 @@
     "mnc": "24",
     "brand": null,
     "operator": "Mobile Norway AS",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -16294,6 +16330,18 @@
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Norway",
+    "countryCode": "NO",
+    "mcc": "242",
+    "mnc": "99",
+    "brand": null,
+    "operator": "TampNet AS",
+    "status": "Operational",
+    "bands": "LTE",
+    "notes": "Offshore"
   },
   {
     "type": "National",
@@ -19581,6 +19629,18 @@
     "operator": "South African Police Service",
     "status": "Unknown",
     "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "South Africa",
+    "countryCode": "ZA",
+    "mcc": "655",
+    "mnc": "46",
+    "brand": null,
+    "operator": "SMS Cellular Services (Pty) Ltd",
+    "status": "Operational",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -23948,8 +24008,8 @@
     "brand": "Cellcom",
     "operator": "New-Cell Inc.",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 1900 / LTE 700",
-    "notes": "Michigan, Wisconsin"
+    "bands": "CDMA2000 850 / CDMA2000 1900",
+    "notes": "Wisconsin"
   },
   {
     "type": "National",
@@ -24380,7 +24440,7 @@
     "brand": "STRATA",
     "operator": "UBET Wireless",
     "status": "Operational",
-    "bands": "CDMA / LTE 700",
+    "bands": "CDMA",
     "notes": "Utah"
   },
   {
@@ -25432,9 +25492,21 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "560",
+    "brand": "OTZ Cellular",
+    "operator": "OTZ Communications, Inc.",
+    "status": "Operational",
+    "bands": "GSM 850",
+    "notes": "Alaska"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "570",
-    "brand": null,
-    "operator": "BendBroadband",
+    "brand": "BendBroadband",
+    "operator": "Bend Cable Communications LLC",
     "status": "Not operational",
     "bands": "UMTS 1700 / LTE 1700",
     "notes": "shut down 25-July-2014"
@@ -25449,6 +25521,54 @@
     "operator": "U.S. Cellular",
     "status": "Operational",
     "bands": "LTE 700 / LTE 850",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "590",
+    "brand": "Verizon",
+    "operator": "Verizon Wireless",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former California RSA No3 Ltd Partnership d/b/a Golden State Cellular, acquired by Verizon in 2014"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "600",
+    "brand": "Cox Wireless",
+    "operator": "Cox TMI Wireless LLC",
+    "status": "Not operational",
+    "bands": "CDMA",
+    "notes": "Shut down in 2012"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "610",
+    "brand": "SRT Communications",
+    "operator": "North Dakota Network Co.",
+    "status": "Operational",
+    "bands": "CDMA",
+    "notes": "North Dakota"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "620",
+    "brand": null,
+    "operator": "TerreStar Networks, Inc.",
+    "status": "Not operational",
+    "bands": "satellite",
     "notes": null
   },
   {
@@ -25494,10 +25614,22 @@
     "mcc": "311",
     "mnc": "660",
     "brand": "metroPCS",
-    "operator": "metroPCS",
+    "operator": "MetroPCS Wireless Inc.",
     "status": "Operational",
-    "bands": "CDMA2000 1900 / CDMA 2000 1700 / LTE 1700",
-    "notes": "1X EV-DO Rev.A in approx. 33% CDMA 1900 Markets. Merged with T-Mobile USA forming T-Mobile US."
+    "bands": "MVNO",
+    "notes": "CDMA2000 1900 / CDMA2000 1700 shut down in 2015; LTE 1700 merged with T-Mobile US"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "670",
+    "brand": "Pine Belt Wireless",
+    "operator": "Pine Belt Cellular Inc.",
+    "status": "Operational",
+    "bands": "CDMA",
+    "notes": "Alabama"
   },
   {
     "type": "National",
@@ -25516,6 +25648,54 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "690",
+    "brand": null,
+    "operator": "TeleBEEPER of New Mexico",
+    "status": "Operational",
+    "bands": "paging",
+    "notes": "New Mexico; 850 MHz band never used"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "700",
+    "brand": null,
+    "operator": "Aspenta International, Inc.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "Former TotalSolutions Telecom LLC"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "710",
+    "brand": null,
+    "operator": "Northeast Wireless Networks LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "720",
+    "brand": null,
+    "operator": "MainePCS LLC",
+    "status": "Not operational",
+    "bands": "GSM 1900",
+    "notes": "Bankrupt in 2009"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "730",
     "brand": null,
     "operator": "Proximiti Mobility Inc.",
@@ -25528,12 +25708,60 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
-    "mnc": "750",
+    "mnc": "740",
     "brand": null,
-    "operator": "NetAmerica Alliance",
+    "operator": "Telalaska Cellular",
     "status": "Operational",
-    "bands": "LTE",
+    "bands": "GSM 850",
+    "notes": "Alaska"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "750",
+    "brand": "ClearTalk",
+    "operator": "Flat Wireless LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former NetAmerica Alliance"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "760",
+    "brand": null,
+    "operator": "Edigen Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "770",
+    "brand": null,
+    "operator": "Altiostar Networks, Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Geneseo Communications Services Inc., Radio Mobile Access Inc."
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "780",
+    "brand": "Pioneer Cellular",
+    "operator": "Cellular Network Partnership",
+    "status": "Not operational",
+    "bands": "Unknown",
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -25545,7 +25773,7 @@
     "operator": "Coleman County Telephone Cooperative, Inc.",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": null
+    "notes": "Former Cellular Network Partnership d/b/a Pioneer Cellular"
   },
   {
     "type": "National",
@@ -25576,12 +25804,60 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "820",
+    "brand": null,
+    "operator": "Sonus Networks",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Kineto Wireless Inc."
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "830",
     "brand": null,
     "operator": "Thumb Cellular LP",
     "status": "Operational",
     "bands": "LTE 700",
     "notes": "Michigan"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "840",
+    "brand": "Cellcom",
+    "operator": "Nsight Spectrum LLC",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "Wisconsin"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "850",
+    "brand": "Cellcom",
+    "operator": "Nsight Spectrum LLC",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "Wisconsin"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "860",
+    "brand": "STRATA",
+    "operator": "Uintah Basin Electronic Telecommunications",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "Utah"
   },
   {
     "type": "National",
@@ -25846,6 +26122,18 @@
     "status": "Operational",
     "bands": "LTE 700",
     "notes": "Oklahoma"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "290",
+    "brand": "STRATA",
+    "operator": "Uintah Basin Electronic Telecommunications",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
@@ -27235,6 +27523,18 @@
     "mnc": "52",
     "brand": null,
     "operator": "Manx Telecom Trading Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "901",
+    "mnc": "53",
+    "brand": null,
+    "operator": "Deutsche Telekom AG",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
