@@ -25865,8 +25865,44 @@
     "countryCode": "US",
     "mcc": "311",
     "mnc": "870",
-    "brand": "Boost",
-    "operator": "Boost Mobile",
+    "brand": "Boost Mobile",
+    "operator": "Sprint Corporation",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "880",
+    "brand": "Sprint",
+    "operator": "Sprint Corporation",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "890",
+    "brand": null,
+    "operator": "Globecomm Network Services Corporation",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "900",
+    "brand": null,
+    "operator": "GigSky",
     "status": "Operational",
     "bands": "MVNO",
     "notes": null
@@ -25880,8 +25916,20 @@
     "brand": "Mobile Nation",
     "operator": "SI Wireless LLC",
     "status": "Operational",
-    "bands": "LTE",
-    "notes": null
+    "bands": "CDMA / LTE",
+    "notes": "Tennessee"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "920",
+    "brand": "Chariton Valley",
+    "operator": "Missouri RSA 5 Partnership",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Missouri"
   },
   {
     "type": "National",
@@ -25891,9 +25939,9 @@
     "mnc": "930",
     "brand": null,
     "operator": "Syringa Wireless",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "LTE 700",
-    "notes": "fixed broadband"
+    "notes": "Former Cablevision Systems Corporation; Idaho; fixed broadband; shut down Dec 2015"
   },
   {
     "type": "National",
@@ -25942,6 +25990,18 @@
     "status": "Operational",
     "bands": "LTE 700 / LTE 1700",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "010",
+    "brand": "Chariton Valley",
+    "operator": "Chariton Valley Communication Corporation, Inc",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Missouri"
   },
   {
     "type": "National",
@@ -26081,8 +26141,8 @@
     "countryCode": "US",
     "mcc": "312",
     "mnc": "220",
-    "brand": null,
-    "operator": "Chariton Valley Telephone",
+    "brand": "Chariton Valley",
+    "operator": "Chariton Valley Communication Corporation, Inc.",
     "status": "Operational",
     "bands": "LTE 700",
     "notes": null
