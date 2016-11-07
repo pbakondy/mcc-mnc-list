@@ -25948,12 +25948,24 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "311",
+    "mnc": "940",
+    "brand": "Sprint",
+    "operator": "Sprint Corporation",
+    "status": "Not operational",
+    "bands": "WiMAX",
+    "notes": "Former Clearwire"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
     "mnc": "950",
     "brand": "ETC",
-    "operator": "Enhanced Telecommmunications Corp. (Sunman Telecom)",
+    "operator": "Enhanced Telecommmunications Corp.",
     "status": "Operational",
-    "bands": "LTE 700",
-    "notes": "fixed broadband"
+    "bands": "CDMA / LTE 700",
+    "notes": "Former Sunman Telecommunications Corp.; Indiana; fixed broadband"
   },
   {
     "type": "National",
@@ -25962,7 +25974,7 @@
     "mcc": "311",
     "mnc": "960",
     "brand": "Lycamobile",
-    "operator": "Lyca Technology Solutions",
+    "operator": "Lycamobile USA Inc.",
     "status": "Operational",
     "bands": "MVNO",
     "notes": "uses T-Mobile"
@@ -25978,6 +25990,18 @@
     "status": "Operational",
     "bands": "LTE 1700",
     "notes": "Utilizing 20 MHz in A block"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "311",
+    "mnc": "980",
+    "brand": null,
+    "operator": "LigTel Communications",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
@@ -26047,9 +26071,21 @@
     "mnc": "050",
     "brand": null,
     "operator": "Fuego Wireless",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "LTE 700",
-    "notes": "fixed broadband"
+    "notes": "fixed broadband; New Mexico; shut down in 2016, spectrum sold to AT&T and Infrastructure Networks"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "060",
+    "brand": null,
+    "operator": "CoverageCo",
+    "status": "Unknown",
+    "bands": "CDMA / GSM",
+    "notes": "Vermont"
   },
   {
     "type": "National",
@@ -26061,7 +26097,7 @@
     "operator": "Adams Networks Inc",
     "status": "Operational",
     "bands": "LTE 700",
-    "notes": "C block fixed broadband"
+    "notes": "C block fixed broadband; Illinois"
   },
   {
     "type": "National",
@@ -26074,6 +26110,42 @@
     "status": "Operational",
     "bands": "UMTS-TDD 700",
     "notes": "LTE 700 planned"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "090",
+    "brand": "AT&T",
+    "operator": "AT&T Mobility",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Allied Wireless"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "100",
+    "brand": null,
+    "operator": "ClearSky Technologies, Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "110",
+    "brand": null,
+    "operator": "Texas Energy Network LLC",
+    "status": "Unknown",
+    "bands": "LTE",
+    "notes": null
   },
   {
     "type": "National",
@@ -26104,12 +26176,36 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "140",
+    "brand": "Revol Wireless",
+    "operator": "Cleveland Unlimited, Inc.",
+    "status": "Not operational",
+    "bands": "CDMA",
+    "notes": "Shut down 2014; acquired by Sprint"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "150",
     "brand": "NorthwestCell",
     "operator": "Northwest Missouri Cellular LP",
     "status": "Operational",
     "bands": "LTE 700",
     "notes": "Missouri"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "160",
+    "brand": "Chat Mobility",
+    "operator": "RSA1 Limited Partnership",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "Iowa"
   },
   {
     "type": "National",
@@ -26133,7 +26229,31 @@
     "operator": "Limiteless Mobile LLC",
     "status": "Unknown",
     "bands": "Unknown",
+    "notes": "Former Keystone Wireless LLC"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "190",
+    "brand": "Sprint",
+    "operator": "Sprint Corporation",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "200",
+    "brand": null,
+    "operator": "Voyager Mobility LLC",
+    "status": "Not operational",
+    "bands": "MVNO",
+    "notes": "Shut down 2015"
   },
   {
     "type": "National",
@@ -26410,6 +26530,18 @@
     "status": "Operational",
     "bands": "CDMA / LTE 1900 / LTE 1700",
     "notes": "Arizona, California"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "910",
+    "brand": "Appalachian Wireless",
+    "operator": "East Kentucky Network, LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
@@ -26756,7 +26888,7 @@
     "brand": "Vinaphone",
     "operator": "Vietnam Telecom Services Company",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 /UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
