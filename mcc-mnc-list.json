@@ -26260,11 +26260,59 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "210",
+    "brand": null,
+    "operator": "Aspenta International, Inc.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "220",
     "brand": "Chariton Valley",
     "operator": "Chariton Valley Communication Corporation, Inc.",
     "status": "Operational",
     "bands": "LTE 700",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "230",
+    "brand": "SRT Communications",
+    "operator": "North Dakota Network Co.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "North Dakota"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "240",
+    "brand": "Sprint",
+    "operator": "Sprint Corporation",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "250",
+    "brand": "Sprint",
+    "operator": "Sprint Corporation",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -26320,6 +26368,42 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "300",
+    "brand": "telna Mobile",
+    "operator": "Telecom North America Mobile, Inc.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "310",
+    "brand": null,
+    "operator": "Clear Stream Communications, LLC",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "North Carolina; owned by Carolina West Wireless, Wilkes Communications"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "320",
+    "brand": null,
+    "operator": "S and R Communications LLC",
+    "status": "Operational",
+    "bands": "LTE 700",
+    "notes": "Indiana"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "330",
     "brand": "Nemont",
     "operator": "Nemont Communications, Inc.",
@@ -26346,10 +26430,10 @@
     "mcc": "312",
     "mnc": "350",
     "brand": null,
-    "operator": "Triangle Communications",
+    "operator": "Triangle Communication Sytem Inc.",
     "status": "Operational",
-    "bands": "LTE",
-    "notes": null
+    "bands": "LTE 700",
+    "notes": "Montana"
   },
   {
     "type": "National",
@@ -26494,6 +26578,18 @@
     "status": "Operational",
     "bands": "LTE 1900",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "730",
+    "brand": null,
+    "operator": "Triangle Communication Sytem Inc.",
+    "status": "Operational",
+    "bands": "CDMA",
+    "notes": "Montana"
   },
   {
     "type": "National",
