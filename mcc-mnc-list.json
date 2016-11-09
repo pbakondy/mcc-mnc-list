@@ -23333,11 +23333,11 @@
     "countryCode": "US",
     "mcc": "310",
     "mnc": "060",
-    "brand": "CTEL",
+    "brand": null,
     "operator": "Consolidated Telcom",
     "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "bands": "1900",
+    "notes": "North Dakota"
   },
   {
     "type": "National",
@@ -24621,7 +24621,7 @@
     "operator": "Nex-Tech Wireless",
     "status": "Operational",
     "bands": "CDMA2000",
-    "notes": "Former High Plains Wireless L.P."
+    "notes": "Kansas; former High Plains Wireless L.P."
   },
   {
     "type": "National",
@@ -25568,7 +25568,7 @@
     "brand": null,
     "operator": "TerreStar Networks, Inc.",
     "status": "Not operational",
-    "bands": "satellite",
+    "bands": "Satellite",
     "notes": null
   },
   {
@@ -26440,6 +26440,18 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "360",
+    "brand": null,
+    "operator": "Wes-Tex Telecommunications, Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Texas"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "370",
     "brand": "Choice Wireless",
     "operator": "Commnet Wireless",
@@ -26464,6 +26476,18 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "390",
+    "brand": "FTC Wireless",
+    "operator": "FTC Communications LLC",
+    "status": "Operational",
+    "bands": "UMTS / LTE",
+    "notes": "South Carolina; owned by Farmers Telephone Cooperative"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "400",
     "brand": "Mid-Rivers Wireless",
     "operator": "Mid-Rivers Telephone Cooperative",
@@ -26476,11 +26500,59 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "410",
+    "brand": null,
+    "operator": "Eltopia Communications, LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "420",
     "brand": null,
     "operator": "Nex-Tech Wireless",
     "status": "Operational",
     "bands": "LTE 700",
+    "notes": "Kansas"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "430",
+    "brand": null,
+    "operator": "Silver Star Communications",
+    "status": "Operational",
+    "bands": "CDMA / LTE 700",
+    "notes": "Wyoming"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "440",
+    "brand": null,
+    "operator": "Consolidated Telcom",
+    "status": "Unknown",
+    "bands": "2500",
+    "notes": "North Dakota"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "450",
+    "brand": null,
+    "operator": "Cable & Communications Corporation",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -26518,6 +26590,30 @@
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "490",
+    "brand": null,
+    "operator": "TrustComm, Inc.",
+    "status": "Unknown",
+    "bands": "Satellite",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "510",
+    "brand": null,
+    "operator": "WUE Inc.",
+    "status": "Unknown",
+    "bands": "CDMA / LTE",
+    "notes": "Nevada"
   },
   {
     "type": "National",
