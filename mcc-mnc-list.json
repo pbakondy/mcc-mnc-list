@@ -26301,7 +26301,7 @@
     "operator": "Sprint Corporation",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": null
+    "notes": "Former Clearwire"
   },
   {
     "type": "National",
@@ -26313,7 +26313,7 @@
     "operator": "Sprint Corporation",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": null
+    "notes": "Former Clearwire"
   },
   {
     "type": "National",
@@ -26608,6 +26608,18 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "500",
+    "brand": null,
+    "operator": "AB Spectrum LLC",
+    "status": "Not operational",
+    "bands": "LTE 700",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "510",
     "brand": null,
     "operator": "WUE Inc.",
@@ -26620,12 +26632,84 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
-    "mnc": "530",
+    "mnc": "520",
     "brand": null,
-    "operator": "Sprint Spectrum",
+    "operator": "ANIN",
+    "status": "Not operational",
+    "bands": "Unknown",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "530",
+    "brand": "Sprint",
+    "operator": "Sprint Corporation",
     "status": "Operational",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "540",
+    "brand": null,
+    "operator": "Broadband In Hand LLC",
+    "status": "Not operational",
+    "bands": "Unknown",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "550",
+    "brand": null,
+    "operator": "Great Plains Communications, Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "560",
+    "brand": null,
+    "operator": "NHLT Inc.",
+    "status": "Not operational",
+    "bands": "MVNO",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "570",
+    "brand": "Blue Wireless",
+    "operator": "Buffalo-Lake Erie Wireless Systems Co., LLC",
+    "status": "Operational",
+    "bands": "CDMA / LTE",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "580",
+    "brand": null,
+    "operator": "Morgan, Lewis & Bockius LLP",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Shuttle Wireless Solutions Inc."
   },
   {
     "type": "National",
@@ -26659,8 +26743,56 @@
     "mnc": "610",
     "brand": "nTelos",
     "operator": "nTelos Licenses, Inc.",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "LTE 1900",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "620",
+    "brand": null,
+    "operator": "GlobeTouch Inc.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "Former Fogg Mobile, Inc."
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "630",
+    "brand": null,
+    "operator": "NetGenuity, Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "640",
+    "brand": "Nemont",
+    "operator": "Sagebrush Cellular, Inc.",
+    "status": "Not operational",
+    "bands": "Unknown",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "650",
+    "brand": null,
+    "operator": "365 Wireless LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -26671,8 +26803,44 @@
     "mnc": "660",
     "brand": "nTelos",
     "operator": "nTelos Wireless",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "LTE 1900",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "670",
+    "brand": "AT&T",
+    "operator": "AT&T Mobility",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "680",
+    "brand": "AT&T",
+    "operator": "AT&T Mobility",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "690",
+    "brand": null,
+    "operator": "Tecore Government Services, LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
