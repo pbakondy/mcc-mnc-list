@@ -976,6 +976,30 @@
     "countryName": "Australia",
     "countryCode": "AU",
     "mcc": "505",
+    "mnc": "40",
+    "brand": null,
+    "operator": "CITIC Pacific Mining",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "mcc": "505",
+    "mnc": "41",
+    "brand": null,
+    "operator": "OTOC Australia Pty Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "mcc": "505",
     "mnc": "62",
     "brand": "NBN",
     "operator": "National Broadband Network Co.",
@@ -4912,6 +4936,18 @@
     "countryName": "Denmark (Kingdom of Denmark)",
     "countryCode": "DK",
     "mcc": "238",
+    "mnc": "14",
+    "brand": null,
+    "operator": "Monty UK Global Limited",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Denmark (Kingdom of Denmark)",
+    "countryCode": "DK",
+    "mcc": "238",
     "mnc": "15",
     "brand": null,
     "operator": "Ice Danmark ApS",
@@ -5469,7 +5505,7 @@
     "operator": "Bravo Telecom",
     "status": "Not operational",
     "bands": "Unknown",
-    "notes": "MNC withdrwan"
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -20164,6 +20200,18 @@
     "countryName": "Spain",
     "countryCode": "ES",
     "mcc": "214",
+    "mnc": "36",
+    "brand": null,
+    "operator": "OPEN CABLE TELECOMUNICACIONES, S.L.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Spain",
+    "countryCode": "ES",
+    "mcc": "214",
     "mnc": "51",
     "brand": "ADIF",
     "operator": "Administrador de Infraestructuras Ferroviarias",
@@ -23203,9 +23251,9 @@
     "mnc": "017",
     "brand": "ProxTel",
     "operator": "North Sight Communications Inc.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "iDEN",
-    "notes": "Puerto Rico"
+    "notes": "Puerto Rico; MNC withdrawn"
   },
   {
     "type": "National",
@@ -23685,7 +23733,7 @@
     "operator": "Allied Wireless Communications Corporation (AWCC)",
     "status": "Not operational",
     "bands": "CDMA",
-    "notes": "Acquired by AT&T, shut down February 2015; former AN Subsidiary LLC"
+    "notes": "Acquired by AT&T, shut down February 2015; former AN Subsidiary LLC; MNC withdrawn"
   },
   {
     "type": "National",
@@ -23697,7 +23745,7 @@
     "operator": "High Plains Midwest LLC",
     "status": "Not operational",
     "bands": "GSM 1900",
-    "notes": "Kansas; Acquired by United Wireless in 2013"
+    "notes": "Kansas; Acquired by United Wireless in 2013; MNC withdrawn"
   },
   {
     "type": "National",
@@ -23793,7 +23841,7 @@
     "operator": "Cincinnati Bell Wireless",
     "status": "Not operational",
     "bands": "GSM 1900 / UMTS 1700",
-    "notes": "Shut down 28 February 2015"
+    "notes": "Shut down 28 February 2015; MNC withdrawn"
   },
   {
     "type": "National",
@@ -23959,9 +24007,9 @@
     "mnc": "560",
     "brand": "AT&T",
     "operator": "AT&T Mobility",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 850",
-    "notes": "Former Dobson Cellular, Cingular Wireless"
+    "notes": "Former Dobson Cellular, Cingular Wireless; MNC withdrawn"
   },
   {
     "type": "National",
@@ -24259,9 +24307,9 @@
     "mnc": "810",
     "brand": null,
     "operator": "LCFR LLC",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "1900",
-    "notes": "Owned by New Dimension Wireless; formerly Brazos Cellular Communications Ltd."
+    "notes": "Owned by New Dimension Wireless; formerly Brazos Cellular Communications Ltd.; MNC withdrawn"
   },
   {
     "type": "National",
@@ -24333,7 +24381,7 @@
     "operator": "Kaplan Telephone Company",
     "status": "Not operational",
     "bands": "GSM 850",
-    "notes": "Louisiana; spectrum sold to AT&T in 2014"
+    "notes": "Louisiana; spectrum sold to AT&T in 2014; MNC withdrawn"
   },
   {
     "type": "National",
@@ -24465,7 +24513,7 @@
     "operator": "Texas RSA 7B3",
     "status": "Not operational",
     "bands": "CDMA / LTE 700",
-    "notes": "Texas; spectrum sold to AT&T"
+    "notes": "Texas; spectrum sold to AT&T; MNC withdrawn"
   },
   {
     "type": "National",
@@ -24657,7 +24705,7 @@
     "operator": "Lightsquared L.P.",
     "status": "Not operational",
     "bands": "LTE",
-    "notes": "Former Cell One Amarillo (Amarillo License L.P.)"
+    "notes": "Former Cell One Amarillo (Amarillo License L.P.); MNC withdrawn"
   },
   {
     "type": "National",
@@ -24693,7 +24741,7 @@
     "operator": "Lightsquared L.P.",
     "status": "Not operational",
     "bands": "LTE",
-    "notes": "Former Endless Mountains Wireless (aquired by Dobson Cellular in 2005)"
+    "notes": "Former Endless Mountains Wireless (aquired by Dobson Cellular in 2005;)  MNC withdrawn"
   },
   {
     "type": "National",
@@ -24753,7 +24801,7 @@
     "operator": "Emery Telcom Wireless",
     "status": "Not operational",
     "bands": "GSM 1900",
-    "notes": "Former Farmers Cellular Telephone"
+    "notes": "Former Farmers Cellular Telephone; MNC withdrawn"
   },
   {
     "type": "National",
@@ -25267,9 +25315,9 @@
     "mnc": "460",
     "brand": null,
     "operator": "Fisher Wireless Services Inc.",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "DMR",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -25449,7 +25497,7 @@
     "operator": "Lightsquared L.P.",
     "status": "Not operational",
     "bands": "LTE",
-    "notes": "Former Crossroads Wireless Inc."
+    "notes": "Former Crossroads Wireless Inc.; MNC withdrawn"
   },
   {
     "type": "National",
@@ -25471,9 +25519,9 @@
     "mnc": "540",
     "brand": null,
     "operator": "Proximiti Mobility Inc.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "GSM 850",
-    "notes": "Former Keystone Wireless Inc."
+    "notes": "Former Keystone Wireless Inc.; MNC withdrawn"
   },
   {
     "type": "National",
@@ -25509,7 +25557,7 @@
     "operator": "Bend Cable Communications LLC",
     "status": "Not operational",
     "bands": "UMTS 1700 / LTE 1700",
-    "notes": "shut down 25-July-2014"
+    "notes": "shut down 25-July-2014; MNC withdrawn"
   },
   {
     "type": "National",
@@ -25545,7 +25593,7 @@
     "operator": "Cox TMI Wireless LLC",
     "status": "Not operational",
     "bands": "CDMA",
-    "notes": "Shut down in 2012"
+    "notes": "Shut down in 2012; MNC withdrawn"
   },
   {
     "type": "National",
@@ -25735,9 +25783,9 @@
     "mnc": "760",
     "brand": null,
     "operator": "Edigen Inc.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -26143,9 +26191,9 @@
     "mnc": "110",
     "brand": null,
     "operator": "Texas Energy Network LLC",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "LTE",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -26253,7 +26301,7 @@
     "operator": "Voyager Mobility LLC",
     "status": "Not operational",
     "bands": "MVNO",
-    "notes": "Shut down 2015"
+    "notes": "Shut down 2015; MNC withdrawn"
   },
   {
     "type": "National",
@@ -26974,6 +27022,66 @@
     "status": "Unknown",
     "bands": "MVNO",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "810",
+    "brand": "BBCP",
+    "operator": "Bristol Bay Telephone Cooperative",
+    "status": "Operational",
+    "bands": "CDMA",
+    "notes": "Alaska"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "820",
+    "brand": null,
+    "operator": "Santel Communications Cooperative, Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "South Dakota"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "830",
+    "brand": null,
+    "operator": "Kings County Office of Education",
+    "status": "Operational",
+    "bands": "WiMAX",
+    "notes": "California"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "840",
+    "brand": null,
+    "operator": "South Georgia Regional Information Technology Authority",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Georgia"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "850",
+    "brand": null,
+    "operator": "Onvoy Spectrum, LLC",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": "Former Emergency Networks LLC"
   },
   {
     "type": "National",
