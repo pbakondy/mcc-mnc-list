@@ -488,7 +488,7 @@
     "brand": "Ucom",
     "operator": "Ucom LLC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
     "notes": "Former Orange"
   },
   {
@@ -7916,7 +7916,7 @@
     "brand": "JT",
     "operator": "JT Group Limited",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "former Wave Telecom"
   },
   {
@@ -27100,6 +27100,42 @@
     "countryName": "United States of America",
     "countryCode": "US",
     "mcc": "312",
+    "mnc": "870",
+    "brand": null,
+    "operator": "GigSky Mobile, LLC",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "880",
+    "brand": null,
+    "operator": "Albemarle County Public Schools",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "890",
+    "brand": null,
+    "operator": "Circle Gx",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
     "mnc": "900",
     "brand": "ClearTalk",
     "operator": "Flat West Wireless, LLC",
@@ -27115,6 +27151,18 @@
     "mnc": "910",
     "brand": "Appalachian Wireless",
     "operator": "East Kentucky Network, LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "920",
+    "brand": null,
+    "operator": "Northeast Wireless Networks LLC",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
