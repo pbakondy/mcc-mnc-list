@@ -17624,7 +17624,7 @@
     "brand": "Claro Puerto Rico",
     "operator": "América Móvil",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / LTE 700",
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / LTE 700 / LTE 1700",
     "notes": null
   },
   {
@@ -27163,6 +27163,54 @@
     "mnc": "920",
     "brand": null,
     "operator": "Northeast Wireless Networks LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "930",
+    "brand": null,
+    "operator": "Hewlett-Packard Communication Services, LLC",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "940",
+    "brand": null,
+    "operator": "Webformix",
+    "status": "Operational",
+    "bands": "Unknown",
+    "notes": "Oregon"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "950",
+    "brand": null,
+    "operator": "Custer Telephone Co-op (CTCI)",
+    "status": "Operational",
+    "bands": "CDMA",
+    "notes": "Idaho"
+  },
+  {
+    "type": "National",
+    "countryName": "United States of America",
+    "countryCode": "US",
+    "mcc": "312",
+    "mnc": "960",
+    "brand": null,
+    "operator": "M&A Technology, Inc.",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
