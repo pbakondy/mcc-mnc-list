@@ -15126,7 +15126,7 @@
     "mcc": "204",
     "mnc": "01",
     "brand": null,
-    "operator": "RadioAccess Network Services BV",
+    "operator": "RadioAccess Network Services",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -15308,7 +15308,7 @@
     "brand": "T-Mobile (BEN)",
     "operator": "T-Mobile Netherlands B.V",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": null
   },
   {
@@ -15356,7 +15356,7 @@
     "brand": "T-Mobile",
     "operator": "T-Mobile Netherlands B.V",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": "Former Orange Netherlands MCC/MNC"
   },
   {
@@ -15546,10 +15546,10 @@
     "mcc": "204",
     "mnc": "67",
     "brand": null,
-    "operator": "RadioAccess B.V.",
+    "operator": "Koning en Hartman B.V.",
     "status": "Operational",
     "bands": "PrivateGSM 1800",
-    "notes": null
+    "notes": "Former RadioAccess B.V."
   },
   {
     "type": "National",
@@ -16722,7 +16722,7 @@
     "mcc": "716",
     "mnc": "06",
     "brand": "Movistar",
-    "operator": "Telefónica Móviles Perú",
+    "operator": "Telefónica del Perú S.A.A.",
     "status": "Operational",
     "bands": "CDMA2000 850 / GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700",
     "notes": null
@@ -16734,7 +16734,7 @@
     "mcc": "716",
     "mnc": "07",
     "brand": "Entel",
-    "operator": "Americatel Perú",
+    "operator": "Entel Perú S.A.",
     "status": "Operational",
     "bands": "iDEN",
     "notes": "Former Nextel"
@@ -16770,7 +16770,7 @@
     "mcc": "716",
     "mnc": "17",
     "brand": "Entel",
-    "operator": "Americatel Perú",
+    "operator": "Entel Perú S.A.",
     "status": "Operational",
     "bands": "UMTS 1900 / LTE 1700 / TD-LTE 2300",
     "notes": "Former Nextel"
@@ -19328,7 +19328,7 @@
     "brand": "Somtel",
     "operator": "Somtel",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800",
     "notes": null
   },
   {
