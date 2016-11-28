@@ -2969,11 +2969,11 @@
     "countryCode": "CA",
     "mcc": "302",
     "mnc": "320",
-    "brand": "Mobilicity",
-    "operator": "DAVE Wireless",
+    "brand": "Rogers Wireless",
+    "operator": "Rogers Communications",
     "status": "Operational",
     "bands": "UMTS 1700",
-    "notes": "May 2010"
+    "notes": "Former Mobilicity"
   },
   {
     "type": "National",
@@ -3007,9 +3007,9 @@
     "mnc": "360",
     "brand": "MiKe",
     "operator": "Telus Mobility",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "iDEN 800",
-    "notes": null
+    "notes": "Shut down January 2016"
   },
   {
     "type": "National",
@@ -3077,11 +3077,11 @@
     "countryCode": "CA",
     "mcc": "302",
     "mnc": "490",
-    "brand": "Wind Mobile",
-    "operator": "Mid-Bowline Holdings Corp.",
+    "brand": "Freedom Mobile",
+    "operator": "Shaw Communications",
     "status": "Operational",
-    "bands": "UMTS 1700",
-    "notes": null
+    "bands": "UMTS 1700 / LTE 1700",
+    "notes": "Former Wind Mobile"
   },
   {
     "type": "National",
@@ -3260,7 +3260,7 @@
     "brand": "TBay",
     "operator": "Thunder Bay Telephone Mobility",
     "status": "Operational",
-    "bands": "CDMA2000 / UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
+    "bands": "UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
     "notes": "CDMA shut down 1 October 2014"
   },
   {
@@ -6248,8 +6248,8 @@
     "brand": "Free Mobile",
     "operator": "Iliad",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": null
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2600",
+    "notes": "LTE bands 28 / 3 / 7"
   },
   {
     "type": "National",
@@ -6260,7 +6260,7 @@
     "brand": "Free Mobile",
     "operator": "Iliad",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -24441,7 +24441,7 @@
     "operator": "James Valley Wireless, LLC",
     "status": "Operational",
     "bands": "CDMA",
-    "notes": "South Dakota"
+    "notes": "South Dakota; includes NVC"
   },
   {
     "type": "National",
