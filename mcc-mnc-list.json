@@ -524,8 +524,8 @@
     "brand": "Telstra",
     "operator": "Telstra Corporation Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100",
-    "notes": "LTE bands 28 / 8 / 3 / 1; GSM to shut down 1 December 2016"
+    "bands": "UMTS 850 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100",
+    "notes": "LTE bands 28 / 8 / 3 / 1; GSM was closed on 1 December 2016"
   },
   {
     "type": "National",
@@ -21764,7 +21764,7 @@
     "brand": "AIS",
     "operator": "Advanced Wireless Network Company Ltd.",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 1800 / LTE 2100",
+    "bands": "UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -21776,7 +21776,7 @@
     "brand": "TrueMove H",
     "operator": "Real Future Company Ltd.",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 1800 / LTE 2100",
+    "bands": "UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
     "notes": "UMTS roaming with network 520-00"
   },
   {
@@ -22797,7 +22797,7 @@
     "operator": "EE",
     "status": "Operational",
     "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
-    "notes": "Previously owned by Deutsche Telekom; used by MVNO Asda Mobile"
+    "notes": "Previously owned by Deutsche Telekom; used by MVNOs Asda Mobile & Virgin Mobile"
   },
   {
     "type": "National",
@@ -22805,11 +22805,11 @@
     "countryCode": "GB",
     "mcc": "234",
     "mnc": "31",
-    "brand": "Virgin Mobile",
-    "operator": "Virgin Media",
-    "status": "Operational",
-    "bands": "MVNO",
-    "notes": "Uses EE network"
+    "brand": "T-Mobile UK",
+    "operator": "EE",
+    "status": "Allocated",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "notes": null
   },
   {
     "type": "National",
@@ -22817,11 +22817,11 @@
     "countryCode": "GB",
     "mcc": "234",
     "mnc": "32",
-    "brand": "Virgin Mobile",
-    "operator": "Virgin Media",
-    "status": "Operational",
-    "bands": "MVNO",
-    "notes": "Uses EE network"
+    "brand": "T-Mobile UK",
+    "operator": "EE",
+    "status": "Allocated",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "notes": null
   },
   {
     "type": "National",
@@ -24753,7 +24753,7 @@
     "operator": "Lightsquared L.P.",
     "status": "Not operational",
     "bands": "LTE",
-    "notes": "Former Endless Mountains Wireless (aquired by Dobson Cellular in 2005;)  MNC withdrawn"
+    "notes": "Former Endless Mountains Wireless (acquired by Dobson Cellular in 2005;)  MNC withdrawn"
   },
   {
     "type": "National",
