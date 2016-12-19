@@ -428,8 +428,8 @@
     "brand": "Personal",
     "operator": "Telecom Personal S.A.",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS / LTE 1700",
-    "notes": null
+    "bands": "GSM 850 / GSM 1900 / UMTS / LTE 700 / LTE 1700",
+    "notes": "LTE bands 28 / 4"
   },
   {
     "type": "National",
@@ -4724,7 +4724,7 @@
     "brand": "MTN",
     "operator": null,
     "status": "Operational",
-    "bands": "GSM",
+    "bands": "GSM / LTE",
     "notes": "Former Libertis Telecom"
   },
   {
@@ -6524,7 +6524,7 @@
     "brand": "Orange",
     "operator": "Orange Caraïbe Mobiles",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 1800 / LTE 2100",
     "notes": "Guadeloupe, French Guiana, Martinique, Saint Barthélemy, Saint Martin"
   },
   {
@@ -6533,11 +6533,11 @@
     "countryCode": "BL/GF/GP/MF/MQ",
     "mcc": "340",
     "mnc": "02",
-    "brand": "Only",
+    "brand": "SFR Caraïbe",
     "operator": "Outremer Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS",
-    "notes": "Guadeloupe, French Guiana, Martinique"
+    "bands": "GSM 900 / GSM 1800 / UMTS / LTE",
+    "notes": "Guadeloupe, French Guiana, Martinique; former Only"
   },
   {
     "type": "National",
@@ -6613,15 +6613,51 @@
   },
   {
     "type": "National",
-    "countryName": "French Guiana (France)",
-    "countryCode": "GF",
-    "mcc": "742",
-    "mnc": null,
+    "countryName": "French Indian Ocean Territories (France)",
+    "countryCode": "YT/RE",
+    "mcc": "647",
+    "mnc": "00",
+    "brand": "Orange",
+    "operator": "Orange La Réunion",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
+    "notes": "Mayotte, Réunion"
+  },
+  {
+    "type": "National",
+    "countryName": "French Indian Ocean Territories (France)",
+    "countryCode": "YT/RE",
+    "mcc": "647",
+    "mnc": "01",
     "brand": null,
-    "operator": null,
-    "status": "Not operational",
-    "bands": null,
-    "notes": "See French Antilles, the assigned MCC 742 is not used."
+    "operator": "BJT Partners",
+    "status": "Unknown",
+    "bands": "GSM 900 / GSM 1800",
+    "notes": "Mayotte"
+  },
+  {
+    "type": "National",
+    "countryName": "French Indian Ocean Territories (France)",
+    "countryCode": "YT/RE",
+    "mcc": "647",
+    "mnc": "02",
+    "brand": "only",
+    "operator": "Telco OI",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "notes": "Mayotte, Réunion; former Outremer Telecom"
+  },
+  {
+    "type": "National",
+    "countryName": "French Indian Ocean Territories (France)",
+    "countryCode": "YT/RE",
+    "mcc": "647",
+    "mnc": "10",
+    "brand": "SFR Réunion",
+    "operator": "Société Réunionnaise du Radiotéléphone",
+    "status": "Operational",
+    "bands": "GSM 900 / LTE 800 / LTE 1800 / LTE 2600",
+    "notes": "Mayotte, Réunion; LTE bands 20 / 3 / 7"
   },
   {
     "type": "National",
@@ -11300,8 +11336,8 @@
     "brand": "Smartfren",
     "operator": "PT Smartfren Telecom",
     "status": "Operational",
-    "bands": "CDMA 800 / CDMA 1900 / LTE 850 / TD-LTE 2300",
-    "notes": null
+    "bands": "CDMA 800 / LTE 850 / TD-LTE 2300",
+    "notes": "CDMA 1900 shut down December 2016"
   },
   {
     "type": "National",
@@ -14533,18 +14569,6 @@
   },
   {
     "type": "National",
-    "countryName": "Mayotte (France)",
-    "countryCode": "YT",
-    "mcc": null,
-    "mnc": null,
-    "brand": null,
-    "operator": null,
-    "status": null,
-    "bands": null,
-    "notes": null
-  },
-  {
-    "type": "National",
     "countryName": "Mexico",
     "countryCode": "MX",
     "mcc": "334",
@@ -14885,11 +14909,11 @@
     "countryCode": "MA",
     "mcc": "604",
     "mnc": "00",
-    "brand": "Méditel",
+    "brand": "Orange Morocco",
     "operator": "Medi Telecom",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / LTE",
-    "notes": null
+    "notes": "Former Méditel"
   },
   {
     "type": "National",
@@ -17697,54 +17721,6 @@
     "operator": "Ministry of Interior",
     "status": "Operational",
     "bands": "LTE",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Réunion (France)",
-    "countryCode": "RE",
-    "mcc": "647",
-    "mnc": "00",
-    "brand": "Orange",
-    "operator": "Orange La Réunion",
-    "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Réunion (France)",
-    "countryCode": "RE",
-    "mcc": "647",
-    "mnc": "01",
-    "brand": null,
-    "operator": "BJT Partners",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
-  },
-  {
-    "type": "National",
-    "countryName": "Réunion (France)",
-    "countryCode": "RE",
-    "mcc": "647",
-    "mnc": "02",
-    "brand": "only",
-    "operator": "Telco OI",
-    "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
-    "notes": "former Outremer Telecom"
-  },
-  {
-    "type": "National",
-    "countryName": "Réunion (France)",
-    "countryCode": "RE",
-    "mcc": "647",
-    "mnc": "10",
-    "brand": "SFR Reunion",
-    "operator": "Societe Reunionnaise de Radiotelephone",
-    "status": "Operational",
-    "bands": "GSM 900",
     "notes": null
   },
   {
@@ -21944,7 +21920,7 @@
     "brand": "bmobile",
     "operator": "TSTT",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 1900 / TD-LTE 2600",
+    "bands": "GSM 850 / GSM 1900 / UMTS 1900 / LTE 1900 / TD-LTE 2600",
     "notes": null
   },
   {
