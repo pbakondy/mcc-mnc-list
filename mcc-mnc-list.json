@@ -1000,6 +1000,18 @@
     "countryName": "Australia",
     "countryCode": "AU",
     "mcc": "505",
+    "mnc": "61",
+    "brand": null,
+    "operator": "Commtel Network Solutions Pty Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "mcc": "505",
     "mnc": "62",
     "brand": "NBN",
     "operator": "National Broadband Network Co.",
@@ -1604,8 +1616,8 @@
     "brand": "Digicel",
     "operator": "Digicel (Barbados) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 700 / LTE 1900",
+    "notes": "LTE bands 17 / 2"
   },
   {
     "type": "National",
@@ -1615,7 +1627,7 @@
     "mnc": "820",
     "brand": null,
     "operator": "Sunbeach Communications",
-    "status": "Reserved",
+    "status": "Not operational",
     "bands": "Unknown",
     "notes": null
   },
@@ -1832,8 +1844,8 @@
     "brand": "DigiCell",
     "operator": "Belize Telemedia Limited (BTL)",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 850 / LTE 850 / LTE 1900",
-    "notes": null
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / LTE 700 / LTE 1900",
+    "notes": "LTE bands 17 / 2"
   },
   {
     "type": "National",
@@ -1856,8 +1868,8 @@
     "brand": "SMART",
     "operator": "Speednet Communications Limited",
     "status": "Operational",
-    "bands": "CDMA2000 850",
-    "notes": null
+    "bands": "CDMA2000 850 / LTE 700",
+    "notes": "LTE band 13"
   },
   {
     "type": "National",
@@ -12465,6 +12477,18 @@
     "operator": "LIME (Cable & Wireless)",
     "status": "Not operational",
     "bands": "Unknown",
+    "notes": "MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "Jamaica",
+    "countryCode": "JM",
+    "mcc": "338",
+    "mnc": "040",
+    "brand": "Caricel",
+    "operator": "Symbiote Investment Limited",
+    "status": "Unknown",
+    "bands": "LTE",
     "notes": null
   },
   {
@@ -12476,7 +12500,7 @@
     "brand": "Digicel",
     "operator": "Digicel (Jamaica) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / CDMA 1900 / LTE 700",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / LTE 700 / CDMA 1900",
     "notes": null
   },
   {
@@ -12512,8 +12536,8 @@
     "brand": "FLOW",
     "operator": "Cable & Wireless Communications",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900",
-    "notes": "LTE Band 4 (1700/2100 MHz) planned"
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1700",
+    "notes": null
   },
   {
     "type": "National",
@@ -12536,8 +12560,8 @@
     "brand": "UQ WiMAX",
     "operator": "UQ Communications Inc.",
     "status": "Operational",
-    "bands": "WiMAX 2500",
-    "notes": null
+    "bands": "WiMAX 2500 / TD-LTE 2500",
+    "notes": "LTE band 41"
   },
   {
     "type": "National",
@@ -12572,8 +12596,8 @@
     "brand": "NTT docomo",
     "operator": "NTT DoCoMo, Inc.",
     "status": "Operational",
-    "bands": "UMTS 850 / UMTS 1800 / UMTS 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100",
-    "notes": "bands 1, 9, 19, 21, 28"
+    "bands": "UMTS 850 / UMTS 1800 / UMTS 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 9, 19, 21, 28, 42"
   },
   {
     "type": "National",
@@ -12584,8 +12608,8 @@
     "brand": "SoftBank",
     "operator": "SoftBank Corp.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
-    "notes": "bands 1, 8, 9"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 8, 9, 28, 42"
   },
   {
     "type": "National",
@@ -12596,8 +12620,8 @@
     "brand": "SoftBank",
     "operator": "SoftBank Corp.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
-    "notes": "bands 1, 8, 9"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 8, 9, 28, 42"
   },
   {
     "type": "National",
@@ -12608,8 +12632,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12620,8 +12644,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12632,8 +12656,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12644,8 +12668,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12656,8 +12680,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12668,8 +12692,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12680,8 +12704,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12692,8 +12716,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12704,8 +12728,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12716,8 +12740,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12728,8 +12752,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12740,8 +12764,8 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100",
-    "notes": "bands 1, 11, 18, 28"
+    "bands": "CDMA2000 850 / CDMA2000 2100 / LTE 700 / LTE 850 / LTE 1500 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 11, 26 (18), 28, 42"
   },
   {
     "type": "National",
@@ -12776,8 +12800,8 @@
     "brand": "SoftBank",
     "operator": "SoftBank Corp.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
-    "notes": "bands 1, 8, 9"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 8, 9, 28, 42"
   },
   {
     "type": "National",
@@ -12788,8 +12812,8 @@
     "brand": "UQ WiMAX",
     "operator": "UQ Communications Inc.",
     "status": "Operational",
-    "bands": "WiMAX 2500",
-    "notes": null
+    "bands": "WiMAX 2500 / TD-LTE 2500",
+    "notes": "LTE band 41"
   },
   {
     "type": "National",
@@ -14261,10 +14285,10 @@
     "countryCode": "MY",
     "mcc": "502",
     "mnc": "154",
-    "brand": null,
+    "brand": "Tron",
     "operator": "Talk Focus Sdn Bhd",
-    "status": "Unknown",
-    "bands": "Unknown",
+    "status": "Operational",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -15113,10 +15137,10 @@
     "countryCode": "NP",
     "mcc": "429",
     "mnc": "01",
-    "brand": "Namaste / NT Mobile",
-    "operator": "Nepal Telecom",
+    "brand": "Namaste / NT Mobile / Sky Phone",
+    "operator": "Nepal Telecom (NDCL)",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / CDMA / WiMAX",
     "notes": null
   },
   {
@@ -15137,8 +15161,8 @@
     "countryCode": "NP",
     "mcc": "429",
     "mnc": "03",
-    "brand": "Sky/C-Phone",
-    "operator": "Nepal Telecom",
+    "brand": "UTL",
+    "operator": "United Telecom Limited",
     "status": "Operational",
     "bands": "CDMA2000 800",
     "notes": null
@@ -15150,7 +15174,7 @@
     "mcc": "429",
     "mnc": "04",
     "brand": "SmartCell",
-    "operator": "Smart Telecom Pvt. Ltd.",
+    "operator": "Smart Telecom Pvt. Ltd. (STPL)",
     "status": "Operational",
     "bands": "GSM 900",
     "notes": null
@@ -16796,7 +16820,7 @@
     "brand": "Bitel",
     "operator": "Viettel Peru S.A.C.",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 1900",
+    "bands": "GSM 1900 / UMTS 1900 / LTE 900",
     "notes": null
   },
   {
@@ -20383,9 +20407,9 @@
     "mnc": "04",
     "brand": "Digicel",
     "operator": "Digicel Group Limited",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 900 / UMTS",
-    "notes": "Former Uniqa (Intelsur N.V. / UTS N.V.)"
+    "notes": "Former Uniqa (Intelsur N.V. / UTS N.V.); MNC withdrawn"
   },
   {
     "type": "National",
@@ -20525,7 +20549,7 @@
     "countryCode": "SE",
     "mcc": "240",
     "mnc": "09",
-    "brand": null,
+    "brand": "Com4",
     "operator": "Communication for Devices in Sweden AB",
     "status": "Unknown",
     "bands": "Unknown",
@@ -20538,10 +20562,10 @@
     "mcc": "240",
     "mnc": "10",
     "brand": "Spring Mobil",
-    "operator": "Spring Mobil AB",
+    "operator": "Tele2 Sverige AB",
     "status": "Operational",
     "bands": null,
-    "notes": "Only used on femto- and nanocells; owned by Tele2 Sverige AB"
+    "notes": "Only used on femto- and nanocells"
   },
   {
     "type": "National",
@@ -20586,10 +20610,10 @@
     "mcc": "240",
     "mnc": "14",
     "brand": null,
-    "operator": "TDC Sverige AB",
-    "status": "Not operational",
-    "bands": "MVNO",
-    "notes": null
+    "operator": "Tele2 Business AB",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former TDC Sverige AB (MVNO)"
   },
   {
     "type": "National",
@@ -20694,7 +20718,7 @@
     "mcc": "240",
     "mnc": "23",
     "brand": null,
-    "operator": "Infobip Limited",
+    "operator": "Infobip Limited (UK)",
     "status": "Not operational",
     "bands": "Unknown",
     "notes": null
@@ -20827,9 +20851,9 @@
     "mnc": "34",
     "brand": null,
     "operator": "Pro Net Telecommunications Services Ltd.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": "Formerly Tigo"
+    "notes": "Formerly Tigo; MNC withdrawn"
   },
   {
     "type": "National",
@@ -22144,6 +22168,18 @@
     "countryName": "Uganda",
     "countryCode": "UG",
     "mcc": "641",
+    "mnc": "04",
+    "brand": null,
+    "operator": "Tangerine Uganda Limited",
+    "status": "Operational",
+    "bands": "LTE",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Uganda",
+    "countryCode": "UG",
+    "mcc": "641",
     "mnc": "06",
     "brand": "Vodafone",
     "operator": "Afrimax Uganda",
@@ -22160,8 +22196,8 @@
     "brand": "MTN",
     "operator": "MTN Uganda",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / TD-LTE 2600",
-    "notes": "LTE band 41"
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 2600",
+    "notes": "LTE band 7"
   },
   {
     "type": "National",
@@ -22185,7 +22221,7 @@
     "operator": "Africell Uganda",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS / LTE 800",
-    "notes": "Former Orange, HITS Telecom; LTE band 20"
+    "notes": "Former Orange, HiTS Telecom; LTE band 20"
   },
   {
     "type": "National",
@@ -22193,10 +22229,10 @@
     "countryCode": "UG",
     "mcc": "641",
     "mnc": "18",
-    "brand": null,
-    "operator": "Suretelecom",
+    "brand": "Smart",
+    "operator": "Suretelecom Uganda Ltd.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
     "notes": null
   },
   {
@@ -22216,12 +22252,24 @@
     "countryName": "Uganda",
     "countryCode": "UG",
     "mcc": "641",
+    "mnc": "26",
+    "brand": "Lycamobile",
+    "operator": "Lycamobile Network Services Uganda Limited",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Uganda",
+    "countryCode": "UG",
+    "mcc": "641",
     "mnc": "30",
     "brand": null,
     "operator": "Anupam Global Soft Uganda Limited",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -22267,9 +22315,9 @@
     "mnc": "66",
     "brand": "i-Tel",
     "operator": "i-Tel Ltd",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -28505,7 +28553,7 @@
     "countryCode": null,
     "mcc": "901",
     "mnc": "48",
-    "brand": null,
+    "brand": "Com4",
     "operator": "Communication for Devices in Sweden AB",
     "status": "Unknown",
     "bands": "Unknown",
