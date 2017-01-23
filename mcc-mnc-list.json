@@ -2504,7 +2504,7 @@
     "brand": "Digicel",
     "operator": "Digicel (BVI) Limited",
     "status": "Operational",
-    "bands": "GSM 1800 / GSM 1900 / UMTS",
+    "bands": "GSM 1800 / GSM 1900 / UMTS / LTE 700",
     "notes": null
   },
   {
@@ -3449,11 +3449,11 @@
     "countryCode": "CA",
     "mcc": "302",
     "mnc": "770",
-    "brand": "Rural Com",
+    "brand": "TNW Wireless",
     "operator": "Rural Com",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "status": "Operational",
+    "bands": "UMTS 850 / iPCS and Wi-Nodes",
+    "notes": "National coverage based on iPCS and technology and Wi-Nodes"
   },
   {
     "type": "National",
@@ -5032,6 +5032,18 @@
     "countryName": "Denmark (Kingdom of Denmark)",
     "countryCode": "DK",
     "mcc": "238",
+    "mnc": "25",
+    "brand": "Viahub",
+    "operator": "SMS Provider Corp.",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Denmark (Kingdom of Denmark)",
+    "countryCode": "DK",
+    "mcc": "238",
     "mnc": "28",
     "brand": null,
     "operator": "CoolTEL ApS",
@@ -5083,9 +5095,9 @@
     "mnc": "43",
     "brand": null,
     "operator": "MobiWeb Limited",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -7232,6 +7244,18 @@
     "brand": null,
     "operator": "sipgate Wireless GmbH",
     "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "mcc": "262",
+    "mnc": "23",
+    "brand": null,
+    "operator": "Drillisch Netz AG",
+    "status": "Operational",
     "bands": "MVNO",
     "notes": null
   },
@@ -12196,6 +12220,18 @@
     "countryName": "Italy",
     "countryCode": "IT",
     "mcc": "222",
+    "mnc": "08",
+    "brand": "Fastweb",
+    "operator": "Fastweb S.p.A.",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Italy",
+    "countryCode": "IT",
+    "mcc": "222",
     "mnc": "10",
     "brand": "Vodafone",
     "operator": "Vodafone Italia S.p.A.",
@@ -12573,6 +12609,18 @@
     "operator": "Hanshin Cable Engineering Co., Ltd.",
     "status": "Unknown",
     "bands": "WiMAX 2500",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Japan",
+    "countryCode": "JP",
+    "mcc": "440",
+    "mnc": "03",
+    "brand": "IIJmio",
+    "operator": "Internet Initiative Japan Inc.",
+    "status": "Operational",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -15140,7 +15188,7 @@
     "brand": "Namaste / NT Mobile / Sky Phone",
     "operator": "Nepal Telecom (NDCL)",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / CDMA / WiMAX",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / CDMA / WiMAX",
     "notes": null
   },
   {
@@ -19135,9 +19183,9 @@
     "mnc": "10",
     "brand": null,
     "operator": "SŽ - Infrastruktura, d.o.o.",
-    "status": "Not operational",
+    "status": "Operational",
     "bands": "GSM-R",
-    "notes": "To be operational end of 2015"
+    "notes": null
   },
   {
     "type": "National",
@@ -19147,9 +19195,9 @@
     "mnc": "20",
     "brand": null,
     "operator": "COMPATEL Ltd",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -20992,6 +21040,18 @@
     "countryName": "Sweden",
     "countryCode": "SE",
     "mcc": "240",
+    "mnc": "46",
+    "brand": "Viahub",
+    "operator": "SMS Provider Corp.",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Sweden",
+    "countryCode": "SE",
+    "mcc": "240",
     "mnc": "60",
     "brand": null,
     "operator": "Telefonaktiebolaget LM Ericsson",
@@ -22386,10 +22446,10 @@
     "mcc": "255",
     "mnc": "06",
     "brand": "lifecell",
-    "operator": "Astelit",
+    "operator": "Turkcell",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
+    "notes": "Former life:) / Astelit"
   },
   {
     "type": "National",
@@ -22398,10 +22458,10 @@
     "mcc": "255",
     "mnc": "07",
     "brand": "3Mob",
-    "operator": "3Mob (Ukrtelecom UMTS )",
+    "operator": "Ukrtelecom",
     "status": "Operational",
     "bands": "UMTS 2100",
-    "notes": "Former Utel(Ukrtelecom),GSM roaming with MTS"
+    "notes": "Former Utel, GSM roaming with MTS"
   },
   {
     "type": "National",
@@ -23672,7 +23732,7 @@
     "brand": "T-Mobile USA",
     "operator": "T-Mobile USA",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 1900 / UMTS 1700 / LTE 700 / LTE 1900 / LTE 1700",
+    "bands": "GSM 1900 / UMTS 1900 / UMTS 1700 / LTE 850 / LTE 700 / LTE 1900 / LTE 1700",
     "notes": "Former Cook Inlet West Wireless, Voicestream; now universal USA code"
   },
   {
