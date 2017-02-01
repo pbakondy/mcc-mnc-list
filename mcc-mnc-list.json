@@ -548,8 +548,8 @@
     "brand": "Vodafone",
     "operator": "Vodafone Hutchison Australia Proprietary Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 900 / UMTS 2100 / LTE 850 / LTE 1800",
-    "notes": "LTE bands 5 / 3; GSM to shut down 30 September 2017"
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 900 / UMTS 2100 / LTE 850 / LTE 1800 / LTE 2100",
+    "notes": "LTE bands 5 / 3 / 1; GSM to shut down 30 September 2017"
   },
   {
     "type": "National",
@@ -4521,7 +4521,7 @@
     "operator": "PrimeTel PLC",
     "status": "Operational",
     "bands": "LTE 1800",
-    "notes": "Originally MVNO, MNO since 2015. Probably still uses CytamVoda network for 3G/voice"
+    "notes": "Originally MVNO, MNO since 2015. Uses MTN for 2G/3G roaming."
   },
   {
     "type": "National",
@@ -5707,9 +5707,9 @@
     "mnc": "07",
     "brand": "Nokia",
     "operator": "Nokia Solutions and Networks Oy",
-    "status": "Unknown",
-    "bands": "GSM 900 / GSM 1800",
-    "notes": null
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600 / TD-LTE 2600",
+    "notes": "Test network in Espoo Leppävaara and Nokia HQ"
   },
   {
     "type": "National",
@@ -11564,7 +11564,7 @@
     "brand": "MTN Irancell",
     "operator": "MTN Irancell Telecommunications Services Company",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600 / TD-LTE 3500",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / TD-LTE 2300 / LTE 2600",
     "notes": null
   },
   {
@@ -27800,7 +27800,7 @@
     "brand": "movistar",
     "operator": "Telefónica Móviles Venezuela",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 1900 / LTE AWS",
+    "bands": "GSM 850 / GSM 1900 / UMTS 1900 / LTE 1700",
     "notes": "CDMA2000 850 shut down March 2014"
   },
   {
@@ -27812,7 +27812,7 @@
     "brand": "Movilnet",
     "operator": "Telecomunicaciones Movilnet",
     "status": "Operational",
-    "bands": "CDMA2000 850 / GSM 850 / UMTS 1900",
+    "bands": "CDMA2000 850 / GSM 850 / UMTS 1900 / LTE 1700",
     "notes": null
   },
   {
