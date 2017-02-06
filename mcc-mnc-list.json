@@ -21,7 +21,7 @@
     "operator": "Aquafon JSC",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800",
-    "notes": "LTE band 20"
+    "notes": "MCC is not listed by ITU; LTE band 20"
   },
   {
     "type": "National",
@@ -33,7 +33,7 @@
     "operator": "A-Mobile LLSC",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
-    "notes": null
+    "notes": "MCC is not listed by ITU"
   },
   {
     "type": "National",
@@ -3232,6 +3232,18 @@
     "countryName": "Canada",
     "countryCode": "CA",
     "mcc": "302",
+    "mnc": "650",
+    "brand": "TBaytel",
+    "operator": "Thunder Bay Telephone",
+    "status": "Operational",
+    "bands": "UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Canada",
+    "countryCode": "CA",
+    "mcc": "302",
     "mnc": "652",
     "brand": null,
     "operator": "BC Tel Mobility (Telus)",
@@ -3271,9 +3283,9 @@
     "mnc": "656",
     "brand": "TBay",
     "operator": "Thunder Bay Telephone Mobility",
-    "status": "Operational",
-    "bands": "UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
-    "notes": "CDMA shut down 1 October 2014"
+    "status": "Not operational",
+    "bands": "CDMA",
+    "notes": "MNC withdrawn; CDMA shut down 1 October 2014"
   },
   {
     "type": "National",
@@ -11564,7 +11576,7 @@
     "brand": "MTN Irancell",
     "operator": "MTN Irancell Telecommunications Services Company",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / TD-LTE 2300 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / TD-LTE 3500",
     "notes": null
   },
   {
@@ -20047,9 +20059,9 @@
     "mnc": "18",
     "brand": "ONO",
     "operator": "Cableuropa S.A.U.",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "MNC withdrawn; acquired by Vodafone"
   },
   {
     "type": "National",
@@ -23083,6 +23095,18 @@
     "mnc": "70",
     "brand": null,
     "operator": "AMSUK Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "United Kingdom",
+    "countryCode": "GB",
+    "mcc": "234",
+    "mnc": "71",
+    "brand": null,
+    "operator": "Home Office",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
