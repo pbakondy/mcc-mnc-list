@@ -8564,7 +8564,7 @@
     "brand": "Telenor Hungary",
     "operator": "Telenor Magyarország Zrt.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "Former Pannon, Pannon GSM; MNC has not the same numerical value as the area code"
   },
   {
@@ -8612,7 +8612,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Magyarország Zrt.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / UMTS 900 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / UMTS 900 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "MNC has the same numerical value as the area code"
   },
   {
@@ -11501,10 +11501,10 @@
     "countryCode": "IR",
     "mcc": "432",
     "mnc": "11",
-    "brand": "IR-MCI (Hamrahe Avval)",
+    "brand": "IR-MCI (Hamrah-e-Avval)",
     "operator": "Mobile Communications Company of Iran",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 2600",
     "notes": null
   },
   {
@@ -12235,7 +12235,7 @@
     "mnc": "08",
     "brand": "Fastweb",
     "operator": "Fastweb S.p.A.",
-    "status": "Unknown",
+    "status": "Operational",
     "bands": "MVNO",
     "notes": null
   },
