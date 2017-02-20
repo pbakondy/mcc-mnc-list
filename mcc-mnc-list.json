@@ -176,7 +176,7 @@
     "brand": "Mobilis",
     "operator": "Algérie Télécom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / CDMA 1900",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -202,6 +202,30 @@
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": "Former Nedjma"
+  },
+  {
+    "type": "National",
+    "countryName": "Algeria",
+    "countryCode": "DZ",
+    "mcc": "603",
+    "mnc": "07",
+    "brand": "AT",
+    "operator": "Algérie Télécom",
+    "status": "Operational",
+    "bands": "CDMA 1900",
+    "notes": "Wireless Local Loop"
+  },
+  {
+    "type": "National",
+    "countryName": "Algeria",
+    "countryCode": "DZ",
+    "mcc": "603",
+    "mnc": "09",
+    "brand": "AT",
+    "operator": "Algérie Télécom",
+    "status": "Operational",
+    "bands": "LTE",
+    "notes": "Fixed Wireless Broadband"
   },
   {
     "type": "National",
@@ -8526,10 +8550,10 @@
     "mcc": "454",
     "mnc": "22",
     "brand": null,
-    "operator": "Delcom (HK) Ltd",
+    "operator": "263 Mobile Communications (HongKong) Limited",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": "Formerly P Plus Communications"
+    "notes": "Formerly P Plus Communications, Delcom (HK) Ltd"
   },
   {
     "type": "National",
@@ -8548,12 +8572,84 @@
     "countryName": "Hong Kong",
     "countryCode": "HK",
     "mcc": "454",
+    "mnc": "24",
+    "brand": null,
+    "operator": "Multibyte Info Technology Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Hong Kong",
+    "countryCode": "HK",
+    "mcc": "454",
+    "mnc": "25",
+    "brand": null,
+    "operator": "Hong Kong Government",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Hong Kong",
+    "countryCode": "HK",
+    "mcc": "454",
+    "mnc": "26",
+    "brand": null,
+    "operator": "Hong Kong Government",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Hong Kong",
+    "countryCode": "HK",
+    "mcc": "454",
     "mnc": "29",
     "brand": "PCCW Mobile (CDMA)",
     "operator": "PCCW-HKT",
     "status": "Operational",
     "bands": "CDMA 800",
     "notes": "CDMA2000 1xEV-DO Rev A network for inbound roamers, with limited coverage"
+  },
+  {
+    "type": "National",
+    "countryName": "Hong Kong",
+    "countryCode": "HK",
+    "mcc": "454",
+    "mnc": "30",
+    "brand": null,
+    "operator": "China Data Enterprises Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Hong Kong",
+    "countryCode": "HK",
+    "mcc": "454",
+    "mnc": "31",
+    "brand": null,
+    "operator": "China Telecom Global Limited",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Hong Kong",
+    "countryCode": "HK",
+    "mcc": "454",
+    "mnc": "32",
+    "brand": null,
+    "operator": "Hong Kong Broadband Network Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
@@ -11768,7 +11864,7 @@
     "brand": "3",
     "operator": "Hutchison 3G Ireland limited",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 1800",
+    "bands": "UMTS 2100 / LTE 800 / LTE 1800",
     "notes": null
   },
   {
@@ -13156,12 +13252,24 @@
     "countryName": "South Korea",
     "countryCode": "KR",
     "mcc": "450",
+    "mnc": "01",
+    "brand": null,
+    "operator": "Globalstar Asia Pacific",
+    "status": "Operational",
+    "bands": "Satellite",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "South Korea",
+    "countryCode": "KR",
+    "mcc": "450",
     "mnc": "02",
     "brand": "KT",
     "operator": "KT",
-    "status": "Not operational",
-    "bands": "CDMA2000 1800",
-    "notes": "Formerly Hansol PCS, Merged with KT in 2002"
+    "status": "Unknown",
+    "bands": "5G",
+    "notes": "Test network; former Hansol PCS (CDMA2000 1800), Merged with KT in 2002"
   },
   {
     "type": "National",
@@ -13173,7 +13281,7 @@
     "operator": "Shinsegi Telecom, Inc.",
     "status": "Not operational",
     "bands": "CDMA2000 800",
-    "notes": "Merged with SK Telecom in 2002"
+    "notes": "Merged with SK Telecom in 2002; MNC withdrawn"
   },
   {
     "type": "National",
@@ -13183,9 +13291,9 @@
     "mnc": "04",
     "brand": "KT",
     "operator": "KT",
-    "status": "Not operational",
-    "bands": "CDMA2000 1800",
-    "notes": "HSM"
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "IoT network; former CDMA2000 1800"
   },
   {
     "type": "National",
@@ -13196,7 +13304,7 @@
     "brand": "SKTelecom",
     "operator": "SK Telecom",
     "status": "Operational",
-    "bands": "CDMA2000 800 / UMTS 2100 / LTE 850 / LTE 1800 / LTE 2100",
+    "bands": "CDMA2000 800 / UMTS 2100 / LTE 850 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": null
   },
   {
@@ -13209,6 +13317,18 @@
     "operator": "LG Telecom",
     "status": "Operational",
     "bands": "CDMA2000 1800 / LTE 850 / LTE 2100 / LTE 2600",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "South Korea",
+    "countryCode": "KR",
+    "mcc": "450",
+    "mnc": "07",
+    "brand": "KT",
+    "operator": "KT",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -13232,8 +13352,20 @@
     "brand": null,
     "operator": "Korea Cable Telecom",
     "status": "Operational",
-    "bands": "MVNO of SK Telecom",
-    "notes": null
+    "bands": "MVNO",
+    "notes": "MVNO of SK Telecom"
+  },
+  {
+    "type": "National",
+    "countryName": "South Korea",
+    "countryCode": "KR",
+    "mcc": "450",
+    "mnc": "12",
+    "brand": "SKTelecom",
+    "operator": "SK Telecom",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "IoT network"
   },
   {
     "type": "National",
@@ -14012,7 +14144,7 @@
     "brand": "3",
     "operator": "Hutchison Telephone (Macau), Limitada",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800",
     "notes": null
   },
   {
@@ -14036,7 +14168,7 @@
     "brand": "3",
     "operator": "Hutchison Telephone (Macau), Limitada",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -28699,6 +28831,18 @@
     "mnc": "53",
     "brand": null,
     "operator": "Deutsche Telekom AG",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "901",
+    "mnc": "54",
+    "brand": null,
+    "operator": "Teleena Holding B.V.",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
