@@ -476,7 +476,7 @@
     "brand": "Beeline",
     "operator": "ArmenTel",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 450",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 450 / LTE 1800",
     "notes": null
   },
   {
@@ -1328,7 +1328,7 @@
     "brand": null,
     "operator": "smartspace GmbH",
     "status": "Unknown",
-    "bands": "Unknown",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -1349,10 +1349,34 @@
     "countryCode": "AT",
     "mcc": "232",
     "mnc": "20",
-    "brand": null,
+    "brand": "m:tel",
     "operator": "MTEL Austrija GmbH",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Austria",
+    "countryCode": "AT",
+    "mcc": "232",
+    "mnc": "21",
+    "brand": null,
+    "operator": "Salzburg AG für Energie, Verkehr und Telekommunikation",
     "status": "Unknown",
     "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Austria",
+    "countryCode": "AT",
+    "mcc": "232",
+    "mnc": "22",
+    "brand": null,
+    "operator": "Plintron Austria Limited",
+    "status": "Unknown",
+    "bands": "MVNO",
     "notes": null
   },
   {
@@ -1807,9 +1831,9 @@
     "mnc": "09",
     "brand": "Voxbone",
     "operator": "Voxbone mobile",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -1840,11 +1864,35 @@
     "countryName": "Belgium",
     "countryCode": "BE",
     "mcc": "206",
+    "mnc": "16",
+    "brand": null,
+    "operator": "NextGen Mobile Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Belgium",
+    "countryCode": "BE",
+    "mcc": "206",
     "mnc": "20",
     "brand": "BASE",
     "operator": "Telenet",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Belgium",
+    "countryCode": "BE",
+    "mcc": "206",
+    "mnc": "25",
+    "brand": null,
+    "operator": "Voyacom SPRL",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -2516,7 +2564,7 @@
     "brand": "CCT Boatphone",
     "operator": "Caribbean Cellular Telephone",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1900",
+    "bands": "GSM 900 / GSM 1900 / LTE",
     "notes": null
   },
   {
@@ -3057,7 +3105,7 @@
     "operator": "Telus Mobility",
     "status": "Operational",
     "bands": "CDMA 800 / CDMA 1900",
-    "notes": null
+    "notes": "CDMA shutting down 31 May 2017"
   },
   {
     "type": "National",
@@ -3172,6 +3220,18 @@
     "countryName": "Canada",
     "countryCode": "CA",
     "mcc": "302",
+    "mnc": "540",
+    "brand": null,
+    "operator": "Rovvr Communications Inc.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Canada",
+    "countryCode": "CA",
+    "mcc": "302",
     "mnc": "560",
     "brand": "Lynx Mobility",
     "operator": "Lynx Mobility",
@@ -3273,7 +3333,7 @@
     "operator": "BC Tel Mobility (Telus)",
     "status": "Operational",
     "bands": "CDMA2000",
-    "notes": null
+    "notes": "CDMA shutting down 31 May 2017"
   },
   {
     "type": "National",
@@ -3285,7 +3345,7 @@
     "operator": "Telus Mobility",
     "status": "Operational",
     "bands": "CDMA 800 / CDMA 1900",
-    "notes": "CDMA will shut down 1 July 2015"
+    "notes": "CDMA shutting down 31 May 2017"
   },
   {
     "type": "National",
@@ -3321,7 +3381,7 @@
     "operator": "Telus Mobility",
     "status": "Operational",
     "bands": "CDMA 800 / CDMA 1900",
-    "notes": null
+    "notes": "CDMA shutting down 31 May 2017"
   },
   {
     "type": "National",
@@ -3488,7 +3548,7 @@
     "brand": "TNW Wireless",
     "operator": "Rural Com",
     "status": "Operational",
-    "bands": "UMTS 850 / iPCS and Wi-Nodes",
+    "bands": "UMTS 850",
     "notes": "National coverage based on iPCS and technology and Wi-Nodes"
   },
   {
@@ -3512,7 +3572,7 @@
     "brand": null,
     "operator": "NetSet Communications",
     "status": "Operational",
-    "bands": "WiMAX",
+    "bands": "WiMAX / TD-LTE 3500",
     "notes": "Manitoba"
   },
   {
@@ -3559,9 +3619,9 @@
     "mnc": "920",
     "brand": "Rogers Wireless",
     "operator": "Rogers Communications",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -3574,6 +3634,18 @@
     "status": "Operational",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Canada",
+    "countryCode": "CA",
+    "mcc": "302",
+    "mnc": "990",
+    "brand": null,
+    "operator": null,
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "For testing"
   },
   {
     "type": "National",
@@ -4351,8 +4423,8 @@
     "mnc": "02",
     "brand": "TELCO SA",
     "operator": "Telecom Malagasy (Telma)",
-    "status": "Unknown",
-    "bands": "Unknown",
+    "status": "Operational",
+    "bands": "GSM 900 / UMTS 900 / LTE 800",
     "notes": null
   },
   {
@@ -5329,6 +5401,18 @@
   },
   {
     "type": "National",
+    "countryName": "Ecuador",
+    "countryCode": "EC",
+    "mcc": "740",
+    "mnc": "03",
+    "brand": "Tuenti",
+    "operator": "Otecel S.A.",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "Runs on Movistar's Network"
+  },
+  {
+    "type": "National",
     "countryName": "Egypt",
     "countryCode": "EG",
     "mcc": "602",
@@ -5396,7 +5480,7 @@
     "brand": "Tigo",
     "operator": "Telemovil El Salvador S.A.",
     "status": "Operational",
-    "bands": "GSM 850 / UMTS 850",
+    "bands": "GSM 850 / UMTS 850 / LTE",
     "notes": null
   },
   {
@@ -5408,7 +5492,7 @@
     "brand": "movistar",
     "operator": "Telefónica Móviles El Salvador",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS",
+    "bands": "GSM 850 / GSM 1900 / UMTS / LTE 1900",
     "notes": null
   },
   {
@@ -6800,7 +6884,7 @@
     "brand": "Moov",
     "operator": "Atlantique Télécom (Etisalat Group) Gabon S.A.",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE",
     "notes": null
   },
   {
@@ -8671,9 +8755,9 @@
     "mnc": "02",
     "brand": null,
     "operator": "MVM Net Ltd.",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "status": "Operational",
+    "bands": "LTE 450",
+    "notes": "For government use"
   },
   {
     "type": "National",
@@ -12352,6 +12436,18 @@
     "countryName": "Italy",
     "countryCode": "IT",
     "mcc": "222",
+    "mnc": "11",
+    "brand": "Free Mobile",
+    "operator": "Free Mobile Italia",
+    "status": "Not operational",
+    "bands": "900 / 1800 / 2100 / 2600",
+    "notes": "Planned launch in 2017"
+  },
+  {
+    "type": "National",
+    "countryName": "Italy",
+    "countryCode": "IT",
+    "mcc": "222",
     "mnc": "30",
     "brand": "RFI",
     "operator": "Rete Ferroviaria Italiana",
@@ -13052,7 +13148,7 @@
     "brand": "Umniah",
     "operator": "Umniah Mobile Company",
     "status": "Operational",
-    "bands": "GSM 1800",
+    "bands": "GSM 1800 / LTE 1800 / LTE 3500",
     "notes": null
   },
   {
@@ -14324,7 +14420,7 @@
     "brand": "TNM",
     "operator": "Telecom Network Malawi",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / LTE",
+    "bands": "GSM 900 / GSM 1800 / LTE 2500",
     "notes": null
   },
   {
@@ -16880,8 +16976,8 @@
     "brand": "citifon",
     "operator": "Telikom PNG Ltd.",
     "status": "Operational",
-    "bands": "CDMA2000 450",
-    "notes": "Formerly Greencom"
+    "bands": "CDMA2000 450 / LTE 700",
+    "notes": "Formerly Greencom; LTE band 28"
   },
   {
     "type": "National",
@@ -18740,7 +18836,7 @@
     "brand": "Digicel",
     "operator": "Digicel Pacific Ltd.",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -21307,7 +21403,7 @@
     "mnc": "12",
     "brand": "Sunrise",
     "operator": "Sunrise Communications AG",
-    "status": "Inactive",
+    "status": "Not operational",
     "bands": null,
     "notes": null
   },
@@ -21380,7 +21476,7 @@
     "brand": null,
     "operator": "WeMobile SA",
     "status": "Unknown",
-    "bands": "Unknown",
+    "bands": null,
     "notes": "SMS relay only"
   },
   {
@@ -21404,7 +21500,7 @@
     "brand": null,
     "operator": "Mitto AG",
     "status": "Unknown",
-    "bands": "Unknown",
+    "bands": null,
     "notes": "SMS relay only"
   },
   {
@@ -21424,12 +21520,36 @@
     "countryName": "Switzerland",
     "countryCode": "CH",
     "mcc": "228",
+    "mnc": "59",
+    "brand": "Vectone",
+    "operator": "Mundio Mobile Limited",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Switzerland",
+    "countryCode": "CH",
+    "mcc": "228",
     "mnc": "60",
     "brand": "Sunrise",
     "operator": "Sunrise Communications AG",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": "Network sharing test with Salt Mobile"
+    "notes": "Network sharing test with Salt Mobile; MNC withdrawn"
+  },
+  {
+    "type": "National",
+    "countryName": "Switzerland",
+    "countryCode": "CH",
+    "mcc": "228",
+    "mnc": "61",
+    "brand": null,
+    "operator": "Compatel Ltd.",
+    "status": "Unknown",
+    "bands": null,
+    "notes": "SMS relay only"
   },
   {
     "type": "National",
@@ -22101,6 +22221,18 @@
     "operator": "Moov Togo",
     "status": "Operational",
     "bands": "GSM 900",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Tokelau",
+    "countryCode": "TK",
+    "mcc": "554",
+    "mnc": "01",
+    "brand": null,
+    "operator": "Teletok",
+    "status": "Unknown",
+    "bands": "LTE 700",
     "notes": null
   },
   {
@@ -28160,7 +28292,7 @@
     "brand": "ZAMTEL",
     "operator": "Zambia Telecommunications Company Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / LTE",
+    "bands": "GSM 900 / LTE 2300",
     "notes": null
   },
   {
