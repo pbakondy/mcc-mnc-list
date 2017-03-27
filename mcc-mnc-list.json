@@ -229,6 +229,18 @@
   },
   {
     "type": "National",
+    "countryName": "Algeria",
+    "countryCode": "DZ",
+    "mcc": "603",
+    "mnc": "21",
+    "brand": "ANESRIF",
+    "operator": "Anesrif",
+    "status": "Ongoing",
+    "bands": "GSM-R",
+    "notes": null
+  },
+  {
+    "type": "National",
     "countryName": "American Samoa (United States of America)",
     "countryCode": "AS",
     "mcc": "544",
@@ -236,7 +248,7 @@
     "brand": "Bluesky",
     "operator": "Bluesky",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850",
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / LTE 700 / LTE 1700",
     "notes": null
   },
   {
@@ -512,7 +524,7 @@
     "brand": "Ucom",
     "operator": "Ucom LLC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": "Former Orange"
   },
   {
@@ -4481,10 +4493,10 @@
     "countryCode": "CK",
     "mcc": "548",
     "mnc": "01",
-    "brand": "Kokanet",
+    "brand": "Bluesky",
     "operator": "Telecom Cook Islands",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900",
+    "bands": "GSM 900 / UMTS 900 / LTE",
     "notes": null
   },
   {
@@ -6956,7 +6968,7 @@
     "brand": "Vini",
     "operator": "Tikiphone SA",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -7220,7 +7232,7 @@
     "brand": "Telekom",
     "operator": "Telekom Deutschland GmbH",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800/ / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800/ / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": "Formerly D1 - DeTeMobil, D1-Telekom, T-D1, T-Mobile"
   },
   {
@@ -7280,7 +7292,7 @@
     "brand": "Telekom",
     "operator": "Telekom Deutschland GmbH",
     "status": "Reserved",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -12464,7 +12476,7 @@
     "brand": "TIM",
     "operator": "Telecom Italia S.p.A",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1500 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -13889,7 +13901,7 @@
     "countryCode": "LB",
     "mcc": "415",
     "mnc": "03",
-    "brand": "touch",
+    "brand": "Touch",
     "operator": "MIC 2",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800",
@@ -15308,7 +15320,7 @@
     "brand": "Telenor",
     "operator": "Telenor Montenegro",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": "Former ProMonte GSM"
   },
   {
@@ -15512,7 +15524,7 @@
     "brand": "TN Mobile",
     "operator": "Telecom Namibia",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / LTE 1800 / LTE 2600",
     "notes": "former Cell One"
   },
   {
@@ -19688,7 +19700,7 @@
     "brand": "Telesom",
     "operator": "Telesom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -21476,7 +21488,7 @@
     "brand": "Swisscom",
     "operator": "Swisscom Ltd",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": "GSM shutdown planned for 2020"
   },
   {
@@ -22726,6 +22738,18 @@
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS / LTE 800",
     "notes": "Former Orange, HiTS Telecom; LTE band 20"
+  },
+  {
+    "type": "National",
+    "countryName": "Uganda",
+    "countryCode": "UG",
+    "mcc": "641",
+    "mnc": "16",
+    "brand": null,
+    "operator": "SimbaNET Uganda Limited",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
@@ -28745,11 +28769,11 @@
     "countryCode": null,
     "mcc": "901",
     "mnc": "16",
-    "brand": null,
-    "operator": "Jasper Systems",
+    "brand": "Cisco Jasper",
+    "operator": "Cisco Systems, Inc.",
     "status": "Operational",
     "bands": "Unknown",
-    "notes": "Global SIM"
+    "notes": null
   },
   {
     "type": "International",
@@ -29203,6 +29227,18 @@
     "mnc": "54",
     "brand": null,
     "operator": "Teleena Holding B.V.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "901",
+    "mnc": "55",
+    "brand": null,
+    "operator": "Beezz Communication Solutions Ltd.",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
