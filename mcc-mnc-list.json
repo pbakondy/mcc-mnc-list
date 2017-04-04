@@ -1036,6 +1036,18 @@
     "countryName": "Australia",
     "countryCode": "AU",
     "mcc": "505",
+    "mnc": "42",
+    "brand": "GEMCO",
+    "operator": "Groote Eylandt Mining Company Pty Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU",
+    "mcc": "505",
     "mnc": "61",
     "brand": null,
     "operator": "Commtel Network Solutions Pty Ltd",
@@ -1664,7 +1676,7 @@
     "brand": "FLOW",
     "operator": "LIME (formerly known as Cable & Wireless)",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS",
+    "bands": "GSM 1900 / UMTS / LTE",
     "notes": null
   },
   {
@@ -2350,6 +2362,18 @@
     "status": "Not operational",
     "bands": "GSM 1800 / UMTS 2100",
     "notes": "acquired by Oi, MNC used for existing Brasil Telecom SIM Cards only"
+  },
+  {
+    "type": "National",
+    "countryName": "Brazil",
+    "countryCode": "BR",
+    "mcc": "724",
+    "mnc": "17",
+    "brand": "Correios",
+    "operator": "Correios Celular",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "Through TIM network"
   },
   {
     "type": "National",
@@ -14012,7 +14036,7 @@
     "brand": "Libyana",
     "operator": "Libyana",
     "status": "Operational",
-    "bands": "GSM900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM900 / GSM 1800 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -14528,7 +14552,7 @@
     "brand": "Orange",
     "operator": "Orange Madagascar S.A.",
     "status": "Operational",
-    "bands": "GSM 900",
+    "bands": "GSM 900 / LTE",
     "notes": null
   },
   {
@@ -14599,7 +14623,7 @@
     "mnc": "01",
     "brand": "ATUR 450",
     "operator": "Telekom Malaysia Bhd",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "CDMA2000 450",
     "notes": null
   },
@@ -14610,10 +14634,10 @@
     "mcc": "502",
     "mnc": "10",
     "brand": null,
-    "operator": "DiGi Telecommunications",
-    "status": "Unknown",
-    "bands": null,
-    "notes": null
+    "operator": "Maxis, DiGi, Celcom, XOX",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "notes": "Former Celcom"
   },
   {
     "type": "National",
@@ -14634,7 +14658,7 @@
     "mcc": "502",
     "mnc": "12",
     "brand": "Maxis",
-    "operator": "Maxis Mobile Services SDN Berhad",
+    "operator": "Maxis Communications Berhad",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": "Used by MVNO Kartu As; LTE 2600 in co-operation with REDtone"
@@ -14649,7 +14673,7 @@
     "operator": "Celcom Axiata Berhad",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": "Former TMTouch; LTE 2600 in co-operation with Altel"
+    "notes": "Former Emartel, TMTouch; LTE 2600 in co-operation with Altel"
   },
   {
     "type": "National",
@@ -14681,11 +14705,11 @@
     "countryCode": "MY",
     "mcc": "502",
     "mnc": "151",
-    "brand": null,
-    "operator": "Baraka Telecom Sdn Bhd (MVNE)",
-    "status": "Operational",
+    "brand": "SalamFone",
+    "operator": "Baraka Telecom Sdn Bhd",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": "SalamFone (MVNO)-MAXIS, Previously using DiGi."
+    "notes": "(MVNO)-MAXIS, Previously using DiGi"
   },
   {
     "type": "National",
@@ -14708,7 +14732,7 @@
     "brand": "Webe",
     "operator": "Packet One Networks Sdn Bhd",
     "status": "Operational",
-    "bands": "WiMAX 2300 / LTE",
+    "bands": "WiMAX 2300 / LTE 850",
     "notes": null
   },
   {
@@ -14721,7 +14745,7 @@
     "operator": "Talk Focus Sdn Bhd",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "Uses Digi"
   },
   {
     "type": "National",
@@ -14729,11 +14753,11 @@
     "countryCode": "MY",
     "mcc": "502",
     "mnc": "155",
-    "brand": null,
+    "brand": "Clixster",
     "operator": "Clixster Mobile Sdn Bhd",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "Uses Digi"
   },
   {
     "type": "National",
@@ -14745,7 +14769,7 @@
     "operator": "Altel Communications Sdn Bhd",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "Using Celcom, LTE 2600 band licensed to Celcom"
+    "notes": "Using Celcom; LTE 2600 band licensed to Celcom"
   },
   {
     "type": "National",
@@ -14753,11 +14777,11 @@
     "countryCode": "MY",
     "mcc": "502",
     "mnc": "157",
-    "brand": null,
+    "brand": "Telin",
     "operator": "Telekomunikasi Indonesia International (M) Sdn Bhd",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": "Uses U Mobile"
   },
   {
     "type": "National",
@@ -14769,7 +14793,7 @@
     "operator": "DiGi Telecommunications",
     "status": "Operational",
     "bands": "GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": "LTE 2600 coverage limited to certain areas in the Klang Valley at the moment"
+    "notes": "LTE 2600 coverage limited to certain areas in the Klang Valley at the moment; former Mutiara Telecom"
   },
   {
     "type": "National",
@@ -14777,11 +14801,11 @@
     "countryCode": "MY",
     "mcc": "502",
     "mnc": "17",
-    "brand": "Hotlink",
-    "operator": "Maxis Prepaid",
+    "brand": "Maxis",
+    "operator": "Maxis Communications Berhad",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
-    "notes": "Former TimeCel Adam017"
+    "notes": "Former TimeCel, Adam017"
   },
   {
     "type": "National",
@@ -14793,7 +14817,7 @@
     "operator": "U Mobile Sdn Bhd",
     "status": "Operational",
     "bands": "UMTS 2100 / LTE 2600",
-    "notes": "Domestic Roaming with Maxis, also for GSM"
+    "notes": "Domestic Roaming with Maxis, also for GSM Former Mobikom"
   },
   {
     "type": "National",
@@ -14813,11 +14837,11 @@
     "countryCode": "MY",
     "mcc": "502",
     "mnc": "20",
-    "brand": null,
-    "operator": "Electcoms Wireless Sdn Bhd",
+    "brand": "Electcoms",
+    "operator": "Electcoms Berhad",
     "status": "Operational",
-    "bands": "CDMA",
-    "notes": "PTT and CDMA Technology. Uses TM CDMA"
+    "bands": "DMR",
+    "notes": "Uses TM CDMA"
   },
   {
     "type": "National",
@@ -15256,11 +15280,11 @@
     "countryName": "Monaco",
     "countryCode": "MC",
     "mcc": "212",
-    "mnc": "01",
+    "mnc": "10",
     "brand": "Office des Telephones",
     "operator": "Monaco Telecom",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": "Used for the Vala network in Kosovo. The GSM Association lists the PTK (P&T Kosovo) website for this network."
   },
   {
