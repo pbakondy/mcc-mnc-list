@@ -1639,9 +1639,9 @@
     "mnc": "05",
     "brand": "Citycell",
     "operator": "Pacific Bangladesh Telecom Limited",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "CDMA 800 / GSM 900 / GSM 1800",
-    "notes": null
+    "notes": "shutdown by Bangladesh Telecommunication Regulatory Commission in 2016"
   },
   {
     "type": "National",
@@ -3201,7 +3201,7 @@
     "operator": "Shaw Communications",
     "status": "Operational",
     "bands": "UMTS 1700 / LTE 1700",
-    "notes": "Former Wind Mobile"
+    "notes": "Former Wind Mobile; LTE bands 4, 66"
   },
   {
     "type": "National",
@@ -3212,7 +3212,7 @@
     "brand": "Videotron",
     "operator": "Videotron",
     "status": "Operational",
-    "bands": "UMTS 1700",
+    "bands": "UMTS 1700 / LTE 1700",
     "notes": null
   },
   {
@@ -3224,7 +3224,7 @@
     "brand": "Videotron",
     "operator": "Videotron",
     "status": "Operational",
-    "bands": "UMTS 1700",
+    "bands": "UMTS 1700 / LTE 1700",
     "notes": null
   },
   {
@@ -3308,8 +3308,8 @@
     "brand": "Bell Mobility, Virgin Mobile Canada",
     "operator": "Bell Mobility",
     "status": "Operational",
-    "bands": "UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
-    "notes": "Used in IMSI to identify Bell subscribers on shared network 302-880"
+    "bands": "UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700 / LTE 1900 / LTE 2600",
+    "notes": "Used in IMSI to identify Bell subscribers on shared network 302-880; LTE bands 17, 29, 4, 2, 7"
   },
   {
     "type": "National",
@@ -3356,7 +3356,7 @@
     "brand": "TBaytel",
     "operator": "Thunder Bay Telephone",
     "status": "Operational",
-    "bands": "UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
+    "bands": "UMTS 850 / UMTS 1900 / LTE 2600",
     "notes": null
   },
   {
@@ -3426,7 +3426,7 @@
     "mcc": "302",
     "mnc": "660",
     "brand": "MTS",
-    "operator": "MTS Mobility",
+    "operator": "Bell MTS",
     "status": "Operational",
     "bands": "UMTS 850 / UMTS 1900 / LTE 1700",
     "notes": null
@@ -3524,8 +3524,8 @@
     "brand": "Rogers Wireless",
     "operator": "Rogers Communications",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 1700 / LTE 2600",
-    "notes": "former Rogers AT&T Wireless"
+    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700 / LTE 2600",
+    "notes": "former Rogers AT&T Wireless; LTE bands 12, 4, 7"
   },
   {
     "type": "National",
@@ -3596,7 +3596,7 @@
     "brand": "SaskTel",
     "operator": "SaskTel Mobility",
     "status": "Operational",
-    "bands": "UMTS 850 / UMTS 1900 / LTE 2100",
+    "bands": "UMTS 850 / UMTS 1900 / LTE 1700",
     "notes": null
   },
   {
@@ -8908,6 +8908,18 @@
     "countryName": "Hungary",
     "countryCode": "HU",
     "mcc": "216",
+    "mnc": "04",
+    "brand": null,
+    "operator": "Invitech Solutions",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Hungary",
+    "countryCode": "HU",
+    "mcc": "216",
     "mnc": "30",
     "brand": "T-Mobile",
     "operator": "Magyar Telekom Plc",
@@ -11840,7 +11852,7 @@
     "brand": "IR-MCI (Hamrah-e-Avval)",
     "operator": "Mobile Communications Company of Iran",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 /LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -14816,7 +14828,7 @@
     "brand": "U Mobile",
     "operator": "U Mobile Sdn Bhd",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 2600",
+    "bands": "UMTS 2100 / LTE 1800 / LTE 2600",
     "notes": "Domestic Roaming with Maxis, also for GSM Former Mobikom"
   },
   {
@@ -15484,6 +15496,18 @@
     "countryName": "Myanmar",
     "countryCode": "MM",
     "mcc": "414",
+    "mnc": "00",
+    "brand": "MPT",
+    "operator": "Myanmar Posts and Telecommunications",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Myanmar",
+    "countryCode": "MM",
+    "mcc": "414",
     "mnc": "01",
     "brand": "MPT",
     "operator": "Myanmar Posts and Telecommunications",
@@ -15496,11 +15520,35 @@
     "countryName": "Myanmar",
     "countryCode": "MM",
     "mcc": "414",
+    "mnc": "02",
+    "brand": "MPT",
+    "operator": "Myanmar Posts and Telecommunications",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Myanmar",
+    "countryCode": "MM",
+    "mcc": "414",
     "mnc": "03",
     "brand": "CDMA800",
     "operator": "Myanmar Economic Corporation",
     "status": "Operational",
     "bands": "CDMA 800",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Myanmar",
+    "countryCode": "MM",
+    "mcc": "414",
+    "mnc": "04",
+    "brand": "MPT",
+    "operator": "Myanmar Posts and Telecommunications",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -15525,6 +15573,18 @@
     "operator": "Telenor Myanmar",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100 / LTE 2100",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Myanmar",
+    "countryCode": "MM",
+    "mcc": "414",
+    "mnc": "09",
+    "brand": "MNTC",
+    "operator": "Myanmar National Tele & Communication Co.,Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -16949,11 +17009,11 @@
     "countryCode": "PK",
     "mcc": "410",
     "mnc": "01",
-    "brand": "Mobilink",
+    "brand": "Jazz",
     "operator": "Mobilink-PMCL",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100",
-    "notes": null
+    "notes": "Former Mobilink"
   },
   {
     "type": "National",
@@ -17021,11 +17081,11 @@
     "countryCode": "PK",
     "mcc": "410",
     "mnc": "07",
-    "brand": "Warid Pakistan",
+    "brand": "Jazz",
     "operator": "WaridTel",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": null
+    "notes": "Former Warid Pakistan"
   },
   {
     "type": "National",
@@ -19081,6 +19141,18 @@
   },
   {
     "type": "National",
+    "countryName": "Sao Tome and Principe",
+    "countryCode": "ST",
+    "mcc": "626",
+    "mnc": "02",
+    "brand": "Unitel STP",
+    "operator": "Unitel Sao Tome and Principe",
+    "status": "Operational",
+    "bands": "GSM 900",
+    "notes": null
+  },
+  {
+    "type": "National",
     "countryName": "Saudi Arabia",
     "countryCode": "SA",
     "mcc": "420",
@@ -20876,7 +20948,7 @@
     "brand": "Sudani One",
     "operator": "Sudatel Group",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE / CDMA2000 800",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 1800 / CDMA2000 800",
     "notes": null
   },
   {
@@ -22120,6 +22192,18 @@
     "countryName": "Tajikistan",
     "countryCode": "TJ",
     "mcc": "436",
+    "mnc": "10",
+    "brand": "Babilon-T",
+    "operator": "Babilon-T",
+    "status": "Operational",
+    "bands": "TD-LTE 2300 / WiMAX",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Tajikistan",
+    "countryCode": "TJ",
+    "mcc": "436",
     "mnc": "12",
     "brand": "Tcell",
     "operator": "Indigo",
@@ -22459,7 +22543,7 @@
     "mnc": "01",
     "brand": null,
     "operator": "Teletok",
-    "status": "Unknown",
+    "status": "Operational",
     "bands": "LTE 700",
     "notes": null
   },
@@ -23815,8 +23899,8 @@
     "mnc": "95",
     "brand": null,
     "operator": "Network Rail Infrastructure Limited",
-    "status": "Unknown",
-    "bands": null,
+    "status": "Test Network",
+    "bands": "GSM-R",
     "notes": null
   },
   {
@@ -24847,9 +24931,9 @@
     "mnc": "690",
     "brand": "Limitless Mobile",
     "operator": "Limitless Mobile, LLC",
-    "status": "Operational",
-    "bands": "GSM 1900",
-    "notes": "Former Conestoga Wireless, Keystone Wireless d/b/a Immix Wireless"
+    "status": "Not operational",
+    "bands": "GSM 1900 / LTE 1900",
+    "notes": "Former Conestoga Wireless, Keystone Wireless d/b/a Immix Wireless; bankrupt in November 2016"
   },
   {
     "type": "National",
@@ -26009,11 +26093,11 @@
     "countryCode": "US",
     "mcc": "311",
     "mnc": "470",
-    "brand": "Innovative Wireless",
+    "brand": "Viya",
     "operator": "Vitelcom Cellular Inc.",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900",
-    "notes": "US Virgin Islands"
+    "notes": "Former Innovative Wireless; US Virgin Islands"
   },
   {
     "type": "National",
