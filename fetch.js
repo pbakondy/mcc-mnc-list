@@ -14,7 +14,7 @@ function fetch () {
     url: WIKI_URL,
     done: function (err, window) {
       if (err) throw err;
-      var content = window.document.querySelector('#mw-content-text');
+      var content = window.document.querySelector('#mw-content-text > .mw-parser-output');
 
       if (!content.hasChildNodes()) {
         console.log('ERROR - empty content');
