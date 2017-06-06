@@ -2060,7 +2060,7 @@
     "brand": "Digicel Bermuda",
     "operator": null,
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 1900",
+    "bands": "GSM 1900 / UMTS 1900 / LTE 700",
     "notes": "uses Jamaica MCC"
   },
   {
@@ -4640,7 +4640,7 @@
     "brand": "CUBACEL",
     "operator": "Empresa de Telecomunicaciones de Cuba, SA",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 850",
+    "bands": "GSM 900 / GSM 850 / UMTS 900",
     "notes": "GSM 850 only available in limited areas (Havana, Varadero, Trinidad and Cayo Coco)"
   },
   {
@@ -5741,8 +5741,8 @@
     "countryCode": "FK",
     "mcc": "750",
     "mnc": "001",
-    "brand": "sure",
-    "operator": "Batelco",
+    "brand": "Sure",
+    "operator": "Sure South Atlantic Ltd.",
     "status": "Operational",
     "bands": "GSM 900",
     "notes": "formerly Cable & Wireless Communications Touch"
@@ -11848,6 +11848,18 @@
     "countryName": "Iran",
     "countryCode": "IR",
     "mcc": "432",
+    "mnc": "01",
+    "brand": "?",
+    "operator": "?",
+    "status": "?",
+    "bands": "LTE",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Iran",
+    "countryCode": "IR",
+    "mcc": "432",
     "mnc": "11",
     "brand": "IR-MCI (Hamrah-e-Avval)",
     "operator": "Mobile Communications Company of Iran",
@@ -12616,18 +12628,6 @@
     "countryName": "Italy",
     "countryCode": "IT",
     "mcc": "222",
-    "mnc": "11",
-    "brand": "Free Mobile",
-    "operator": "Free Mobile Italia",
-    "status": "Not operational",
-    "bands": "900 / 1800 / 2100 / 2600",
-    "notes": "Planned launch in 2017"
-  },
-  {
-    "type": "National",
-    "countryName": "Italy",
-    "countryCode": "IT",
-    "mcc": "222",
     "mnc": "30",
     "brand": "RFI",
     "operator": "Rete Ferroviaria Italiana",
@@ -12742,6 +12742,18 @@
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Italy",
+    "countryCode": "IT",
+    "mcc": "222",
+    "mnc": "50",
+    "brand": "Unknown",
+    "operator": "Iliad Italia",
+    "status": "Not operational",
+    "bands": "900 / 1800 / 2100 / 2600",
+    "notes": "Planned launch in 2017"
   },
   {
     "type": "National",
@@ -13760,7 +13772,7 @@
     "brand": "O!",
     "operator": "NurTelecom LLC",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 2600",
     "notes": null
   },
   {
@@ -14201,11 +14213,11 @@
     "countryCode": "LT",
     "mcc": "246",
     "mnc": "01",
-    "brand": "Omnitel",
-    "operator": null,
+    "brand": null,
+    "operator": "Telia Lietuva",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800",
-    "notes": null
+    "notes": "Former Omnitel"
   },
   {
     "type": "National",
@@ -14489,11 +14501,11 @@
     "countryCode": "MK",
     "mcc": "294",
     "mnc": "02",
-    "brand": "ONE",
-    "operator": "One",
+    "brand": "vip",
+    "operator": "ONE.VIP DOO",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 1800",
-    "notes": "Former Cosmofon"
+    "notes": "Former Cosmofon, One (Telekom Slovenija Group)"
   },
   {
     "type": "National",
@@ -14501,11 +14513,11 @@
     "countryCode": "MK",
     "mcc": "294",
     "mnc": "03",
-    "brand": "Vip MK",
-    "operator": "VIP Operator",
+    "brand": "vip",
+    "operator": "ONE.VIP DOO",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
-    "notes": null
+    "notes": "Former VIP; merged with One in 2015"
   },
   {
     "type": "National",
@@ -14517,7 +14529,7 @@
     "operator": "Lycamobile LLC",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "Uses ONE.VIP network"
   },
   {
     "type": "National",
@@ -14527,7 +14539,7 @@
     "mnc": "10",
     "brand": null,
     "operator": "WTI Macedonia",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
     "notes": null
   },
@@ -15512,7 +15524,7 @@
     "brand": "MPT",
     "operator": "Myanmar Posts and Telecommunications",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -15560,7 +15572,7 @@
     "brand": "Ooredoo",
     "operator": "Ooredoo Myanmar",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 2100",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -15680,7 +15692,7 @@
     "brand": "Ncell",
     "operator": "Ncell Pvt. Ltd.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
     "notes": null
   },
   {
@@ -19268,7 +19280,7 @@
     "brand": "Telenor",
     "operator": "Telenor Serbia",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
     "notes": "Former MOBTEL"
   },
   {
@@ -19520,8 +19532,8 @@
     "brand": "SingTel",
     "operator": "Singapore Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
-    "notes": "GSM to shut down 1 April 2017"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
+    "notes": "GSM shut down on 1 April 2017"
   },
   {
     "type": "National",
@@ -19531,9 +19543,9 @@
     "mnc": "02",
     "brand": "SingTel-G18",
     "operator": "Singapore Telecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "GSM 1800",
-    "notes": "GSM to shut down 1 April 2017"
+    "notes": "GSM shut down on 1 April 2017"
   },
   {
     "type": "National",
@@ -19544,8 +19556,8 @@
     "brand": "M1",
     "operator": "M1 Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": "GSM to shut down 1 April 2017"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "notes": "GSM shut down on 1 April 2017"
   },
   {
     "type": "National",
@@ -19556,8 +19568,8 @@
     "brand": "StarHub",
     "operator": "StarHub Mobile",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
-    "notes": "GSM to shut down 1 April 2017"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "notes": "GSM shut down on 1 April 2017"
   },
   {
     "type": "National",
@@ -19733,11 +19745,11 @@
     "countryCode": "SI",
     "mcc": "293",
     "mnc": "40",
-    "brand": "Si.mobil",
-    "operator": "SI.MOBIL d.d.",
+    "brand": "A1",
+    "operator": "A1 Slovenija",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800",
-    "notes": null
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
+    "notes": "Former Si.mobil"
   },
   {
     "type": "National",
@@ -29371,6 +29383,18 @@
     "mnc": "55",
     "brand": null,
     "operator": "Beezz Communication Solutions Ltd.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "901",
+    "mnc": "56",
+    "brand": "ETSI",
+    "operator": "European Telecommunications Standards Institute",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
