@@ -701,7 +701,7 @@
     "countryCode": "AU",
     "mcc": "505",
     "mnc": "13",
-    "brand": "Railcorp",
+    "brand": "RailCorp",
     "operator": "Railcorp, Transport for New South Wales",
     "status": "Operational",
     "bands": "GSM-R 1800",
@@ -2444,8 +2444,8 @@
     "brand": "Algar Telecom",
     "operator": "Algar Telecom S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700",
-    "notes": "LTE band 28"
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800",
+    "notes": "LTE bands 28 / 3"
   },
   {
     "type": "National",
@@ -2456,7 +2456,7 @@
     "brand": "Algar Telecom",
     "operator": "Algar Telecom S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800",
     "notes": null
   },
   {
@@ -2468,7 +2468,7 @@
     "brand": "Algar Telecom",
     "operator": "Algar Telecom S.A.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800",
     "notes": null
   },
   {
@@ -13052,8 +13052,8 @@
     "brand": "SoftBank",
     "operator": "SoftBank Corp.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100 / TD-LTE 3500",
-    "notes": "bands 1, 8, 9, 28, 42"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 8, 9, 11, 28, 42"
   },
   {
     "type": "National",
@@ -13064,8 +13064,8 @@
     "brand": "SoftBank",
     "operator": "SoftBank Corp.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100 / TD-LTE 3500",
-    "notes": "bands 1, 8, 9, 28, 42"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 8, 9, 11, 28, 42"
   },
   {
     "type": "National",
@@ -13244,8 +13244,8 @@
     "brand": "SoftBank",
     "operator": "SoftBank Corp.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100 / TD-LTE 3500",
-    "notes": "bands 1, 8, 9, 28, 42"
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 3500",
+    "notes": "bands 1, 8, 9, 11, 28, 42"
   },
   {
     "type": "National",
@@ -13665,7 +13665,7 @@
     "operator": "Telecom of Kosovo J.S.C.",
     "status": "Operational",
     "bands": "GSM 900 / LTE 1800",
-    "notes": "Monaco Telecom is responsible for the delegated management of this network in Kosovo. Previously the Monaco MCC/MNC 212-01 was used."
+    "notes": "Previously the Monaco MCC/MNC 212-01 was used."
   },
   {
     "type": "National",
@@ -13677,7 +13677,7 @@
     "operator": "IPKO",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800",
-    "notes": "Telekom Slovenije is responsible for the delegated management of the IPKO GSM Network in Kosovo. Previously the Slovenian MCC/MNC 293-41 was used. Used by MVNO D3 Mobile."
+    "notes": "Previously the Slovenian MCC/MNC 293-41 was used. Used by MVNO D3 Mobile."
   },
   {
     "type": "National",
@@ -14816,7 +14816,7 @@
     "brand": "DiGi",
     "operator": "DiGi Telecommunications",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": "LTE 2600 coverage limited to certain areas in the Klang Valley at the moment; former Mutiara Telecom"
   },
   {
@@ -15584,7 +15584,7 @@
     "brand": "Telenor",
     "operator": "Telenor Myanmar",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 2100",
+    "bands": "GSM 900 / UMTS 2100 / LTE 1800 / LTE 2100",
     "notes": null
   },
   {
@@ -17396,7 +17396,7 @@
     "brand": "Globe",
     "operator": "Globe Telecom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 900 / UMTS 2100 / LTE 1800 / TD-LTE 2500",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 900 / UMTS 2100 / LTE 700 / LTE 1800 / TD-LTE 2500",
     "notes": null
   },
   {
@@ -17408,7 +17408,7 @@
     "brand": "SMART",
     "operator": "PLDT via Smart Communications",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 850 / LTE 1800 / LTE 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 700 / LTE 850 / LTE 1800 / LTE 2100",
     "notes": "Formerly PilTel"
   },
   {
@@ -18872,7 +18872,7 @@
     "brand": "Beeline",
     "operator": "OJSC Vimpel-Communications",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -25604,7 +25604,7 @@
     "brand": "C Spire Wireless",
     "operator": "Cellular South Inc.",
     "status": "Operational",
-    "bands": "CDMA 850 / CDMA 1900 / LTE 1900 / LTE 1700",
+    "bands": "CDMA 850 / CDMA 1900 / LTE 700 / LTE 850 / LTE 1700 / LTE 1900 / TD-LTE 2500",
     "notes": null
   },
   {
@@ -29395,6 +29395,18 @@
     "mnc": "56",
     "brand": "ETSI",
     "operator": "European Telecommunications Standards Institute",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "901",
+    "mnc": "57",
+    "brand": null,
+    "operator": "SAP",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
