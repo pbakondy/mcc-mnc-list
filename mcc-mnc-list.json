@@ -11143,7 +11143,7 @@
     "mnc": "840",
     "brand": "Jio",
     "operator": "West Bengal",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11263,7 +11263,7 @@
     "mnc": "854",
     "brand": "Jio",
     "operator": "Andhra Pradesh",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11275,7 +11275,7 @@
     "mnc": "855",
     "brand": "Jio",
     "operator": "Assam",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11287,7 +11287,7 @@
     "mnc": "856",
     "brand": "Jio",
     "operator": "Bihar",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11299,7 +11299,7 @@
     "mnc": "857",
     "brand": "Jio",
     "operator": "Gujarat",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11311,7 +11311,7 @@
     "mnc": "858",
     "brand": "Jio",
     "operator": "Haryana",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11323,7 +11323,7 @@
     "mnc": "859",
     "brand": "Jio",
     "operator": "Himachal Pradesh",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11334,8 +11334,8 @@
     "mcc": "405",
     "mnc": "860",
     "brand": "Jio",
-    "operator": "Jammu Kashmir",
-    "status": "Reserved",
+    "operator": "Jammu & Kashmir",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11347,7 +11347,7 @@
     "mnc": "861",
     "brand": "Jio",
     "operator": "Karnataka",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "LTE 1800 / TD-LTE 2300",
     "notes": "4G"
   },
@@ -11359,7 +11359,7 @@
     "mnc": "862",
     "brand": "Jio",
     "operator": "Kerala",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11370,8 +11370,8 @@
     "mcc": "405",
     "mnc": "863",
     "brand": "Jio",
-    "operator": "Madhyya Pradesh",
-    "status": "Reserved",
+    "operator": "Madhya Pradesh",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11383,7 +11383,7 @@
     "mnc": "864",
     "brand": "Jio",
     "operator": "Maharashtra",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11395,7 +11395,7 @@
     "mnc": "865",
     "brand": "Jio",
     "operator": "North East",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11407,7 +11407,7 @@
     "mnc": "866",
     "brand": "Jio",
     "operator": "Orissa",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11419,7 +11419,7 @@
     "mnc": "867",
     "brand": "Jio",
     "operator": "Punjab",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11431,7 +11431,7 @@
     "mnc": "868",
     "brand": "Jio",
     "operator": "Rajasthan",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11442,8 +11442,8 @@
     "mcc": "405",
     "mnc": "869",
     "brand": "Jio",
-    "operator": "Tamil Nadu Chennai",
-    "status": "Reserved",
+    "operator": "Tamil Nadu (incl. Chennai)",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11454,8 +11454,8 @@
     "mcc": "405",
     "mnc": "870",
     "brand": "Jio",
-    "operator": "Uttar Pradesh West",
-    "status": "Reserved",
+    "operator": "Uttar Pradesh (West)",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11466,8 +11466,8 @@
     "mcc": "405",
     "mnc": "871",
     "brand": "Jio",
-    "operator": "Uttar Pradesh East",
-    "status": "Reserved",
+    "operator": "Uttar Pradesh (East)",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11479,7 +11479,7 @@
     "mnc": "872",
     "brand": "Jio",
     "operator": "Delhi",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11490,8 +11490,8 @@
     "mcc": "405",
     "mnc": "873",
     "brand": "Jio",
-    "operator": "Kolkatta",
-    "status": "Reserved",
+    "operator": "Kolkata",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -11503,7 +11503,7 @@
     "mnc": "874",
     "brand": "Jio",
     "operator": "Mumbai",
-    "status": "Reserved",
+    "status": "Operational",
     "bands": "Unknown",
     "notes": "4G"
   },
@@ -15990,10 +15990,10 @@
     "mcc": "204",
     "mnc": "23",
     "brand": null,
-    "operator": "ASPIDER Solutions Nederland B.V.",
+    "operator": "Wyless Nederland B.V.",
     "status": "Operational",
     "bands": "MVNE",
-    "notes": null
+    "notes": "Former ASPIDER Solutions; now owned by KORE Wireless"
   },
   {
     "type": "National",
@@ -16436,7 +16436,7 @@
     "brand": "Spark",
     "operator": "Spark New Zealand",
     "status": "Operational",
-    "bands": "UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2600",
+    "bands": "UMTS 850 / UMTS 2100 / LTE 700 / LTE 1800 / TD-LTE 2300 / LTE 2600",
     "notes": "Formerly Telecom New Zealand, Xtra"
   },
   {
