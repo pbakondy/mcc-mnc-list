@@ -87,6 +87,9 @@ let filters = { mccmnc: '21630' }
 // get all the Operational mobile networks from Hungary
 let filters = { statusCode: 'Operational', mcc: '216' }
 
+// get all the Operational mobile networks from US countryCode
+let filters = { statusCode: 'Operational', countryCode: 'US' }
+
 // get all the records
 let filters = {}
 ```

@@ -22,7 +22,7 @@ function filter ( filters ) {
     throw new TypeError('Invalid parameter (object expected)');
   }
 
-  let statusCode, mcc, mnc;
+  let statusCode, mcc, mnc, countryCode;
 
   if (filters.statusCode) {
     statusCode = filters.statusCode;
@@ -64,11 +64,22 @@ function filter ( filters ) {
       throw new TypeError('Invalid mnc parameter (string expected)');
     }
   }
+  
+  if (filters.countryCode) {
+    if (typeof filters.countryCode === 'string') {
+      countryCode = String(filters.countryCode);
+    } else {
+      throw new TypeError('Invalid countryCode parameter (string expected)');
+    }
+  }
 
   let result = records;
 
   if (statusCode) {
     result = result.filter( record => record['status'] === statusCode );
+  }
+  if (countryCode) {
+    result = result.filter( record => record['countryCode'] === countryCode );
   }
   if (mcc) {
     result = result.filter( record => record['mcc'] === mcc );
@@ -76,7 +87,7 @@ function filter ( filters ) {
   if (mnc) {
     result = result.filter( record => record['mnc'] === mnc );
   }
-
+  
   return result;
 }
 
