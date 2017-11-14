@@ -65,7 +65,7 @@ function filter ( filters ) {
     }
   }
   
-  if (filters.countryCode) {
+  if (filters.countryCode != undefined) {
     if (typeof filters.countryCode === 'string') {
       countryCode = filters.countryCode;
     } else {

@@ -26,7 +26,7 @@ test( 'filter() not object parameter exceptions', t => {
   t.throws( function () { return mcc_mnc_list.filter(''); } );
 } );
 
-test( 'filter() statuc code', t => {
+test( 'filter() status code', t => {
   t.truthy( Array.isArray( mcc_mnc_list.filter({ statusCode: 'Operational' }) ) );
   t.throws( function () { return mcc_mnc_list.filter({ statusCode: 'NotExistentStatusCode' }); } );
 } );
@@ -55,4 +55,15 @@ test( 'filter() mcc, mnc', t => {
   t.truthy( Array.isArray( mcc_mnc_list.filter({ mcc: '216', mnc: '30' }) ) );
   t.truthy( Array.isArray( mcc_mnc_list.filter({ mcc: 216, mnc: 30 }) ) );
   t.truthy( mcc_mnc_list.filter({ mcc: '216', mnc: '30' }).length === 1 );
+} );
+
+test( 'filter() country code should be a string', t => {
+  t.throws( function () { return mcc_mnc_list.filter({ countryCode: 0 }); } ); 
+  t.throws( function () { return mcc_mnc_list.filter({ countryCode: {} }); } ); 
+} );
+
+test( 'filter() country code', t => {
+  t.truthy( Array.isArray( mcc_mnc_list.filter({ countryCode: 'US' }) ) ); 
+  t.truthy( Array.isArray( mcc_mnc_list.filter({ statusCode: 'Operational', countryCode: 'US' }) ) ); 
+  t.truthy( mcc_mnc_list.filter({ statusCode: 'Operational', countryCode: 'US' }).length > 1 );
 } );
