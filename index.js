@@ -67,7 +67,7 @@ function filter ( filters ) {
   
   if (filters.countryCode) {
     if (typeof filters.countryCode === 'string') {
-      countryCode = String(filters.countryCode);
+      countryCode = filters.countryCode;
     } else {
       throw new TypeError('Invalid countryCode parameter (string expected)');
     }
