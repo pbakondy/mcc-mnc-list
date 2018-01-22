@@ -78,6 +78,12 @@ let filters = { statusCode: 'Operational' }
 // get all the records from Hungary
 let filters = { mcc: '216' }
 
+// get all the records from countryName
+let filters = { countryName: 'Hungary' }
+
+// get all the records from brand
+let filters = { brand: 'T-Mobile' }
+
 // get a specific network item ( specified with two keys )
 let filters = { mcc: '216', mnc: '30' }
 
