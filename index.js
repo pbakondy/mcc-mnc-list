@@ -22,7 +22,7 @@ function filter ( filters ) {
     throw new TypeError('Invalid parameter (object expected)');
   }
 
-  let statusCode, mcc, mnc;
+  let statusCode, mcc, mnc, countryName, brand;
 
   if (filters.statusCode) {
     statusCode = filters.statusCode;
@@ -57,6 +57,22 @@ function filter ( filters ) {
     }
   }
 
+    if (filters.countryName) {
+        if (typeof filters.countryName === 'string' || typeof filters.countryName === 'number') {
+            countryName = String(filters.countryName);
+        } else {
+            throw new TypeError('Invalid country name parameter (string expected)');
+        }
+    }
+
+    if (filters.brand) {
+        if (typeof filters.brand === 'string' || typeof filters.brand === 'number') {
+            brand = String(filters.brand);
+        } else {
+            throw new TypeError('Invalid brand parameter (string expected)');
+        }
+    }
+
   if (filters.mnc) {
     if (typeof filters.mnc === 'string' || typeof filters.mnc === 'number') {
       mnc = String(filters.mnc);
@@ -75,6 +91,12 @@ function filter ( filters ) {
   }
   if (mnc) {
     result = result.filter( record => record['mnc'] === mnc );
+  }
+  if (countryName) {
+        result = result.filter( record => record['countryName'] === countryName );
+  }
+  if (brand) {
+        result = result.filter( record => record['brand'] === brand );
   }
 
   return result;
