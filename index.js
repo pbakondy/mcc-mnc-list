@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 'use strict';
 
 const records = require( './mcc-mnc-list.json' );
