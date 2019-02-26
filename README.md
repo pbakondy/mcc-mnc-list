@@ -94,6 +94,10 @@ let filters = { statusCode: 'Operational', countryCode: 'US' }
 let filters = {}
 ```
 
+## `.find(filters)` : Record | undefined
+
+Returns the value of the first record in the array that satisfies the provided filters. Otherwise ``undefined`` is returned.
+Filters are identical to the filters described in ``.filter(filters)``
 
 
 ## Example
