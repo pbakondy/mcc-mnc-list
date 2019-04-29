@@ -1,4 +1,3 @@
-
 'use strict';
 
 const fs = require('fs');
@@ -90,6 +89,9 @@ function fetch () {
             let status = cleanup(cols[4].textContent);
             if (status === 'Not Operational') {
               status = 'Not operational';
+            }
+            if (status === 'operational') {
+              status = 'Operational';
             }
 
             if ( status && statusCodes.indexOf( status ) === -1 ) {
