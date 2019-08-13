@@ -3,6 +3,7 @@
   "version": "1.0.82",
   "description": "List of MCC and MNC codes from up-to-date Wikipedia page",
   "main": "index.js",
+  "types": "types.d.ts",
   "scripts": {
     "test": "eslint . && ava",
     "fetch": "node fetch.js"
