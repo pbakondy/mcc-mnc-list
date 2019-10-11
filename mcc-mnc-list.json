@@ -4964,8 +4964,8 @@
     "brand": "CUBACEL",
     "operator": "Empresa de Telecomunicaciones de Cuba, SA",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 850 / UMTS 900",
-    "notes": "GSM 850 only available in limited areas (Havana, Varadero, Trinidad and Cayo Coco)"
+    "bands": "GSM 900 / GSM 850 / UMTS 900 / 3G 900 / LTE 1800",
+    "notes": "GSM 850 only available in limited areas (Havana, Varadero, Trinidad and Cayo Coco), 3G Network"
   },
   {
     "type": "National",
