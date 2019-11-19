@@ -62,7 +62,7 @@ function filter ( filters ) {
       throw new TypeError('Invalid mnc parameter (string expected)');
     }
   }
-  
+
   if (filters.countryCode != undefined) {
     if (typeof filters.countryCode === 'string') {
       countryCode = filters.countryCode;
@@ -85,8 +85,13 @@ function filter ( filters ) {
   if (mnc) {
     result = result.filter( record => record['mnc'] === mnc );
   }
-  
+
   return result;
+}
+
+function find (filters) {
+  // return the first element of undefined, as filter will always return an array
+  return filter(filters)[0]
 }
 
 module.exports = { all, statusCodes, filter };
