@@ -10,9 +10,9 @@
   "author": "Peter Bakondy",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^1.4.1",
-    "eslint": "^5.16.0",
-    "jsdom": "^15.0.0"
+    "ava": "^2.4.0",
+    "eslint": "^6.6.0",
+    "jsdom": "^15.2.1"
   },
   "keywords": [
     "mcc",
