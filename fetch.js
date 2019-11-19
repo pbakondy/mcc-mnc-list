@@ -6,132 +6,176 @@ const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
 const WIKI_URL = 'https://en.wikipedia.org/wiki/Mobile_country_code';
+const WIKI_URL_REGIONS = [
+  'https://en.wikipedia.org/wiki/Mobile_Network_Codes_in_ITU_region_2xx_(Europe)',
+  'https://en.wikipedia.org/wiki/Mobile_Network_Codes_in_ITU_region_3xx_(North_America)',
+  'https://en.wikipedia.org/wiki/Mobile_Network_Codes_in_ITU_region_4xx_(Asia)',
+  'https://en.wikipedia.org/wiki/Mobile_Network_Codes_in_ITU_region_5xx_(Oceania)',
+  'https://en.wikipedia.org/wiki/Mobile_Network_Codes_in_ITU_region_6xx_(Africa)',
+  'https://en.wikipedia.org/wiki/Mobile_Network_Codes_in_ITU_region_7xx_(South_America)'
+];
+
 const MCC_MNC_OUTPUT_FILE = path.join( __dirname, 'mcc-mnc-list.json');
 const STATUS_CODES_OUTPUT_FILE = path.join( __dirname, 'status-codes.json');
 
-function fetch () {
-  JSDOM.fromURL(WIKI_URL).then(dom => 
-    {
-      const { window } = dom;
-      var content = window.document.querySelector('#mw-content-text > .mw-parser-output');
 
-      if (!content.hasChildNodes()) {
-        console.log('ERROR - empty content');
-        return;
+function fetch() {
+  let records = [];
+  let statusCodes = [];
+
+  const process = (region, records, statusCodes) => new Promise(resolve => collect (resolve, region, records, statusCodes));
+
+  (async function loop() {
+    
+    for (let i = 0; i < WIKI_URL_REGIONS.length; i++) {
+      const region = WIKI_URL_REGIONS[i];
+      await process(region, records, statusCodes);
+      console.log(region, records.length, statusCodes.length);
+    }
+    
+    await process(WIKI_URL, records, statusCodes, true);
+    console.log(WIKI_URL, records.length, statusCodes.length);
+
+    writeData(records, statusCodes);
+  })();
+  
+}
+
+function collect (resolve, from, records, statusCodes, globals) {
+  JSDOM.fromURL(from).then(dom => {
+    const { window } = dom;
+    var content = window.document.querySelector('#mw-content-text > .mw-parser-output');
+
+    if (!content.hasChildNodes()) {
+      console.log('ERROR - empty content');
+      return;
+    }
+
+    content = removeCiteReferences(content);
+
+    const children = content.childNodes;
+    let recordType, sectionName, countryName = null, countryCode = null;
+
+    nodeList: for (let i = 0; i < children.length; i++) {
+      let node = children[i];
+
+      if (!node.textContent.trim().length) {
+        // skip empty lines
+        continue;
       }
 
-      content = removeCiteReferences(content);
+      if (node.nodeName === 'H2' || node.nodeName === 'H3' || node.nodeName === 'H4') {
+        recordType = 'other';
+        sectionName = node.querySelector('.mw-headline').textContent.trim();
 
-      const children = content.childNodes;
-      let recordType, sectionName, countryName = null, countryCode = null;
-      let records = [];
-      let statusCodes = [];
+        if (sectionName === 'See also' || sectionName === 'External links' || sectionName === 'National MNC Authorities') {
+          break nodeList;
+        }
 
-      nodeList: for (let i = 0; i < children.length; i++) {
-        let node = children[i];
-
-        if (!node.textContent.trim().length) {
-          // skip empty lines
+        if (sectionName === 'National operators') {
           continue;
         }
 
-        if (node.nodeName === 'H2' || node.nodeName === 'H3' || node.nodeName === 'H4') {
-          recordType = 'other';
-          sectionName = node.querySelector('.mw-headline').textContent.trim();
-
-          if (sectionName === 'See also' || sectionName === 'External links' || sectionName === 'National MNC Authorities') {
-            break nodeList;
-          }
-
-          if (sectionName === 'National operators') {
-            continue;
-          }
-
-          if (sectionName.length === 1) {
-            continue;
-          }
-
-          if (sectionName === 'Test networks') {
-            countryName = null;
-            countryCode = null;
-            recordType = 'Test';
-          }
-
-          if (sectionName.indexOf(' - ') !== -1) {
-            let sectionParts = sectionName.split(' - ');
-            countryName = sectionParts[0];
-            countryCode = sectionParts[1];
-            recordType = 'National';
-          }
-
-          if (sectionName === 'International operators') {
-            countryName = null;
-            countryCode = null;
-            recordType = 'International';
-          }
-
-          if (recordType === 'other') {
-            console.log('WARN recordType is other', node.textContent);
-          }
+        if (sectionName.length === 1) {
+          continue;
         }
 
-        if (node.nodeName === 'TABLE') {
-          let rows = node.querySelectorAll('tr');
+        if (sectionName === 'Test networks') {
+          countryName = null;
+          countryCode = null;
+          recordType = 'Test';
+        }
 
-          for (let j = 1; j < rows.length; j++) {
-            let cols = rows[j].querySelectorAll('td');
+        if (sectionName === 'National operators') {
+          countryName = null;
+          countryCode = null;
+          recordType = 'National';
+        }
 
-            if (cols.length < 7) {
-              console.log('WARN invalid table row:', rows[j], node.textContent);
-              continue;
-            }
+        if (sectionName.indexOf(' - ') !== -1) {
+          let sectionParts = sectionName.split(' - ');
+          countryName = sectionParts[0];
+          countryCode = sectionParts[1];
+          recordType = 'National';
+        }
 
-            let status = cleanup(cols[4].textContent);
-            if (status === 'Not Operational') {
-              status = 'Not operational';
-            }
-            if (status === 'operational') {
-              status = 'Operational';
-            }
+        if (sectionName === 'International operators') {
+          countryName = null;
+          countryCode = null;
+          recordType = 'International';
+        }
 
-            if ( status && statusCodes.indexOf( status ) === -1 ) {
-              statusCodes.push( status );
-            }
-
-            records.push({
-              type: recordType,
-              countryName: countryName,
-              countryCode: countryCode,
-              mcc: cleanup(cols[0].textContent),
-              mnc: cleanup(cols[1].textContent),
-              brand: cleanup(cols[2].textContent),
-              operator: cleanup(cols[3].textContent),
-              status: status,
-              bands: cleanup(cols[5].textContent),
-              notes: cleanup(cols[6].textContent)
-            })
-
-          }
+        if (recordType === 'other') {
+        //  console.log('WARN recordType is other', node.textContent);
         }
       }
 
-      fs.writeFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
-        if ( err ) {
-          throw err;
+      if (node.nodeName === 'TABLE') {
+        if (globals && recordType === 'National') {
+          continue;
         }
-        console.log( 'MCC-MNC list saved to ' + MCC_MNC_OUTPUT_FILE );
-        console.log( 'Total ' + records.length + ' records' );
-      });
 
-      statusCodes.sort();
+        let rows = node.querySelectorAll('tr');
 
-      fs.writeFile( STATUS_CODES_OUTPUT_FILE, JSON.stringify( statusCodes, null, 2 ), err => {
-        if ( err ) {
-          throw err;
+        for (let j = 1; j < rows.length; j++) {
+          let cols = rows[j].querySelectorAll('td');
+
+          if (cols.length < 7) {
+        //    console.log('WARN invalid table row:', rows[j], node.textContent);
+            continue;
+          }
+
+          let status = cleanup(cols[4].textContent);
+          if (status === 'Not Operational') {
+            status = 'Not operational';
+          }
+          if (status === 'operational') {
+            status = 'Operational';
+          }
+
+          if ( status && statusCodes.indexOf( status ) === -1 ) {
+            statusCodes.push( status );
+          }
+
+          records.push({
+            type: recordType,
+            countryName: countryName,
+            countryCode: countryCode,
+            mcc: cleanup(cols[0].textContent),
+            mnc: cleanup(cols[1].textContent),
+            brand: cleanup(cols[2].textContent),
+            operator: cleanup(cols[3].textContent),
+            status: status,
+            bands: cleanup(cols[5].textContent),
+            notes: cleanup(cols[6].textContent)
+          })
+
         }
-        console.log( 'Status codes saved to ' + STATUS_CODES_OUTPUT_FILE );
-      });
+      }
 
+    }
+
+    resolve();
+
+  });
+}
+
+function writeData(records, statusCodes) {
+  fs.writeFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
+    if ( err ) {
+      throw err;
+    }
+    console.log( 'MCC-MNC list saved to ' + MCC_MNC_OUTPUT_FILE );
+    console.log( 'Total ' + records.length + ' records' );
+  });
+
+  statusCodes.sort();
+
+  fs.writeFile( STATUS_CODES_OUTPUT_FILE, JSON.stringify( statusCodes, null, 2 ), err => {
+    if ( err ) {
+      throw err;
+    }
+    console.log( 'Status codes saved to ' + STATUS_CODES_OUTPUT_FILE );
   });
 }
 

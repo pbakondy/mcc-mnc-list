@@ -94,4 +94,4 @@ function find (filters) {
   return filter(filters)[0]
 }
 
-module.exports = { all, statusCodes, filter };
+module.exports = { all, statusCodes, filter, find };
