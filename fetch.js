@@ -125,6 +125,19 @@ function collect (resolve, from, records, statusCodes, globals) {
             continue;
           }
 
+          /*
+            Remove hidden child node of first cell:
+
+            <td><div style="overflow:hidden;width:0;height:0;margin:-1ex;float:right">
+              <h3><span class="mw-headline" id="United_States_of_America_-_US_-_313">United States of America - US - 313</span></h3>
+              </div>313
+            </td>
+          */
+          const mccChild = cols[0].querySelector('div');
+          if (mccChild !== null) {
+            cols[0].removeChild(mccChild);
+          }
+
           let status = cleanup(cols[4].textContent);
           if (status === 'Not Operational') {
             status = 'Not operational';
