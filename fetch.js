@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
+const csvstringify = require('csv-stringify/lib/sync')
 
 const WIKI_URL = 'https://en.wikipedia.org/wiki/Mobile_country_code';
 const WIKI_URL_REGIONS = [
@@ -15,7 +16,8 @@ const WIKI_URL_REGIONS = [
   'https://en.wikipedia.org/wiki/Mobile_Network_Codes_in_ITU_region_7xx_(South_America)'
 ];
 
-const MCC_MNC_OUTPUT_FILE = path.join( __dirname, 'mcc-mnc-list.json');
+const MCC_MNC_OUTPUT_FILE_JSON = path.join( __dirname, 'mcc-mnc-list.json');
+const MCC_MNC_OUTPUT_FILE_CSV = path.join( __dirname, 'mcc-mnc-list.csv');
 const STATUS_CODES_OUTPUT_FILE = path.join( __dirname, 'status-codes.json');
 
 
@@ -166,11 +168,19 @@ function collect (resolve, from, records, statusCodes, globals) {
 }
 
 function writeData(records, statusCodes) {
-  fs.writeFile( MCC_MNC_OUTPUT_FILE, JSON.stringify( records, null, 2 ), err => {
+  fs.writeFile( MCC_MNC_OUTPUT_FILE_JSON, JSON.stringify( records, null, 2 ), err => {
     if ( err ) {
       throw err;
     }
-    console.log( 'MCC-MNC list saved to ' + MCC_MNC_OUTPUT_FILE );
+    console.log( 'MCC-MNC list saved to ' + MCC_MNC_OUTPUT_FILE_JSON );
+    console.log( 'Total ' + records.length + ' records' );
+  });
+
+  fs.writeFile( MCC_MNC_OUTPUT_FILE_CSV, csvstringify( records , {header: true} ), err => {
+    if ( err ) {
+      throw err;
+    }
+    console.log( 'MCC-MNC list saved to ' + MCC_MNC_OUTPUT_FILE_CSV );
     console.log( 'Total ' + records.length + ' records' );
   });
 
