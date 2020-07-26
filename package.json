@@ -11,9 +11,9 @@
   "author": "Peter Bakondy",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^2.4.0",
-    "eslint": "^6.8.0",
-    "jsdom": "^16.2.2"
+    "ava": "^3.10.1",
+    "eslint": "^7.5.0",
+    "jsdom": "^16.3.0"
   },
   "keywords": [
     "mcc",

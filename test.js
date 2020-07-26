@@ -1,5 +1,4 @@
-import test from 'ava';
-
+const test = require('ava');
 const mcc_mnc_list = require('./index');
 
 test( 'all()', t => {
