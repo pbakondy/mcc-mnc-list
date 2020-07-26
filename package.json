@@ -1,6 +1,6 @@
 {
   "name": "mcc-mnc-list",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "List of MCC and MNC codes from up-to-date Wikipedia page",
   "main": "index.js",
   "types": "types.d.ts",

@@ -1,14 +1,15 @@
 [
+  "4G and 5G pilot networks",
   "Allocated",
   "Implement / Design",
   "Not operational",
   "Ongoing",
   "Operational",
-  "Planned",
   "Reserved",
   "Returned spare",
   "Temporary operational",
   "Test Network",
   "Testing",
-  "Unknown"
+  "Unknown",
+  "Upcoming"
 ]

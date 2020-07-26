@@ -64,7 +64,7 @@ function collect (resolve, from, records, statusCodes, globals) {
         continue;
       }
 
-      if (node.nodeName === 'H2' || node.nodeName === 'H3' || node.nodeName === 'H4') {
+      if (node.nodeName === 'H2') {
         recordType = 'other';
         sectionName = node.querySelector('.mw-headline').textContent.trim();
 
@@ -73,7 +73,7 @@ function collect (resolve, from, records, statusCodes, globals) {
         }
 
         if (sectionName === 'National operators') {
-          continue;
+          recordType = 'National';
         }
 
         if (sectionName.length === 1) {
@@ -81,33 +81,25 @@ function collect (resolve, from, records, statusCodes, globals) {
         }
 
         if (sectionName === 'Test networks') {
-          countryName = null;
-          countryCode = null;
           recordType = 'Test';
         }
 
-        if (sectionName === 'National operators') {
-          countryName = null;
-          countryCode = null;
-          recordType = 'National';
-        }
-
-        if (sectionName.indexOf(' - ') !== -1) {
-          let sectionParts = sectionName.split(' - ');
-          countryName = sectionParts[0];
-          countryCode = sectionParts[1];
-          recordType = 'National';
-        }
-
         if (sectionName === 'International operators') {
-          countryName = null;
-          countryCode = null;
           recordType = 'International';
         }
 
         if (recordType === 'other') {
         //  console.log('WARN recordType is other', node.textContent);
         }
+
+      }
+
+      
+      if (node.nodeName === 'H4') {
+        let countryText = node.querySelector('.mw-headline').textContent.trim();
+        let dashPos = countryText.indexOf('–');
+        countryName = countryText.substr(0, dashPos - 1);
+        countryCode = countryText.substr(dashPos + 2);
       }
 
       if (node.nodeName === 'TABLE') {
