@@ -3136,6 +3136,18 @@
     "countryName": "Germany",
     "countryCode": "DE",
     "mcc": "262",
+    "mnc": "07",
+    "brand": "O2",
+    "operator": "Telefónica Germany GmbH & Co. oHG",
+    "status": "Operational",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600",
+    "notes": "Former E-Plus, until 2014"
+  },
+  {
+    "type": "National",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "mcc": "262",
     "mnc": "04",
     "brand": "Vodafone",
     "operator": "Vodafone D2 GmbH",
