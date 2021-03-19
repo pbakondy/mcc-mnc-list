@@ -3597,7 +3597,7 @@
     "operator": "NetCologne",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "also CDMA 450"
+    "notes": "CDMA 450 shut down"
   },
   {
     "type": "National",
@@ -3605,11 +3605,11 @@
     "countryCode": "DE",
     "mcc": "262",
     "mnc": "19",
-    "brand": null,
-    "operator": "Inquam Deutschland",
-    "status": "Unknown",
-    "bands": "CDMA 450",
-    "notes": null
+    "brand": "450connect",
+    "operator": "Alliander AG",
+    "status": "Operational",
+    "bands": "LTE 450",
+    "notes": "Former Inquam"
   },
   {
     "type": "National",
@@ -19099,9 +19099,9 @@
     "mnc": "09",
     "brand": "ollo",
     "operator": "Bangladesh Internet Exchange Limited (BIEL)",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "LTE 800 / LTE 2600 / WiMAX 3500",
-    "notes": null
+    "notes": "shut down 2019"
   },
   {
     "type": "National",
@@ -25912,6 +25912,18 @@
     "countryName": "Australia",
     "countryCode": "AU/CC/CX",
     "mcc": "505",
+    "mnc": "51",
+    "brand": null,
+    "operator": "Fortescue Metals Group",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU/CC/CX",
+    "mcc": "505",
     "mnc": "61",
     "brand": "CommTel NS",
     "operator": "Commtel Network Solutions Pty Ltd",
@@ -26992,6 +27004,18 @@
     "countryName": "Philippines",
     "countryCode": "PH",
     "mcc": "515",
+    "mnc": "66",
+    "brand": "DITO",
+    "operator": "Dito Telecommunity Corp.",
+    "status": "Operational",
+    "bands": "LTE 700 / LTE 2100 / TD-LTE 2500 / 5G 3500",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Philippines",
+    "countryCode": "PH",
+    "mcc": "515",
     "mnc": "88",
     "brand": null,
     "operator": "Next Mobile Inc.",
@@ -27586,6 +27610,18 @@
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 900 / LTE 1800",
     "notes": "CDMA shut down March 2016"
+  },
+  {
+    "type": "National",
+    "countryName": "Angola",
+    "countryCode": "AO",
+    "mcc": "631",
+    "mnc": "05",
+    "brand": null,
+    "operator": "Africell",
+    "status": "Not operational",
+    "bands": "Unknown",
+    "notes": "Network to launch by end of 2021"
   },
   {
     "type": "National",
@@ -30692,7 +30728,7 @@
     "brand": "Zain",
     "operator": "Zain South Sudan",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2100",
     "notes": null
   },
   {
@@ -31625,8 +31661,8 @@
     "countryCode": "BR",
     "mcc": "724",
     "mnc": "17",
-    "brand": "Correios",
-    "operator": "Correios Celular",
+    "brand": "Surf Telecom",
+    "operator": "Correios Celula",
     "status": "Operational",
     "bands": "MVNO",
     "notes": "Through TIM network"
@@ -33032,7 +33068,7 @@
     "brand": "Claro",
     "operator": "América Móvil Perú",
     "status": "Operational",
-    "bands": "GSM 1900 / UMTS 850 / LTE 700 / LTE 1900 / TD-LTE 3500",
+    "bands": "GSM 1900 / UMTS 850 / LTE 700 / LTE 1900 / TD-LTE 3500 / 5G 3500 / 5G 39000",
     "notes": "Former TIM"
   },
   {
@@ -33056,7 +33092,7 @@
     "brand": "Entel",
     "operator": "Entel Perú S.A.",
     "status": "Operational",
-    "bands": "UMTS 1900 / LTE 1700 / TD-LTE 2300",
+    "bands": "UMTS 1900 / LTE 1700 / TD-LTE 2300 / 5G 3500",
     "notes": "Former Nextel"
   },
   {
