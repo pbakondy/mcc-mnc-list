@@ -164,7 +164,7 @@
     "brand": "Magenta",
     "operator": "T-Mobile Austria GmbH",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 2100 / 5G 3500",
+    "bands": "GSM 900 / UMTS 900 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 700 / 5G 2100 / 5G 3500",
     "notes": "former Max.Mobil, T-Mobile; national roaming agreement with 232-10: uses Hutchison Drei UMTS where no own coverage"
   },
   {
@@ -436,6 +436,18 @@
     "countryName": "Austria",
     "countryCode": "AT",
     "mcc": "232",
+    "mnc": "26",
+    "brand": null,
+    "operator": "LIWEST Kabelmedien GmbH",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Austria",
+    "countryCode": "AT",
+    "mcc": "232",
     "mnc": "91",
     "brand": "GSM-R A",
     "operator": "ÖBB",
@@ -580,6 +592,18 @@
     "countryName": "Belgium",
     "countryCode": "BE",
     "mcc": "206",
+    "mnc": "04",
+    "brand": "MWingz",
+    "operator": "Proximus/Orange Belgium",
+    "status": "Planned",
+    "bands": "Unknown",
+    "notes": "Shared Proximus/Orange Belgium"
+  },
+  {
+    "type": "National",
+    "countryName": "Belgium",
+    "countryCode": "BE",
+    "mcc": "206",
     "mnc": "05",
     "brand": "Telenet",
     "operator": "Telenet",
@@ -655,9 +679,9 @@
     "mnc": "11",
     "brand": "L-mobi",
     "operator": "L-Mobi Mobile",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -703,9 +727,9 @@
     "mnc": "22",
     "brand": "Febo.mobi",
     "operator": "FEBO Telecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -739,9 +763,9 @@
     "mnc": "29",
     "brand": null,
     "operator": "TISMI",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -944,7 +968,7 @@
     "brand": "Telenor",
     "operator": "Telenor (Bulgaria)",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2100",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2100 / 5G 3500",
     "notes": "Former Globul"
   },
   {
@@ -1024,6 +1048,18 @@
     "countryName": "Croatia",
     "countryCode": "HR",
     "mcc": "219",
+    "mnc": "04",
+    "brand": null,
+    "operator": "NTH Mobile d.o.o.",
+    "status": "Unknown",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Croatia",
+    "countryCode": "HR",
+    "mcc": "219",
     "mnc": "10",
     "brand": "A1",
     "operator": "A1 Hrvatska",
@@ -1041,6 +1077,18 @@
     "operator": "TELE FOCUS d.o.o.",
     "status": "Unknown",
     "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Croatia",
+    "countryCode": "HR",
+    "mcc": "219",
+    "mnc": "20",
+    "brand": "T-Mobile",
+    "operator": "T-Hrvatski Telekom",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -1148,7 +1196,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Czech Republic",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 1800 / 5G 2100",
     "notes": "Former Oskar"
   },
   {
@@ -1290,10 +1338,10 @@
     "mcc": "238",
     "mnc": "04",
     "brand": null,
-    "operator": "NextGen Mobile Ltd T/A CardBoardFish",
-    "status": "Not operational",
+    "operator": "Nexcon.io ApS",
+    "status": "Unknown",
     "bands": "Unknown",
-    "notes": "MNC withdrawn"
+    "notes": "Former NextGen Mobile Ltd T/A CardBoardFish"
   },
   {
     "type": "National",
@@ -1594,6 +1642,18 @@
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800",
     "notes": "Former Tele2"
+  },
+  {
+    "type": "National",
+    "countryName": "Denmark (Kingdom of Denmark)",
+    "countryCode": "DK",
+    "mcc": "238",
+    "mnc": "88",
+    "brand": null,
+    "operator": "Cobira ApS",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
   },
   {
     "type": "National",
@@ -1901,7 +1961,7 @@
     "countryCode": "FO",
     "mcc": "288",
     "mnc": "03",
-    "brand": null,
+    "brand": "TOSA",
     "operator": "Tosa Sp/F",
     "status": "Operational",
     "bands": "GSM 900 / UMTS 2100 / LTE 1800",
@@ -2069,11 +2129,11 @@
     "countryCode": "FI",
     "mcc": "244",
     "mnc": "16",
-    "brand": "Tele2",
-    "operator": "Oy Finland Tele2 AB",
-    "status": "Not operational",
-    "bands": "MVNO",
-    "notes": "MNC withdrawn"
+    "brand": null,
+    "operator": "Digita Oy",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Tele2"
   },
   {
     "type": "National",
@@ -2142,10 +2202,10 @@
     "mcc": "244",
     "mnc": "24",
     "brand": null,
-    "operator": "TTY-säätiö",
-    "status": "Not operational",
+    "operator": "Nord Connect UAB",
+    "status": "Unknown",
     "bands": "Unknown",
-    "notes": "Tampere University of Technology foundation; MNC withdrawn"
+    "notes": "Former Tampere University of Technology foundation"
   },
   {
     "type": "National",
@@ -2572,12 +2632,24 @@
     "countryName": "Finland",
     "countryCode": "FI",
     "mcc": "244",
-    "mnc": "99",
+    "mnc": "95",
     "brand": null,
-    "operator": "Oy L M Ericsson Ab",
+    "operator": "Säteilyturvakeskus",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Finland",
+    "countryCode": "FI",
+    "mcc": "244",
+    "mnc": "99",
+    "brand": null,
+    "operator": "Oy L M Ericsson Ab",
+    "status": "Not operational",
+    "bands": "Unknown",
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -2910,10 +2982,10 @@
     "mcc": "208",
     "mnc": "28",
     "brand": null,
-    "operator": "Airbus Defence and Space SAS",
+    "operator": "Airmob Infra Full",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": null
+    "notes": "Former Airbus Defence and Space"
   },
   {
     "type": "National",
@@ -3028,9 +3100,33 @@
     "countryName": "France",
     "countryCode": "FR",
     "mcc": "208",
-    "mnc": "50",
+    "mnc": "38",
     "brand": null,
-    "operator": "EDF",
+    "operator": "Lebara France Ltd",
+    "status": "Operational",
+    "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "50168",
+    "brand": null,
+    "operator": "Butachimie",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "MNC 50 formerly assigned to EDF"
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "50244",
+    "brand": null,
+    "operator": "General Electric Digital Services Europe SAS",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -3040,9 +3136,177 @@
     "countryName": "France",
     "countryCode": "FR",
     "mcc": "208",
-    "mnc": "70",
+    "mnc": "700",
     "brand": null,
     "operator": "Weaccess group",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "701",
+    "brand": null,
+    "operator": "GIP Vendée numérique",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "702",
+    "brand": null,
+    "operator": "17-Numerique",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "703",
+    "brand": null,
+    "operator": "Nivertel",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "704",
+    "brand": null,
+    "operator": "Axione Limousin",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "705",
+    "brand": null,
+    "operator": "Hautes-Pyrénées Numérique",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "706",
+    "brand": null,
+    "operator": "Tours Métropole Numérique",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "707",
+    "brand": null,
+    "operator": "Sartel THD",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "708",
+    "brand": null,
+    "operator": "Melis@ territoires ruraux",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "709",
+    "brand": null,
+    "operator": "Quimper communauté télécom",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "710",
+    "brand": null,
+    "operator": "Losange",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "711",
+    "brand": null,
+    "operator": "Nomotech",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "712",
+    "brand": null,
+    "operator": "Syndicat Audois d'énergies et du Numérique",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "713",
+    "brand": null,
+    "operator": "SD NUM SAS",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "France",
+    "countryCode": "FR",
+    "mcc": "208",
+    "mnc": "714",
+    "brand": null,
+    "operator": "Département de l'Isère",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -3187,9 +3451,9 @@
     "mnc": "97",
     "brand": null,
     "operator": "Thales Communications & Security SAS",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -3392,7 +3656,7 @@
     "brand": "Telekom",
     "operator": "Telekom Deutschland GmbH",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 2100 / 5G 3500",
+    "bands": "GSM 900 / UMTS 2100 / LTE 700 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 2100 / 5G 3500",
     "notes": "Formerly D1 - DeTeMobil, D1-Telekom, T-D1, T-Mobile; UMTS to shut down Jun 2021"
   },
   {
@@ -3736,12 +4000,24 @@
     "countryName": "Germany",
     "countryCode": "DE",
     "mcc": "262",
+    "mnc": "70",
+    "brand": null,
+    "operator": "BDBOS",
+    "status": "Operational",
+    "bands": "Tetra",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Germany",
+    "countryCode": "DE",
+    "mcc": "262",
     "mnc": "71",
     "brand": null,
     "operator": "GSMK",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -4724,7 +5000,7 @@
     "brand": "Vodafone",
     "operator": "Vodafone Italia S.p.A.",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 800  / LTE 1500 / LTE 1800 / LTE 2100 / LTE 2600",
+    "bands": "GSM 900 / LTE 800  / LTE 1500 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": null
   },
   {
@@ -4880,7 +5156,7 @@
     "brand": "Iliad",
     "operator": "Iliad Italia",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600 / 5G 3500",
+    "bands": "UMTS 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
     "notes": null
   },
   {
@@ -4940,7 +5216,7 @@
     "brand": "WINDTRE",
     "operator": "Wind Tre",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
     "notes": "Former Wind"
   },
   {
@@ -5413,6 +5689,42 @@
   },
   {
     "type": "National",
+    "countryName": "Lithuania",
+    "countryCode": "LT",
+    "mcc": "246",
+    "mnc": "13",
+    "brand": null,
+    "operator": "Travel Communication SIA",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Lithuania",
+    "countryCode": "LT",
+    "mcc": "246",
+    "mnc": "14",
+    "brand": null,
+    "operator": "Tismi BV",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Lithuania",
+    "countryCode": "LT",
+    "mcc": "246",
+    "mnc": "15",
+    "brand": null,
+    "operator": "Esim telecom, UAB",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
     "countryName": "Luxembourg",
     "countryCode": "LU",
     "mcc": "270",
@@ -5431,6 +5743,18 @@
     "mnc": "02",
     "brand": null,
     "operator": "MTX Connect S.a.r.l.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Luxembourg",
+    "countryCode": "LU",
+    "mcc": "270",
+    "mnc": "05",
+    "brand": null,
+    "operator": "Luxembourg Online S.A.",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -5600,7 +5924,7 @@
     "brand": "Melita",
     "operator": "Melita",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 800 / LTE 2100",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 800 / LTE 2100 / 5G",
     "notes": null
   },
   {
@@ -6520,6 +6844,18 @@
     "countryName": "Norway",
     "countryCode": "NO",
     "mcc": "242",
+    "mnc": "16",
+    "brand": null,
+    "operator": "Iristel Norway AS",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Norway",
+    "countryCode": "NO",
+    "mcc": "242",
     "mnc": "20",
     "brand": null,
     "operator": "Jernbaneverket AS",
@@ -6680,7 +7016,7 @@
     "brand": "Play",
     "operator": "P4 Sp. z o.o.",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 2100",
+    "bands": "GSM 1800 / UMTS 900 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 2100",
     "notes": "Also roaming on Polkomtel and Orange 2G/3G network"
   },
   {
@@ -6846,10 +7182,10 @@
     "mcc": "260",
     "mnc": "20",
     "brand": null,
-    "operator": "Wysyłaj SMS Polska Sp. z o.o.",
-    "status": "Not operational",
+    "operator": "TISMI B.V.",
+    "status": "Unknown",
     "bands": "Unknown",
-    "notes": "Former Mobile.Net Sp. z o.o.; MNC withdrawn"
+    "notes": "Former Mobile.Net, Wysyłaj SMS Polska"
   },
   {
     "type": "National",
@@ -7087,9 +7423,9 @@
     "mnc": "40",
     "brand": null,
     "operator": "Interactive Digital Media GmbH",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -7195,6 +7531,18 @@
     "mnc": "49",
     "brand": null,
     "operator": "Messagebird B.V.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Poland",
+    "countryCode": "PL",
+    "mcc": "260",
+    "mnc": "90",
+    "brand": null,
+    "operator": "Polska Spółka Gazownictwa Sp. z o.o.",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -7532,7 +7880,7 @@
     "brand": "MTS",
     "operator": "Mobile TeleSystems",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / TD-LTE 2600 / 5G 26000",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / TD-LTE 2600 / 5G 4700",
     "notes": null
   },
   {
@@ -7772,7 +8120,7 @@
     "brand": "Tele2",
     "operator": "Tele2",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 450 / LTE 800 / LTE 1800 / TD-LTE 2300 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 450 / LTE 800 / LTE 1800 / TD-LTE 2300 / TD-LTE 2500 / LTE 2600",
     "notes": null
   },
   {
@@ -7973,11 +8321,11 @@
     "countryCode": "RU",
     "mcc": "250",
     "mnc": "50",
-    "brand": "MTS",
-    "operator": "Bezlimitno.ru",
+    "brand": "SberMobile",
+    "operator": "Sberbank-Telecom",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": "Based on MTS"
+    "notes": null
   },
   {
     "type": "National",
@@ -8204,7 +8552,7 @@
     "brand": "Orange",
     "operator": "Orange Slovensko",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 2600 / 5G 3500",
     "notes": "Former Globtel"
   },
   {
@@ -8551,9 +8899,9 @@
     "mnc": "12",
     "brand": null,
     "operator": "SAC CONVERGENT AGGREGATION SERVICES, S.L.U.",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": "Former Contacta Servicios Avanzados de Telecomunicaciones SL"
+    "notes": "Former Contacta Servicios Avanzados de Telecomunicaciones SL; MNC withdrawn"
   },
   {
     "type": "National",
@@ -9042,7 +9390,7 @@
     "mcc": "240",
     "mnc": "14",
     "brand": null,
-    "operator": "Tele2 Business AB",
+    "operator": "Tele2 Sverige AB",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": "Former TDC Sverige AB (MVNO)"
@@ -9453,6 +9801,18 @@
     "operator": "Tismi BV",
     "status": "Unknown",
     "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Sweden",
+    "countryCode": "SE",
+    "mcc": "240",
+    "mnc": "49",
+    "brand": null,
+    "operator": "Telia Sverige AB",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -10412,7 +10772,7 @@
     "brand": "T-Mobile UK",
     "operator": "EE",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 700 / 5G 3500",
     "notes": "Previously owned by Deutsche Telekom; used by MVNOs Asda Mobile & Virgin Mobile"
   },
   {
@@ -10424,7 +10784,7 @@
     "brand": "T-Mobile UK",
     "operator": "EE",
     "status": "Allocated",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 700 / 5G 3500",
     "notes": null
   },
   {
@@ -10436,7 +10796,7 @@
     "brand": "T-Mobile UK",
     "operator": "EE",
     "status": "Allocated",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 700 / 5G 3500",
     "notes": null
   },
   {
@@ -10448,7 +10808,7 @@
     "brand": "Orange",
     "operator": "EE",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 700 / 5G 3500",
     "notes": "Previously owned by Orange S.A."
   },
   {
@@ -10460,7 +10820,7 @@
     "brand": "Orange",
     "operator": "EE",
     "status": "Operational",
-    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600",
+    "bands": "GSM 1800 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 700 / 5G 3500",
     "notes": "Previously owned by Orange S.A."
   },
   {
@@ -11589,7 +11949,7 @@
     "operator": "Lynx Mobility",
     "status": "Not operational",
     "bands": "CDMA / GSM",
-    "notes": "Northern Quebec, Nunavut, Labrador"
+    "notes": "Northern Quebec, Nunavut, Labrador; MNC withdrawn"
   },
   {
     "type": "National",
@@ -11865,7 +12225,7 @@
     "operator": "Rogers Communications",
     "status": "Operational",
     "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700 / LTE 2600 / 5G 600 / 5G 1700 / TD-5G 2600",
-    "notes": "former Rogers AT&T Wireless; LTE bands 12, 4, 7; GSM 1900 / UMTS 1900 to shut down 31 Mar 2021, GSM 850 to shut down 31 Dec 2021"
+    "notes": "former Rogers AT&T Wireless; LTE bands 12, 4, 7; GSM 1900 / UMTS 1900 to shut down 7 June 2021, GSM 850 to shut down 31 Dec 2021"
   },
   {
     "type": "National",
@@ -12016,6 +12376,18 @@
     "countryName": "Canada",
     "countryCode": "CA",
     "mcc": "302",
+    "mnc": "910",
+    "brand": null,
+    "operator": "Halton Regional Police Service",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Reserved"
+  },
+  {
+    "type": "National",
+    "countryName": "Canada",
+    "countryCode": "CA",
+    "mcc": "302",
     "mnc": "920",
     "brand": "Rogers Wireless",
     "operator": "Rogers Communications",
@@ -12079,9 +12451,9 @@
     "mnc": "997",
     "brand": null,
     "operator": "Powertech Labs",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": "For testing"
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -12091,9 +12463,9 @@
     "mnc": "998",
     "brand": null,
     "operator": "Powertech Labs",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": "For testing"
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -12103,9 +12475,9 @@
     "mnc": "001",
     "brand": "Logic",
     "operator": "WestTel Ltd.",
-    "status": "Unknown",
-    "bands": "Unknown",
-    "notes": null
+    "status": "Operational",
+    "bands": "LTE 2500",
+    "notes": "LTE band 41; fixed wireless access"
   },
   {
     "type": "National",
@@ -12548,7 +12920,7 @@
     "brand": "Digicel",
     "operator": "Digicel (Jamaica) Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 850 / LTE 700 / LTE 1700 / CDMA 1900",
+    "bands": "GSM 900 / GSM 1900 / UMTS 850 / LTE 700 / LTE 1700 / LTE 1900",
     "notes": null
   },
   {
@@ -13268,7 +13640,7 @@
     "brand": "bmobile",
     "operator": "TSTT",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1900 / TD-LTE 2500 / 5G 2500",
+    "bands": "GSM 850 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1900 / TD-LTE 2500 / 5G 2500",
     "notes": "LTE bands 2 / 28 / 41"
   },
   {
@@ -13316,7 +13688,7 @@
     "brand": "Digicel",
     "operator": "Digicel (Trinidad & Tobago) Limited",
     "status": "Operational",
-    "bands": "GSM 850 / GSM 1900 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700 / LTE 1900",
+    "bands": "GSM 850 / UMTS 850 / UMTS 1900 / LTE 700 / LTE 1700 / LTE 1900",
     "notes": "LTE bands 28 / 4 / 2"
   },
   {
@@ -19040,7 +19412,7 @@
     "brand": "Robi",
     "operator": "Axiata Bangladesh Ltd.",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100",
     "notes": "Formerly Aktel"
   },
   {
@@ -19412,7 +19784,7 @@
     "brand": "1O1O / One2Free / New World Mobility / SUNMobile",
     "operator": "CSL Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": null
   },
   {
@@ -19484,7 +19856,7 @@
     "brand": "SmarTone",
     "operator": "SmarTone Mobile Communications Limited",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
+    "bands": "GSM 900 / GSM 1800 / UMTS 850 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / 5G 3500",
     "notes": null
   },
   {
@@ -19519,9 +19891,9 @@
     "mnc": "09",
     "brand": null,
     "operator": "China Motion Telecom",
-    "status": "Operational",
+    "status": "Not operational",
     "bands": "MVNO",
-    "notes": "MVNO on CSL network"
+    "notes": "MVNO on CSL network; MNC withdrawn"
   },
   {
     "type": "National",
@@ -19556,7 +19928,7 @@
     "brand": "CMCC HK",
     "operator": "China Mobile Hong Kong Company Limited",
     "status": "Operational",
-    "bands": "GSM 1800 / TD-SCDMA 2000 / LTE 1800 / LTE 2100 / TD-LTE 2300 / LTE 2600 / 5G 3500",
+    "bands": "GSM 1800 / UMTS 2100 / TD-SCDMA 2000 / LTE 900 /LTE 1800 / LTE 2100 / TD-LTE 2300 / LTE 2600 / 5G 3500",
     "notes": "Formerly Peoples"
   },
   {
@@ -19689,7 +20061,7 @@
     "operator": "Lycamobile Hong Kong Ltd",
     "status": "Not operational",
     "bands": "MVNO",
-    "notes": "Closed on 27 April 2018"
+    "notes": "Closed on 27 April 2018; MNC withdrawn"
   },
   {
     "type": "National",
@@ -19745,11 +20117,11 @@
     "countryCode": "HK",
     "mcc": "454",
     "mnc": "30",
-    "brand": null,
-    "operator": "China Data Enterprises Ltd",
+    "brand": "CMCC HK",
+    "operator": "China Mobile Hong Kong Company Limited",
     "status": "Unknown",
     "bands": "Unknown",
-    "notes": null
+    "notes": "Former China Data Enterprises Ltd"
   },
   {
     "type": "National",
@@ -19785,6 +20157,18 @@
     "operator": "Webbing Hong Kong Ltd",
     "status": "Operational",
     "bands": "MVNO",
+    "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Hong Kong",
+    "countryCode": "HK",
+    "mcc": "454",
+    "mnc": "36",
+    "brand": null,
+    "operator": "Easco Telecommunications Limited",
+    "status": "Unknown",
+    "bands": "Unknown",
     "notes": null
   },
   {
@@ -22374,10 +22758,10 @@
     "mcc": "432",
     "mnc": "08",
     "brand": "Shatel Mobile",
-    "operator": "Shatel Mobile",
+    "operator": "Shatel Group",
     "status": "Operational",
     "bands": "MVNO",
-    "notes": null
+    "notes": "Multi MNO (connected to 3 MNO's RAN with PLMN casting in Rightel RAN)"
   },
   {
     "type": "National",
@@ -22400,7 +22784,7 @@
     "brand": "IR-TCI (Hamrah-e-Avval)",
     "operator": "Mobile Communications Company of Iran (MCI)",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600",
     "notes": null
   },
   {
@@ -22412,7 +22796,7 @@
     "brand": "Avacell(HiWEB)",
     "operator": "Dadeh Dostar asr Novin p.j.s. co & Information Technology Company of Iran",
     "status": "Operational",
-    "bands": "LTE 800 / TD-LTE 1900",
+    "bands": "LTE 800 / TD-LTE 2600",
     "notes": "Mostly used in rural areas with poor telephone line and cable equipment"
   },
   {
@@ -22484,7 +22868,7 @@
     "brand": "MTN Irancell",
     "operator": "MTN Irancell Telecommunications Services Company",
     "status": "Operational",
-    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2600 / TD-LTE 3500 / 5G",
+    "bands": "GSM 900 / UMTS 900 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100 / LTE 2600 / TD-LTE 3500 / 5G 3500",
     "notes": null
   },
   {
@@ -22505,10 +22889,10 @@
     "countryCode": "IR",
     "mcc": "432",
     "mnc": "50",
-    "brand": "Shatel",
-    "operator": "Arya Resaneh Tadbir",
+    "brand": "Shatel Mobile",
+    "operator": "Shatel Group",
     "status": "Operational",
-    "bands": "MVNO",
+    "bands": "TD-LTE 2600 MHz",
     "notes": null
   },
   {
@@ -23192,7 +23576,7 @@
     "brand": "SoftBank",
     "operator": "SoftBank Corp.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 3700",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 3700 / 5G 28000",
     "notes": "bands 1, 3, 8, 11, 28, 41, 42"
   },
   {
@@ -23204,7 +23588,7 @@
     "brand": "SoftBank",
     "operator": "SoftBank Corp.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 3700",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 900 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 3700 / 5G 28000",
     "notes": "bands 1, 3, 8, 11, 28, 41, 42"
   },
   {
@@ -23216,7 +23600,7 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA 850 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 3500 / 5G 3700 / 5G 28000",
+    "bands": "CDMA 850 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 800 / 5G 3500 / 5G 3700 / 5G 28000",
     "notes": "bands 1, 3, 11, 18, 28, 41, 42"
   },
   {
@@ -23228,7 +23612,7 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA 850 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 3500 / 5G 3700 / 5G 28000",
+    "bands": "CDMA 850 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 800 / 5G 3500 / 5G 3700 / 5G 28000",
     "notes": "bands 1, 3, 11, 18, 28, 41, 42"
   },
   {
@@ -23240,7 +23624,7 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA 850 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 3500 / 5G 3700 / 5G 28000",
+    "bands": "CDMA 850 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 800 / 5G 3500 / 5G 3700 / 5G 28000",
     "notes": "bands 1, 3, 11, 18, 28, 41, 42"
   },
   {
@@ -23252,7 +23636,7 @@
     "brand": "au",
     "operator": "KDDI Corporation",
     "status": "Operational",
-    "bands": "CDMA 850 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 3500 / 5G 3700 / 5G 28000",
+    "bands": "CDMA 850 / LTE 700 / LTE 850 / LTE 1500 / LTE 1800 / LTE 2100 / TD-LTE 2500 / TD-LTE 3500 / 5G 800 / 5G 3500 / 5G 3700 / 5G 28000",
     "notes": "bands 1, 3, 11, 18, 28, 41, 42"
   },
   {
@@ -23708,7 +24092,7 @@
     "brand": "STC",
     "operator": "Saudi Telecom Company",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / 5G 3500",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 1800 / 5G 2100 / 5G 3500",
     "notes": "Former VIVA"
   },
   {
@@ -25088,7 +25472,7 @@
     "brand": "Ucell",
     "operator": "Coscom",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 2600 / 5G 3500",
     "notes": null
   },
   {
@@ -25338,9 +25722,9 @@
     "mcc": "505",
     "mnc": "02",
     "brand": "Optus",
-    "operator": "Singtel Optus Proprietary Limited",
+    "operator": "Singtel Optus Pty Ltd",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2100 / TD-LTE 2300 / LTE 2600 / TD-5G 2300 / 5G 3500",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2100 / TD-LTE 2300 / LTE 2600 / TD-5G 2300 / 5G 3500 / 5G 28000",
     "notes": "LTE bands 28 / 3 / 1 / 7; GSM shut down 1 August 2017"
   },
   {
@@ -25350,7 +25734,7 @@
     "mcc": "505",
     "mnc": "03",
     "brand": "Vodafone",
-    "operator": "Vodafone Hutchison Australia Proprietary Limited",
+    "operator": "Vodafone Hutchison Australia Pty Ltd",
     "status": "Operational",
     "bands": "UMTS 900 / UMTS 2100 / LTE 850 / LTE 1800 / LTE 2100 / 5G 3500",
     "notes": "LTE bands 5 / 3 / 1; GSM shut down 30 April 2018"
@@ -25386,7 +25770,7 @@
     "mcc": "505",
     "mnc": "06",
     "brand": "3",
-    "operator": "Vodafone Hutchison Australia Proprietary Limited",
+    "operator": "Vodafone Hutchison Australia Pty Ltd",
     "status": "Not operational",
     "bands": "UMTS 2100",
     "notes": "Vodafone Hutchison Australia and Telstra ended their network sharing agreement on 31 August 2012. The 3TELSTRA network was shut down on this date."
@@ -25398,7 +25782,7 @@
     "mcc": "505",
     "mnc": "07",
     "brand": "Vodafone",
-    "operator": "Vodafone Network Pty. Ltd.",
+    "operator": "Vodafone Network Pty Ltd",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -25446,7 +25830,7 @@
     "mcc": "505",
     "mnc": "11",
     "brand": "Telstra",
-    "operator": "Telstra Corporation Ltd.",
+    "operator": "Telstra Corporation Limited",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -25458,7 +25842,7 @@
     "mcc": "505",
     "mnc": "12",
     "brand": "3",
-    "operator": "Vodafone Hutchison Australia Proprietary Limited",
+    "operator": "Vodafone Hutchison Australia Pty Ltd",
     "status": "Not operational",
     "bands": "UMTS 2100",
     "notes": "See MNC 06"
@@ -25470,7 +25854,7 @@
     "mcc": "505",
     "mnc": "13",
     "brand": "RailCorp",
-    "operator": "Railcorp, Transport for New South Wales",
+    "operator": "Railcorp, Transport for NSW",
     "status": "Operational",
     "bands": "GSM-R 1800",
     "notes": "For use by Sydney Trains Digital Train Radio System"
@@ -25602,7 +25986,7 @@
     "mcc": "505",
     "mnc": "24",
     "brand": null,
-    "operator": "Advanced Communications Technologies Pty. Ltd.",
+    "operator": "Advanced Communications Technologies Pty Ltd",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -25626,7 +26010,7 @@
     "mcc": "505",
     "mnc": "26",
     "brand": null,
-    "operator": "Dialogue Communications Pty. Ltd.",
+    "operator": "Dialogue Communications Pty Ltd",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -25674,7 +26058,7 @@
     "mcc": "505",
     "mnc": "31",
     "brand": null,
-    "operator": "BHP Billiton",
+    "operator": "BHP",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -25734,7 +26118,7 @@
     "mcc": "505",
     "mnc": "36",
     "brand": "Optus",
-    "operator": "Optus Mobile Pty. Ltd.",
+    "operator": "Optus Mobile Pty Ltd",
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
@@ -25902,7 +26286,7 @@
     "mcc": "505",
     "mnc": "50",
     "brand": null,
-    "operator": "Pivotel Group Pty Limited",
+    "operator": "Pivotel Group Pty Ltd",
     "status": "Operational",
     "bands": "Satellite",
     "notes": null
@@ -25918,6 +26302,18 @@
     "status": "Unknown",
     "bands": "Unknown",
     "notes": null
+  },
+  {
+    "type": "National",
+    "countryName": "Australia",
+    "countryCode": "AU/CC/CX",
+    "mcc": "505",
+    "mnc": "52",
+    "brand": null,
+    "operator": "OptiTel Australia",
+    "status": "Operational",
+    "bands": "LTE 1800 / LTE 2100 / 5G 1800 / 5G 2100",
+    "notes": "Research, development, and operation; Northern Territory"
   },
   {
     "type": "National",
@@ -25986,7 +26382,7 @@
     "mcc": "505",
     "mnc": "88",
     "brand": null,
-    "operator": "Pivotel Group Pty Limited",
+    "operator": "Pivotel Group Pty Ltd",
     "status": "Operational",
     "bands": "Satellite",
     "notes": "Former Localstar Holding Pty. Ltd."
@@ -25998,7 +26394,7 @@
     "mcc": "505",
     "mnc": "90",
     "brand": "Optus",
-    "operator": "Singtel Optus Proprietary Limited",
+    "operator": "Singtel Optus Proprietary Ltd",
     "status": "Operational",
     "bands": "Unknown",
     "notes": null
@@ -27260,7 +27656,7 @@
     "brand": "AIS",
     "operator": "Advanced Wireless Network Company Ltd.",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100 / 5G 2500",
+    "bands": "UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100 / 5G 700 / 5G 2500",
     "notes": null
   },
   {
@@ -27272,7 +27668,7 @@
     "brand": "TrueMove H",
     "operator": "True Move H Universal Communication Company Ltd.",
     "status": "Operational",
-    "bands": "UMTS 2100 / LTE 900 / LTE 1800 / LTE 2100 / 5G 2500",
+    "bands": "UMTS 2100 / LTE 700 / LTE 900 / LTE 1800 / LTE 2100 / 5G 700 / 5G 2500",
     "notes": "UMTS roaming with network 520-00"
   },
   {
@@ -27284,7 +27680,7 @@
     "brand": "dtac",
     "operator": "DTAC TriNet Company Ltd.",
     "status": "Operational",
-    "bands": "UMTS 900 / UMTS 2100 / LTE 1800 / LTE 2100",
+    "bands": "UMTS 900 / UMTS 2100 / LTE 700 / LTE 1800 / LTE 2100 / 5G 700",
     "notes": "LTE 2300 roaming with 520-47"
   },
   {
@@ -27777,7 +28173,7 @@
     "operator": "VTEL MEA",
     "status": "Not operational",
     "bands": "GSM 900",
-    "notes": "Former Safaris. Not related to Africell Suspended in 2015"
+    "notes": "Former Safaris; not related to Africell; suspended in 2015; MNC withdrawn"
   },
   {
     "type": "National",
@@ -28950,10 +29346,10 @@
     "mcc": "639",
     "mnc": "08",
     "brand": null,
-    "operator": "Sema Mobile Services Limited",
-    "status": "Not operational",
-    "bands": "MVNO",
-    "notes": "Used Airtel; MNC withdrawn"
+    "operator": "Wetribe Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "Former Sema Mobile Services Ltd (MVNO)"
   },
   {
     "type": "National",
@@ -29005,6 +29401,18 @@
   },
   {
     "type": "National",
+    "countryName": "Kenya",
+    "countryCode": "KE",
+    "mcc": "639",
+    "mnc": "13",
+    "brand": null,
+    "operator": "Hidiga Investments Ltd",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "National",
     "countryName": "Lesotho",
     "countryCode": "LS",
     "mcc": "651",
@@ -29048,7 +29456,7 @@
     "brand": "Lonestar Cell MTN",
     "operator": "Lonestar Communications Corporation",
     "status": "Operational",
-    "bands": "GSM 900 / GSM 1800 / UMTS 2100",
+    "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE",
     "notes": null
   },
   {
@@ -32467,9 +32875,9 @@
     "mnc": "666",
     "brand": "Claro",
     "operator": "Comunicacion Celular S.A. (Comcel)",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
-    "notes": null
+    "notes": "MNC withdrawn"
   },
   {
     "type": "National",
@@ -33942,10 +34350,10 @@
     "mcc": "901",
     "mnc": "53",
     "brand": "European Aviation Network",
-    "operator": "Deutsche Telekom AG",
+    "operator": "Inmarsat Ltd.",
     "status": "Operational",
     "bands": "LTE 2100",
-    "notes": "LTE band 65; ground-based network for aircraft"
+    "notes": "Former Deutsche Telekom; LTE band 65; ground-based network for aircraft"
   },
   {
     "type": "International",
@@ -34240,6 +34648,30 @@
     "countryName": null,
     "countryCode": null,
     "mcc": "901",
+    "mnc": "78",
+    "brand": null,
+    "operator": "Telecom Italia Sparkle S.p.A.",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "901",
+    "mnc": "79",
+    "brand": null,
+    "operator": "Nokia Corporation",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": null
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "901",
     "mnc": "88",
     "brand": null,
     "operator": "UN Office for the Coordination of Humanitarian Affairs (OCHA)",
@@ -34267,7 +34699,7 @@
     "mnc": "01",
     "brand": null,
     "operator": "World's Global Telecom",
-    "status": "Unknown",
+    "status": "Not operational",
     "bands": "Unknown",
     "notes": "temporarily assigned until 15 January 2021"
   },
@@ -34282,6 +34714,18 @@
     "status": "Unknown",
     "bands": "5G",
     "notes": "temporarily assigned until 6 August 2021"
+  },
+  {
+    "type": "International",
+    "countryName": null,
+    "countryCode": null,
+    "mcc": "991",
+    "mnc": "03",
+    "brand": null,
+    "operator": "Halys SAS",
+    "status": "Unknown",
+    "bands": "Unknown",
+    "notes": "temporary assignment for trial until 5.IV.2022)"
   },
   {
     "type": "International",
