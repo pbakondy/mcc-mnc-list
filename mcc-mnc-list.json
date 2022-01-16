@@ -10242,7 +10242,7 @@
     "mcc": "255",
     "mnc": "01",
     "brand": "Vodafone",
-    "operator": "PRJSC “VF Ukraine\"",
+    "operator": "PRJSC \"VF Ukraine\"",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": "Former UMC, MTS; CDMA 450 shut down June 2018"
@@ -10254,7 +10254,7 @@
     "mcc": "255",
     "mnc": "02",
     "brand": "Kyivstar",
-    "operator": "PRJSC “Kyivstar\"",
+    "operator": "PRJSC \"Kyivstar\"",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": "Former Beeline,  WellCOM, URS; taken over by Kyivstar"
@@ -10266,7 +10266,7 @@
     "mcc": "255",
     "mnc": "03",
     "brand": "Kyivstar",
-    "operator": "PRJSC “Kyivstar\"",
+    "operator": "PRJSC \"Kyivstar\"",
     "status": "Operational",
     "bands": "GSM 900 / GSM 1800 / UMTS 2100 / LTE 900 / LTE 1800 / LTE 2600",
     "notes": null
@@ -10290,7 +10290,7 @@
     "mcc": "255",
     "mnc": "05",
     "brand": "Kyivstar",
-    "operator": "PRJSC “Kyivstar\"",
+    "operator": "PRJSC \"Kyivstar\"",
     "status": "Not operational",
     "bands": "GSM 1800",
     "notes": "Former Golden Telecom; taken over by Kyivstar; MNC withdrawn"
@@ -10362,7 +10362,7 @@
     "mcc": "255",
     "mnc": "21",
     "brand": "PEOPLEnet",
-    "operator": "PRJSC “Telesystems of Ukraine\"",
+    "operator": "PRJSC \"Telesystems of Ukraine\"",
     "status": "Operational",
     "bands": "CDMA 800",
     "notes": null
@@ -10386,7 +10386,7 @@
     "mcc": "255",
     "mnc": "25",
     "brand": "NEWTONE",
-    "operator": "PRJSC “Telesystems of Ukraine\"",
+    "operator": "PRJSC \"Telesystems of Ukraine\"",
     "status": "Not operational",
     "bands": "CDMA 800",
     "notes": "Taken over by PEOPLEnet; MNC withdrawn"
