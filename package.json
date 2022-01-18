@@ -1,6 +1,6 @@
 {
   "name": "mcc-mnc-list",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "List of MCC and MNC codes from up-to-date Wikipedia page",
   "main": "index.js",
   "types": "types.d.ts",
@@ -11,9 +11,9 @@
   "author": "Peter Bakondy",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^3.15.0",
-    "eslint": "^7.26.0",
-    "jsdom": "^16.5.3"
+    "ava": "^4.0.1",
+    "eslint": "^8.7.0",
+    "jsdom": "^19.0.0"
   },
   "keywords": [
     "mcc",
