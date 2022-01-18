@@ -131,7 +131,7 @@ function collect (resolve, from, records, statusCodes, globals) {
           }
 
           let status = cleanup(cols[4].textContent);
-          if (status === 'Not Operational') {
+          if (status === 'Not Operational' || status === 'Not opearational') {
             status = 'Not operational';
           }
           if (status === 'operational') {
@@ -209,6 +209,7 @@ function cleanup(str) {
     let index = str.lastIndexOf('[');
     str = str.substr(0, index - 1).trim();
   }
+  str = str.replace(/“/g, '"');
   return str.length ? str : null;
 }
 
